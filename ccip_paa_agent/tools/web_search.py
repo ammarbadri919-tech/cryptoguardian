@@ -4,7 +4,8 @@ import re
 import html
 import hashlib
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from zoneinfo import ZoneInfo
 import feedparser
@@ -119,7 +120,7 @@ def get_published_at(entry):
 
 
 
-def fetch_rss_news(limit_per_feed=15):
+def fetch_rss_news(limit_per_feed=30):
     articles =[]
     seen_hashes = set()
    
@@ -154,7 +155,7 @@ def fetch_rss_news(limit_per_feed=15):
 
             published_time= datetime.fromisoformat(published_at)
             now = datetime.now(timezone.utc)
-            cutoff = now -timedelta(hoours=24)
+            cutoff = now -timedelta(minutes=60)
 
 
             if not cutoff <= published_time <= now:

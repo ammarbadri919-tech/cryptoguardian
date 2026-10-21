@@ -12,42 +12,70 @@ client = TinyFish(
 )
 
 APPROVED_DOMAINS = [
+    # Crypto news
     "coindesk.com",
     "cointelegraph.com",
     "theblock.co",
     "decrypt.co",
     "bitcoinmagazine.com",
-    "cryptoslate.com",
     "blockworks.co",
-    "thedefiant.io",
-    "benzinga.com",
-     "dlnews.com",
-    "bitcoin.com",
+    "cryptoslate.com",
+    "dlnews.com",
+    "cryptobriefing.com",
     "beincrypto.com",
     "cryptopotato.com",
     "cryptopolitan.com",
     "u.today",
-    "cryptobriefing.com",
     "dailyhodl.com",
     "protos.com",
+    "bitcoin.com",
+    "ambcrypto.com",
+    "cryptonews.com",
+    "coinpedia.org",
 
-    # Research and on-chain analytics
-    "messari.io",
-    "glassnode.com",
+    # Market data and derivatives
+    "coingecko.com",
+    "coinmarketcap.com",
+    "coinglass.com",
     "cryptoquant.com",
+    "glassnode.com",
+    "messari.io",
+    "defillama.com",
+    "coinalyze.net",
+    "farside.co.uk",
+    "sosovalue.com",
 
-    # Security and exploits
-    "rekt.news",
+    # Security and on-chain investigations
     "chainalysis.com",
     "slowmist.com",
+    "peckshield.com",
+    "certik.com",
+    "trmlabs.com",
 
-    # Official ecosystem announcements
+    # Exchanges and official announcements
+    "binance.com",
+    "coinbase.com",
+    "kraken.com",
+    "okx.com",
+    "ethereum.org",
     "blog.ethereum.org",
     "solana.com",
+    "ripple.com",
     "blog.chain.link",
+    "circle.com",
+    "tether.to",
 
-
+    # Regulation and broader financial news
+    "sec.gov",
+    "cftc.gov",
+    "reuters.com",
+    "cnbc.com",
+    "finance.yahoo.com",
 ]
+
+
+
+
 FOREIGN_PATHS = [
     "/pl/", "/ja/", "/kr/", "/ko/", "/id/", "/uz/",
     "/es/", "/fr/", "/de/", "/pt/", "/pt-br/",
@@ -72,17 +100,24 @@ def is_approved_domain(url: str) -> bool:
     return any(host == domain or host.endswith("." + domain) for domain in APPROVED_DOMAINS)
 
 
-def tiny_fish_serched(query, max_results=30):
+def tiny_fish_serched(query, max_results=60):
     try:
         response = client.search.query(
             query=query,
             purpose="find recent, relevant crypto market news for me",
-            include_domains=",".join(sorted(APPROVED_DOMAINS)),
-            recency_minutes=60,
+           # include_domains=",".join(sorted(APPROVED_DOMAINS)),
+           recency_minutes=60,
             # Restrict results to news sources/content rather than other page types.
             domain_type="news",
             language="en",
         )
+        print("Total results reported:", getattr(response, "total_results", "unknown"))
+        print("Results on this page:", len(response.results))
+      #  print("Current page:", getattr(response, "page", "not provided"))
+
+
+
+        
       ##  if response.results:
         ##     print("RESULT TYPE:", type(response.results[0]))
           ##   print("RESULT FIELDS:", response.results[0])
