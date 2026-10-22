@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 from tinyfish import TinyFish
 from urllib.parse import urlparse
-
+import hashlib
+from datetime import datetime, timezone
 # Load the key from your .env file
 load_dotenv()
 
@@ -159,11 +160,15 @@ def tiny_fish_serched(query, max_results=60):
                 continue
 
             print(f"Keep: {title}")
-            results.append(
+            results.append({
                 f"{i}. {title}\n"
                 f"URL: {url}\n"
                 f"Content: {content}"
-            )
+                "url_hash": hashlib.sha256(url.encode("utf-8")).hexdigest(),
+                "published_at": datetime.now(timezone.utc), 
+                "description": content[:500],
+                "fetched_at": datetime.now(timezone.utc)
+            })
 
         return "\n\n".join(results)
     except Exception as e:
