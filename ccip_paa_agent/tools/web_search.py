@@ -178,7 +178,7 @@ def fetch_rss_news(limit_per_feed=30):
 
             )
             articles.append({
-                   "source": source,
+                   "source":f"rss{source}",
                     "headline": headline,
                     "url": url,
                     "url_hash": url_hash,
