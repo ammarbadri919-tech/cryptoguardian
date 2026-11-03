@@ -42,7 +42,28 @@ def candles_to_dataframe(candles: Any) -> pd.DataFrame:
     
     if df.empty: raise ValueError("No valid candles supplied.")
     if (df[["open", "high", "low", "close"]] <= 0).any().any(): raise ValueError("Candle prices must be positive.")
-    if (df["high"] < df["low"]).any(): raise ValueError("Invalid candle: high is below low.")
+       # FIX 1.5: Normalize candle boundaries to prevent Kronos hallucinations
+    df = df.copy()
+    
+    # Preserve original Kronos predictions for diagnostics
+    df["raw_high"] = df["high"]
+    df["raw_low"] = df["low"]
+
+    # Normalize candle boundaries
+    df["high"] = df[["open", "high", "close"]].max(axis=1)
+    df["low"] = df[["open", "low", "close"]].min(axis=1)
+
+    # Validate normalized candles
+    invalid = (
+        (df["high"] < df["low"])
+        | (df["low"] <= 0)
+        | (df["open"] <= 0)
+        | (df["close"] <= 0)
+    )
+
+    if invalid.any():
+        raise ValueError("Kronos produced invalid OHLC predictions.")
+   ## if (df["high"] < df["low"]).any(): raise ValueError("Invalid candle: high is below low.")
     
     return df
 

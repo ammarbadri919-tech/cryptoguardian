@@ -17,7 +17,7 @@ tokenizer = KronosTokenizer.from_pretrained("NeoQuasar/Kronos-Tokenizer-base")
 model = Kronos.from_pretrained("NeoQuasar/Kronos-base")
 model.eval()
 predictor = KronosPredictor(model, tokenizer, device="cpu", max_context=512)
-exchange = ccxt.bybit({"enableRateLimit": True})
+exchange = ccxt.kucoin({"enableRateLimit": True})
 
 
 last_alert_times = {}
@@ -77,13 +77,34 @@ def scan_sudden_changes(coin_symbol, threshold=4.0):
             return
 
         sudden_change = ((live_price - price_5m_ago) / price_5m_ago) * 100
-        fmt = ".2f" if live_price > 1 else ".8f"
+        #fmt = ".2f" if live_price > 1 else ".8f"
+        ohlcv_1h = exchange.fetch_ohlcv(coin_symbol, timeframe="5m", limit=12)
+        price_1h_ago = ohlcv_1h[0][4] if ohlcv_1h else price_5m_ago
+        change_1h = ((live_price - price_1h_ago) / price_1h_ago) * 100
+        change_24h = ticker.get("percentage", 0.0)
+
+        c5 = f"+{sudden_change:.2f}%" if sudden_change > 0 else f"{sudden_change:.2f}%"
+        c1 = f"+{change_1h:.2f}%" if change_1h > 0 else f"{change_1h:.2f}%"
+        c24 = f"+{change_24h:.2f}%" if change_24h > 0 else f"{change_24h:.2f}%"
+        print(f"\n{coin_symbol} | Live: {format_price(live_price)}")
+        print(f"5m: {c5} | 1h: {c1} | 24h: {c24}")
+      
+       # print("\n" + "=" * 60)
+       # print("          CRYPTOGUARDIAN | LIVE MARKET MONITOR")
+       # print("=" * 60)
+       # print(f"{coin_symbol} | Live Price: {format_price(live_price)}")
+       # print("-" * 60)
+       # print(f"5m  : {c5}")
+       # print(f"1h  : {c1}")
+       # print(f"24h : {c24}")
+       # print("=" * 60 + "\n")
+
 
      ##   print(f"Reference (5m): ${price_5m_ago:,.4f} | Live: ${live_price:,.8f} | Change: {sudden_change:+.2f}%")
-        print(
-        f"Reference (5m): {format_price(price_5m_ago)} | "
-        f"Live: {format_price(live_price)} | "
-        f"Change: {sudden_change:+.2f}%")
+        ##print(
+        ##f"Reference (5m): {format_price(price_5m_ago)} | "
+        ##f"Live: {format_price(live_price)} | "
+       ## f"Change: {sudden_change:+.2f}%")
 
         if abs(sudden_change) < threshold:
             print("No alert: movement is below the threshold")
@@ -97,11 +118,11 @@ def scan_sudden_changes(coin_symbol, threshold=4.0):
                 return
 
         last_alert_times[coin_symbol] = now
-        direction = "PUMP" if sudden_change > 0 else "DUMP"
-        print("\n" + "=" * 20)
-        print(f"ALERT: Sudden {threshold}%+ move detected for {coin_symbol}!")
-        print(f"Move: {sudden_change:+.2f}% ({direction})")
-        print("Feeding 24-hour context to Kronos for prediction...")
+       # direction = "PUMP" if sudden_change > 0 else "DUMP"
+        #print("\n" + "=" * 20)
+        #print(f"ALERT: Sudden {threshold}%+ move detected for {coin_symbol}!")
+        #print(f"Move: {sudden_change:+.2f}% ({direction})")
+        #print("Feeding 24-hour context to Kronos for prediction...")
 
         ohlcv_5m = exchange.fetch_ohlcv(coin_symbol, timeframe="5m", limit=288)
         if not ohlcv_5m:
@@ -133,7 +154,8 @@ def scan_sudden_changes(coin_symbol, threshold=4.0):
             )
         predicted_price = pred_df["close"].iloc[-1]
         predicted_pct = ((predicted_price - live_price) / live_price) * 100
-        print(f"Kronos Prediction (Next 30 min): ${predicted_price:{fmt}} ({predicted_pct:+.2f}%)")
+        print(f" Kronos (30m): {format_price(predicted_price)} ({predicted_pct:+.2f}%)")
+        ##print(f"Kronos Prediction (Next 30 min):{ format_price(predicted_price)} ({predicted_pct:+.2f}%)")")
         risk_report = evaluate_risk_bridge(
             symbol=coin_symbol,
             historical_candles=df,
@@ -141,30 +163,35 @@ def scan_sudden_changes(coin_symbol, threshold=4.0):
             candle_minutes=5
 
         )
-
-        print("\n" + "=" * 50)
         print(f" FINAL RISK VERDICT: {risk_report['verdict']}")
+        print(f"RISK {risk_report['verdict']}")
+        
         if risk_report['verdict'] == "APPROVED":
-            print(f" RSI: {risk_report['indicators']['rsi14']:.2f} | EMA20: ${risk_report['indicators']['ema20']:,.2f} | EMA50: ${risk_report['indicators']['ema50']:,.2f}")
+            rsi_val = risk_report['indicators']['rsi14']
+            ema20_val = format_price(risk_report['indicators']['ema20'])
+            ema50_val = format_price(risk_report['indicators']['ema50'])
+            print(f" RSI: {rsi_val:.2f} | EMA20: {ema20_val} | EMA50: {ema50_val}")
+          #  print(f" RSI: {risk_report['indicators']['rsi14']:.2f} | EMA20: ${risk_report['indicators']['ema20']:,.2f} | EMA50: ${risk_report['indicators']['ema50']:,.2f}")
         else:
-            print(f" Reasons: {risk_report['reasons']}")
+            print(f" Reasons: {risk_report['reasons'][0]}")
         print("=" * 50 + "\n")
        ## print("=" * 20 + "\n")
 
     except Exception as e:
-        print(f"Error scanning {coin_symbol}: {e}")
+        print(f"Skipping {coin_symbol}:DATA is NOT AVAILABLE or ERROR OCCURRED: {e}")
 if __name__=="__main__":
     coins =load_user_coins()
     print("LIVE SCANNER STARTED ")
     while True:
-        print(f"\n" + "="*50)
-        print(f" Waking up at {datetime.now().strftime('%H:%M:%S')}")
-        print("="*50)
+       # print(f"\n" + "="*50)
+        #print(f" Waking up at {datetime.now().strftime('%H:%M:%S')}")
+        #print("="*50)
         
         for coin in coins:
             scan_sudden_changes(coin, threshold=0.01)
+            time.sleep(2)
             
-        print("\n💤 Sleeping for 2 minutes before the next check...")
+        print("\n  zuzu i will wakup in  2 minutes before the next check...")
         time.sleep(120) 
 
 
