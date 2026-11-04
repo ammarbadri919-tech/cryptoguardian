@@ -25,7 +25,27 @@ tokenizer = KronosTokenizer.from_pretrained("NeoQuasar/Kronos-Tokenizer-base")
 model = Kronos.from_pretrained("NeoQuasar/Kronos-base")
 model.eval()
 predictor = KronosPredictor(model, tokenizer, device="cpu", max_context=512)
-exchange = ccxt.kucoin({"enableRateLimit": True})
+exchange = ccxt.kraken({"enableRateLimit": True,"timeout": 15000})
+
+
+try:
+    exchange.load_markets()
+    print("Kraken connected successfully!")
+
+    print("BTC/USD available:", "BTC/USD" in exchange.markets)
+
+    candles = exchange.fetch_ohlcv(
+        "BTC/USD",
+        timeframe="1m",
+        limit=5
+    )
+
+    print("Candles received:", len(candles))
+    print("Latest candle:", candles[-1])
+
+except Exception as e:
+    print(f"Kraken error: {type(e).__name__}: {e}")
+
 
 
 
@@ -58,8 +78,8 @@ def load_user_coins():
         for row in reader:
             symbol = row.get("symbol", "").strip().upper()
             if symbol:
-                symbol = symbol.replace("/", "").replace("USDT", "")
-                coins.append(f"{symbol}/USDT")
+                symbol = symbol.replace("/", "").replace("USD", "")
+                coins.append(f"{symbol}/USD")
                ## coins.append(f"{symbol}")
     print(f"Loaded {len(coins)} coins from user file...")
     return coins
@@ -92,11 +112,13 @@ def validate_prediction(pred_df, expected_length):
     if (prices["low"] > ohlc[["open", "close"]].min(axis=1)).any(): return False
     return True
 def run_kronos_prediction(df, pred_len, freq_minutes, live_price):
+  
+
     if df is None or df.empty :
-        return None, None
+        return None, None , None
     live_price = float(live_price)
     if not np.isfinite(live_price) or live_price <= 0:
-        return None, None
+        return None, None , None
     recent = df.tail(500).reset_index(drop=True)
     x_df = recent[["open", "high", "low", "close", "volume"]].copy()
     x_ts = pd.to_datetime(recent["timestamp"], utc=True)
@@ -111,8 +133,16 @@ def run_kronos_prediction(df, pred_len, freq_minutes, live_price):
             top_p =0.9,
             sample_count =1
         )
+    pred_df = pred_df.copy()
+    if "timestamp" not in pred_df.columns:
+     pred_df.insert(
+        0,
+        "timestamp",
+        pd.to_datetime(y_ts).to_numpy()
+    )
+
     if not validate_prediction(pred_df, pred_len):
-        return None, None
+        return None, None , None
     predicted_price = pred_df["close"].iloc[-1] # <--- ADD THIS LINE
 
     predicted_pct = ((predicted_price - live_price) / live_price) * 100
@@ -122,47 +152,70 @@ def run_kronos_prediction(df, pred_len, freq_minutes, live_price):
 def generate_multi_timeframe_forecasts(history_5m, history_1h, live_price):
     print("\nGENERATING MULTI-TIMEFRAME KRONOS FORECASTS")
     forecasts = {}
+    forecasts["15m"] = run_kronos_prediction(history_5m, 3, 5, live_price) 
     forecasts["30m"] = run_kronos_prediction(history_5m, 6, 5, live_price)
-    forecasts["15"] = run_kronos_prediction(history_5m, 6, 5, live_price)
-
     forecasts["1h"] = run_kronos_prediction(history_5m, 12, 5, live_price)
     forecasts["12h"] = run_kronos_prediction(history_1h, 12, 60, live_price)
     forecasts["24h"] = run_kronos_prediction(history_1h, 24, 60, live_price)
+    
     invalid = [
     h for h, res in forecasts.items()
     if any(v is None for v in res)
 
 ]
+    if invalid:
+        print(f" Invalid forecast(s): {', '.join(invalid)}. Skipping coin.")
+        return None
+        
+    return forecasts
+
 def display_multi_timeframe_forecasts(forecasts):
-    print("CRYPTOGUARDIAN FUTURE PRICE FORECAST")
-    for horizon in ["15m","30m", "1h", "12h", "24h"]:
-        direction = (
-    "BULLISH" if predicted_pct > 0
-    else "BEARISH" if predicted_pct < 0
-    else "FLAT"
-)
-        print(
-    f"{horizon:>5} | Predicted: "
-    f"{format_price(predicted_price):>15} | "
-    f"Change: {predicted_pct:+.2f}% | {direction}"
-)
-    if all(d == "BULLISH" for d in directions):
-     market_view = "BULLISH AGREEMENT"
-    elif all(d == "BEARISH" for d in directions):
+    print("\n" + "=" * 65)
+    print("       CRYPTOGUARDIAN FUTURE PRICE FORECAST")
+    print("=" * 65)
+    directions = []
+    
+    for horizon in ["15m", "30m", "1h", "12h", "24h"]:
+        if forecasts.get(horizon) is None or forecasts[horizon][0] is None:
+            print(f"{horizon:>5} | Prediction failed.")
+            continue
+
+            
+        predicted_price, predicted_pct, _ = forecasts[horizon] 
+
+
+            
+        
+        direction = "BULLISH" if predicted_pct > 0 else "BEARISH" if predicted_pct < 0 else "FLAT"
+        directions.append(direction)
+        print(f"{horizon:>5} | Predicted: {format_price(predicted_price):>15} | Change: {predicted_pct:+.2f}% | {direction}")
+        
+    if all(d == "BULLISH" for d in directions): market_view = "BULLISH AGREEMENT"
+    elif all(d == "BEARISH" for d in directions): market_view = "BEARISH AGREEMENT"
+    elif len(set(directions)) > 1: market_view = "MIXED TIMEFRAME SIGNALS"
+    else: market_view = "FLAT / UNCERTAIN"
+
+    if not directions:
+        market_view = "NO PREDICTIONS AVAILABLE"
+    elif all(d == "BULLISH" for d in directions): 
+        market_view = "BULLISH AGREEMENT"
+    elif all(d == "BEARISH" for d in directions): 
         market_view = "BEARISH AGREEMENT"
-    elif len(set(directions)) >=1:
-        market_views ="MIXED TIKEFRAME SIGNALS"
-    else:
+    elif len(set(directions)) > 1: 
+        market_view = "MIXED TIMEFRAME SIGNALS"
+    else: 
         market_view = "FLAT / UNCERTAIN"
+    
     print("-" * 65)
     print(f"OVERALL VIEW: {market_view}")
-
-
     return market_view
-        
 
 
-    
+
+def prepare_risk_frame(df):
+    risk_df = df.copy()
+    risk_df["timestamp"] = (pd.to_datetime(risk_df["timestamp"], utc=True).astype("int64") // 1_000_000)
+    return risk_df
 
 
 def scan_sudden_changes(coin_symbol, threshold=0.01):
@@ -346,12 +399,23 @@ def scan_sudden_changes(coin_symbol, threshold=0.01):
 
         if forecasts is None:
             return
+        display_multi_timeframe_forecasts(forecasts)
+
+        if forecasts.get("30m") is None or forecasts["30m"][0] is None:
+              print("   └─ Skipping Risk Agent: 30m prediction failed.")
+              print("-" * 65)
+              return
+        last_alert_times[coin_symbol] = now
+        pred30 = forecasts["30m"][2]
+        risk_history = prepare_risk_frame(history_5m)
+        risk_forecast = prepare_risk_frame(pred30)
+
 
         # ==========================================
         # STEP 17: DISPLAY FORECAST RESULTS
         # ==========================================
 
-        display_multi_timeframe_forecasts(forecasts)
+        ##
 
         # ==========================================
         # STEP 18: RECORD LAST ALERT TIME

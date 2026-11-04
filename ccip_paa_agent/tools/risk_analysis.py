@@ -24,6 +24,7 @@ def candles_to_dataframe(candles: Any) -> pd.DataFrame:
             df["timestamp"] = df["timestamp"].astype("int64") // 1_000_000
             
         df.columns = [str(c).lower() for c in df.columns]
+        df = df.loc[:, ~df.columns.duplicated()].copy()
         
         if "timestamp" not in df.columns:
             if "timestamp_ms" in df.columns: df["timestamp"] = df["timestamp_ms"]
