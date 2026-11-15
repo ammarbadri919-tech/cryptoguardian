@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:35:13.399987+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:34:15+05:30",
+    "last_price": 65316.0,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65266.0,
+    "close": 65316.0,
+    "volume": 103.07429,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows visible: left shoulder ~64200, head ~62400, right shoulder ~64200. Neckline resistance around 65000-65500. Current price testing neckline area at 65316."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp impulsive rally from ~64000 to ~66200 followed by sideways consolidation forming a flag pattern near current price."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish to bullish after breaking above prior swing high from the 62400 low. Recent price action holds above key support."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 70,
+    "visual_evidence": "Price formed a major low around 62400, rallied to 66200, and is currently consolidating near 65316. Inverse head and shoulders neckline and bullish flag formation are visible.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Current candle may still be forming",
+      "Volume confirmation not fully visible"
+    ]
+  }
+}

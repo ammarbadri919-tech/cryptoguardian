@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:18:00.397417+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:16:47+05:30",
+    "last_price": 4.01e-06,
+    "candle_timestamp": 1794750300000,
+    "open": 4.03e-06,
+    "high": 4.03e-06,
+    "low": 4.01e-06,
+    "close": 4.01e-06,
+    "volume": 6842721235.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.0000041 followed by tight sideways consolidation near 0.0000040"
+      },
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Market structure shifted from lower lows to a break above recent swing high near 0.0000040"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Recent price action showing converging lower highs and higher lows in consolidation"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price recovered from lower lows and is consolidating after a strong upward impulse, suggesting bullish continuation potential",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout",
+      "Low timeframe noise may invalidate formations"
+    ]
+  }
+}

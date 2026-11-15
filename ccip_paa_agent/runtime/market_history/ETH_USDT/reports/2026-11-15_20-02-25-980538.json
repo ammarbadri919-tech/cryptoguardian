@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:02:25.980357+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:01:48+05:30",
+    "last_price": 1809.81,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1815.48,
+    "low": 1807.06,
+    "close": 1809.81,
+    "volume": 1281.129,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Two distinct swing highs visible near the 1830-1845 resistance zone with an intermediate pullback. Price is currently retesting the neckline support area around 1805-1810."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Prior bullish market structure (higher highs and higher lows) from the 1725 low to the 1845 high is breaking down as price violates recent swing low structure."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price formed a double top near 1830-1845 and is breaking below neckline support around 1805-1810. Volume shows selling pressure on the decline from recent highs.",
+    "limitations": [
+      "15m timeframe noise may produce false signals.",
+      "Latest candle may still be forming; levels are estimates based on visible gridlines.",
+      "Pattern not yet confirmed by a decisive close below the neckline."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:52:28.463210+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:49:30+05:30",
+    "last_price": 64792.44,
+    "candle_timestamp": 1794755700000,
+    "open": 64685.33,
+    "high": 64796.22,
+    "low": 64590.01,
+    "close": 64792.44,
+    "volume": 38.95495,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 62200 to 66000 followed by a tight consolidation range between roughly 64200 and 66000. Price is currently declining from the top of the flag toward the lower boundary."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Market structure was bullish with higher highs and higher lows from the 62200 swing low. Price is now rejecting the 66000 area and declining, threatening to break the most recent higher low around 64200."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected from approximately 66000 resistance and is declining toward support. The recent rally formed a flag-like consolidation that is now breaking lower.",
+    "limitations": [
+      "Current candle may still be forming",
+      "15m timeframe is susceptible to noise",
+      "Key support breakdown not yet confirmed"
+    ]
+  }
+}

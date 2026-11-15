@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:51:27.483757+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:50:55+05:30",
+    "last_price": 65760.0,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65800.75,
+    "low": 65536.36,
+    "close": 65760.0,
+    "volume": 129.62445,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 80,
+        "evidence": "Visible left shoulder near 64500-65000, head around 62200, right shoulder around 64000-64200, with price breaking above neckline resistance near 65500."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Market structure shifted from lower lows to a higher low at approximately 64000, followed by a decisive break above prior swing high resistance near 65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulsive rally from approximately 62200 to 65500 followed by a shallow consolidation/pullback toward 64000-64500 before resuming upward toward 66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price action shows a shift from bearish to bullish structure with a higher low at approximately 64000 and a break above swing high resistance near 65500. Current price around 65760 suggests continuation of upward momentum.",
+    "limitations": [
+      "Latest 15m candle may still be forming.",
+      "Pattern targets are projections, not guarantees.",
+      "Intraday volatility may invalidate short-term structures."
+    ]
+  }
+}

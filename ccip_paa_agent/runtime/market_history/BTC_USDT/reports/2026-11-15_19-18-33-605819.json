@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:18:33.605608+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:17:18+05:30",
+    "last_price": 65448.01,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65504.0,
+    "low": 65442.0,
+    "close": 65448.01,
+    "volume": 13.40295,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows visible: left shoulder near 64000, head near 62500, right shoulder near 64000-64500. Price broke above neckline resistance around 65500-66000 and is currently at 65448 near the neckline zone."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive advance from ~62500 to ~66000 followed by a tight downward/sloping consolidation between 65200 and 66000."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish structure of lower lows ending at ~62500 shifted to bullish with a higher low and break above descending resistance near 65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recovered sharply from major low near 62500, formed higher lows, tested resistance near 66000, and is consolidating around 65448. Bullish reversal and continuation structures are developing.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Current candle may still be forming",
+      "Breakout above 66000 not yet confirmed",
+      "Volume profile not clearly supportive on recent consolidation"
+    ]
+  }
+}

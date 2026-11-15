@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:25:11.029317+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:23:52+05:30",
+    "last_price": 1832.88,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1833.71,
+    "low": 1830.33,
+    "close": 1832.88,
+    "volume": 902.8461,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows visible: left shoulder near 1750-1775, head at 1725, right shoulder near 1775-1780. Neckline resistance around 1800-1825. Current price 1832.88 is trading above neckline."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure from 1900 down to 1725. Recent price action formed higher low at ~1775 and broke above prior swing high at ~1825, indicating structural shift to bullish."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulsive rally from ~1775 to ~1840 followed by sideways/slight downward consolidation on the far right of the chart."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price has shifted from bearish to bullish structure with higher lows and break above prior resistance at 1825. Inverse H&S neckline appears broken. Recent consolidation near highs suggests potential continuation flag.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Current candle may still be forming",
+      "Volume confirmation not clearly visible from chart image"
+    ]
+  }
+}

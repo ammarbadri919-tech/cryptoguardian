@@ -1,0 +1,44 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:36:21.878134+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:34:57+05:30",
+    "last_price": 64609.9,
+    "candle_timestamp": 1794754800000,
+    "open": 64766.08,
+    "high": 64827.12,
+    "low": 64555.1,
+    "close": 64609.9,
+    "volume": 129.20354,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct price peaks near 66000 resistance with an intermediate trough around 64500-65000. Price is currently declining from the second peak and testing the neckline area near 64600."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "BTC/USDT 15m chart shows price rejected at ~66000 twice, forming a potential double top. Current price 64609.9 is near the neckline support area. Latest candle is still forming and appears bearish.",
+    "limitations": [
+      "Latest 15m candle is not yet closed",
+      "Pattern requires neckline break for confirmation",
+      "Intraday noise on 15m timeframe may produce false signals",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

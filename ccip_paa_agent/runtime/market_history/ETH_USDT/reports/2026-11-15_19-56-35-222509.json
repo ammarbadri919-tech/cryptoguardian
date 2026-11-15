@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:56:35.222393+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:55:47+05:30",
+    "last_price": 1820.92,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1820.25,
+    "close": 1820.92,
+    "volume": 3293.9041,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1725 to 1845 followed by tight consolidation drifting slightly downward between 1815 and 1845."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish to bullish as price broke above prior swing highs after establishing a low near 1725."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows lower highs near 1840 and higher lows near 1820, forming converging consolidation boundaries."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price reversed from a downtrend low near 1725, rallied impulsively to 1845, and is now consolidating in a bullish flag formation near current price 1820.92.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakout not yet confirmed",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:52:01.086098+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:50:43+05:30",
+    "last_price": 65393.14,
+    "candle_timestamp": 1794752100000,
+    "open": 65304.01,
+    "high": 65542.01,
+    "low": 65263.72,
+    "close": 65393.14,
+    "volume": 65.89177,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Prior bearish market structure reversed with strong impulsive move from ~62200 low; price broke above previous swing highs around 65000-65500 indicating shift to bullish bias"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong upward price pole from ~62200 to ~66000 followed by tight sideways/slight downward consolidation in recent candles"
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Major low formed at ~62200 (head); subsequent higher lows around 64000-64500 forming potential right shoulder; neckline resistance around 65500 being tested"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price reversed sharply from ~62200 low, broke above prior swing highs, and is currently consolidating near 65500-66000 with bullish structure intact",
+    "limitations": [
+      "15-minute timeframe contains intraday noise that can invalidate formations quickly",
+      "Pattern confidence reflects visual recognition only, not probability of profit",
+      "Current candle may still be forming, so levels and status could change",
+      "No breakout confirmation yet; all patterns remain incomplete"
+    ]
+  }
+}

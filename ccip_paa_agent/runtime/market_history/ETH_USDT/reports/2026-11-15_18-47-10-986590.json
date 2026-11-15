@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:47:10.986393+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:45:19+05:30",
+    "last_price": 1833.81,
+    "candle_timestamp": 1794748500000,
+    "open": 1834.67,
+    "high": 1834.81,
+    "low": 1833.81,
+    "close": 1833.81,
+    "volume": 12.1415,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive green candle around 14:00 followed by tight sideways consolidation between roughly 1820 and 1840, forming a potential flag after the rally from 1725 lows."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 60,
+        "evidence": "Market structure shifted from bearish to bullish after price swept the 1725 low, rallied above 1825 resistance, and is holding above it at current price 1833.81."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 55,
+        "evidence": "Three swing lows visible: left shoulder near 1775, head near 1725, right shoulder near 1775, with price now breaking above the 1825 neckline area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 62,
+    "visual_evidence": "Price reversed from 1725 lows, broke above 1825 resistance, and is consolidating near 1833.81 with bullish structure intact. Recent impulse candle followed by flag-like consolidation.",
+    "limitations": [
+      "Current candle may still be forming",
+      "Image resolution limits precise wick analysis",
+      "15m timeframe susceptible to noise",
+      "No volume confirmation visible for breakout"
+    ]
+  }
+}

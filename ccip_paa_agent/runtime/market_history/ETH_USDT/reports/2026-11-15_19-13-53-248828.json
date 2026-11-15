@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:13:53.248675+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:13:07+05:30",
+    "last_price": 1831.73,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1828.61,
+    "close": 1831.73,
+    "volume": 2196.3037,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish lower highs and lower lows to bullish structure. Price established a higher low near 1775 after the 1725 swing low, then broke above prior swing high resistance around 1800-1825."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Three distinct lows visible: left shoulder near 1775, head near 1725, and right shoulder near 1775-1800. Price has moved above the neckline area around 1800-1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse from roughly 1775 to 1840 followed by consolidation near highs between approximately 1810 and 1840."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price reversed from the 1725 low, established a higher low near 1775, and rallied to approximately 1840. Current price action is consolidating near highs around 1830-1840.",
+    "limitations": [
+      "15m chart resolution limits precise candle-level pattern identification",
+      "Latest candle may still be forming, so levels are approximate",
+      "Volume profile not clearly visible for pattern confirmation"
+    ]
+  }
+}

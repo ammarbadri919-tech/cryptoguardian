@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:25:57.627798+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:25:12+05:30",
+    "last_price": 1832.8,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1833.92,
+    "low": 1830.33,
+    "close": 1832.8,
+    "volume": 954.9094,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct swing lows visible: left shoulder near 1775, head near 1725, right shoulder near 1775. Neckline resistance around 1800-1825. Current price 1832.8 is testing/breaking above neckline."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure of lower highs and lower lows broken. Higher low established at approximately 1775 after the 1725 low. Price is breaking above prior swing high resistance near 1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Strong impulsive rally from approximately 1775 to 1835 followed by tight consolidation near recent highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Inverse head and shoulders pattern developing with head at 1725 and shoulders near 1775. Price breaking above 1825 neckline resistance at current 1832.8. Prior bearish structure invalidated by higher low and breakout above swing high.",
+    "limitations": [
+      "15m timeframe noise may produce false breakouts",
+      "Pattern confirmation requires candle close above key levels",
+      "Volume profile not clearly visible for confirmation"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:55:45.850447+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:54:43+05:30",
+    "last_price": 1822.04,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1820.25,
+    "close": 1822.04,
+    "volume": 3014.6123,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Prior downtrend structure broken with higher highs and higher lows established after the 1725 low; price has reclaimed the 1800-1825 resistance zone."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Left shoulder near 1800, head at 1725, right shoulder forming near 1780-1800, with neckline resistance around 1825-1830."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulse rally from 1725 to 1845 followed by tight sideways consolidation near the highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recovered from the 1725 low, established higher lows and higher highs, and is currently consolidating near the 1825-1845 resistance zone.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday structures quickly",
+      "Current candle may still be forming",
+      "Key levels are visual estimates from chart",
+      "No volume confirmation integrated into pattern analysis"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:46:50.303301+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:46:07+00:00",
+    "last_price": 1830.94,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1832.47,
+    "low": 1830.63,
+    "close": 1830.94,
+    "volume": 162.7037,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows visible: left shoulder near 1775, head at 1725, right shoulder near 1775. Price has rallied above the approximate neckline zone of 1800-1810."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Prior bearish structure invalidated after price formed a higher low at ~1775 and broke above the previous swing high at ~1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulsive rally from 1725 to 1840 followed by a downward drift/consolidation toward 1775-1800."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price transitioned from downtrend to uptrend after forming higher low at ~1775 and breaking above ~1825 swing high. Current price near 1830 shows consolidation above key resistance.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly",
+      "Latest candle may still be forming",
+      "Volume confirmation is not clearly visible"
+    ]
+  }
+}

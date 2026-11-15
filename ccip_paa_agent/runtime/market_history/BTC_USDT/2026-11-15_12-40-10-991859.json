@@ -1,0 +1,56 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:40:10.990903+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:39:14+00:00",
+    "last_price": 65444.01,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65422.0,
+    "close": 65444.01,
+    "volume": 70.72207,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted bullish with a higher low around 64000 followed by a higher high around 66200, breaking the prior swing high near 65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Strong impulsive upward move from approximately 64000 to 66200 followed by tight downward/sideways consolidation near the highs, forming a potential flag pattern."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Recent price action is compressing with lower highs near 65800 and higher lows near 65000, forming converging trendlines."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price is consolidating near recent highs after a strong rally from the ~62200 area. Higher high and higher low structure is visible. Recent candles show compression between roughly 65000 and 66000 with no decisive breakout yet.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Latest candle may still be forming",
+      "Pattern breakouts are not guaranteed",
+      "Volume confirmation is inconclusive from visible data"
+    ]
+  }
+}

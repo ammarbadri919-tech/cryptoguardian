@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:43:17.569712+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:42:30+05:30",
+    "last_price": 65540.01,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65614.01,
+    "low": 65482.61,
+    "close": 65540.01,
+    "volume": 134.53736,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Price shifted from bearish lower-highs/lower-lows structure to bullish by breaking above the swing high near 65200 after establishing a major low near 62200."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Visible head at 62200 with left and right shoulder lows forming near 64000-64200; price has broken above the neckline area around 65000-65200 and is holding above it."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp upward impulse from 64000 to 65800 followed by tight sideways consolidation near 65500-65700 at current price 65540."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price has transitioned from a downtrend to an uptrend structure, breaking key resistance near 65200 and consolidating above it near current price 65540.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term patterns quickly",
+      "Current candle may still be forming, so levels are approximate",
+      "Volume histogram is visible but not clearly conclusive for pattern confirmation"
+    ]
+  }
+}

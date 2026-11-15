@@ -1,0 +1,43 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:39:44.973251+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:39:07+05:30",
+    "last_price": 1805.94,
+    "candle_timestamp": 1794754800000,
+    "open": 1806.99,
+    "high": 1809.83,
+    "low": 1800.49,
+    "close": 1805.94,
+    "volume": 2850.8869,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Two distinct peaks visible near 1840-1845 separated by an intervening trough around 1780-1790. Price is currently declining from the second peak and retesting the neckline area near 1805."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price formed two peaks near 1840-1845 separated by a trough around 1780-1790, with current price declining toward the neckline support.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern not yet confirmed below neckline",
+      "Volume profile not clearly visible for confirmation"
+    ]
+  }
+}

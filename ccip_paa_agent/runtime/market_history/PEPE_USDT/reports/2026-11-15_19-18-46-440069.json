@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:18:46.439717+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:18:02+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794750300000,
+    "open": 4.03e-06,
+    "high": 4.03e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 7609711727.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Price broke above prior swing high resistance near 0.0000040 after establishing higher lows from the 0.0000037 area, indicating a shift from bearish to bullish structure."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.00000405 followed by tight sideways consolidation near current price of 0.00000402."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Recent price action shows converging lower highs and higher lows within a narrowing range around 0.0000040."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rallied sharply to approximately 0.00000405 and is currently consolidating in a tight range near 0.00000402. Prior structure shows higher lows from the 0.0000037 lows, suggesting a bullish shift, though the latest candle is still forming and no breakout has occurred yet.",
+    "limitations": [
+      "Latest candle may still be forming, so pattern structures could change.",
+      "No breakout confirmation yet; patterns remain in developing stages.",
+      "Low volatility consolidation may extend, delaying pattern resolution."
+    ]
+  }
+}

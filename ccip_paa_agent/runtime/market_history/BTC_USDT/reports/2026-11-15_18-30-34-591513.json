@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:30:34.591402+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:26:30+05:30",
+    "last_price": 65500.0,
+    "candle_timestamp": 1794746700000,
+    "open": 65495.99,
+    "high": 65526.02,
+    "low": 65412.0,
+    "close": 65500.0,
+    "volume": 129.11372,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Three distinct swing lows visible: left shoulder ~64500, head ~62200, right shoulder ~64200. Price currently testing neckline resistance around 65000-65200."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure of lower highs and lower lows invalidated by higher low at ~64200 and move above prior swing high around 65000."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Recent price action shows a series of higher lows (~65000, ~65200) approaching horizontal resistance around 65500-65800."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "BTC/USDT 15m chart shows a V-shaped recovery from the ~62200 low, forming an Inverse Head and Shoulders pattern with price currently at the neckline. Market structure has shifted from bearish to bullish with higher lows.",
+    "limitations": [
+      "15m timeframe is susceptible to noise and rapid invalidation",
+      "Current candle may still be forming",
+      "Volume confirmation not clearly visible from chart image"
+    ]
+  }
+}

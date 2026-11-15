@@ -1,0 +1,43 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:51:08.070439+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:50:17+05:30",
+    "last_price": 1811.29,
+    "candle_timestamp": 1794755700000,
+    "open": 1808.77,
+    "high": 1811.53,
+    "low": 1805.28,
+    "close": 1811.29,
+    "volume": 782.2204,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Price rallied from approximately 1780 to 1840 in a strong impulse move, then began a shallow pullback toward 1811 while holding above the prior swing low area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Higher low at approximately 1780, higher high at approximately 1840, current price retracing from recent high.",
+    "limitations": [
+      "15m chart resolution limits precise candlestick identification",
+      "Latest candle may still be forming",
+      "No volume confirmation visible for potential breakout"
+    ]
+  }
+}

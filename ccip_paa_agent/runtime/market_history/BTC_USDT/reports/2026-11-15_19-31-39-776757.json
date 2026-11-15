@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:31:39.745996+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:30:05+05:30",
+    "last_price": 65442.01,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65566.0,
+    "low": 65430.0,
+    "close": 65442.01,
+    "volume": 128.61034,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Three distinct lows visible: left shoulder near 64500, head near 62500, right shoulder near 64000-64500. Neckline resistance around 65500-66000. Price recently spiked above neckline to ~66000 and is retesting around 65442."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure (lower highs and lower lows from 67000 to 62500) was broken by strong rally above swing highs near 65500-66000, indicating a shift to bullish order flow."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from ~64000 to ~66000 followed by tight downward-sloping consolidation around 65500-65800, consistent with a bullish flag formation."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price formed an inverse head and shoulders pattern with a breakout above the neckline near 65500-66000, followed by a retest at current levels around 65442. Market structure shifted from bearish to bullish after the rally from the 62500 low.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Intraday noise may invalidate short-term patterns",
+      "Volume profile not fully analyzable from image alone"
+    ]
+  }
+}

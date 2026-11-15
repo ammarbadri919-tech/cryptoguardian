@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:43:07.776165+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:42:32+05:30",
+    "last_price": 3.99e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.99e-06,
+    "volume": 206801121800.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.0000041 followed by a slight downward-sloping consolidation near 0.0000040-0.0000041."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Two swing highs visible near 0.0000041 with a pullback between them, suggesting potential resistance at that level."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price action compressing between roughly 0.0000039 support and 0.0000041 resistance after the recent rally."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price consolidated after a sharp rally, forming a potential bullish flag; two highs near 0.0000041 suggest possible double top resistance; latest candle may still be forming.",
+    "limitations": [
+      "Latest candle may still be forming and could alter pattern structure",
+      "Pattern confirmation requires breakout or breakdown",
+      "15m timeframe noise may produce false signals"
+    ]
+  }
+}

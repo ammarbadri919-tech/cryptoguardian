@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:25:42.725485+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:25:04+05:30",
+    "last_price": 4.04e-06,
+    "candle_timestamp": 1794746700000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.04e-06,
+    "volume": 58751962014.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Sharp upward impulse from approximately 3.9e-6 to 4.1e-6 around 13:30 followed by consolidation in a slight downward-sloping channel between 4.0e-6 and 4.1e-6."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior downtrend structure from 17:30 to 03:30 was broken with a higher low near 3.9e-6 and price breaking above previous swing highs around 4.0e-6, shifting market structure to bullish."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Recent consolidation shows converging price action with lower highs near 4.1e-6 and higher lows near 4.0e-6."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price is consolidating after a strong rally from the 13:30 low, forming a bullish flag and symmetrical triangle near 4.04e-6, with prior downtrend structure broken indicating a shift to bullish market structure.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe susceptible to noise",
+      "No breakout confirmation yet",
+      "Volume profile not clearly visible for confirmation"
+    ]
+  }
+}

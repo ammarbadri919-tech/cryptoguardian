@@ -1,0 +1,55 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:42:37.520526+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:41:40+00:00",
+    "last_price": 1829.82,
+    "candle_timestamp": 1794745800000,
+    "open": 1831.59,
+    "high": 1833.13,
+    "low": 1828.56,
+    "close": 1829.82,
+    "volume": 1257.1849,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1725 to 1825 followed by tight sideways consolidation near local highs"
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Price broke above prior swing high around 1825 after shifting from downtrend to uptrend structure"
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Series of higher lows approaching flat resistance near 1835-1840"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 68,
+    "visual_evidence": "Strong impulsive move from 1725 to 1825 followed by consolidation; higher lows forming; break above prior swing high",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Patterns incomplete and subject to invalidation"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:31:53.285264+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:30:25+05:30",
+    "last_price": 4e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 4e-06,
+    "close": 4e-06,
+    "volume": 51548428778.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse candle followed by tight sideways consolidation with contracting range"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price action compressing between converging swing highs and swing lows"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price consolidated in a tight range after a sharp upward impulse, forming potential continuation patterns near 0.0000040",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakout direction not yet confirmed",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

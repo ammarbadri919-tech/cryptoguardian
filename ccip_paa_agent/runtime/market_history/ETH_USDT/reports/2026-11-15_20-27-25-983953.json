@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:27:25.983807+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:26:30+05:30",
+    "last_price": 1812.21,
+    "candle_timestamp": 1794753900000,
+    "open": 1800.21,
+    "high": 1813.27,
+    "low": 1800.21,
+    "close": 1812.21,
+    "volume": 3624.5716,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two swing highs visible near 1850 and 1840 with an intermediate low around 1810-1820. Price currently testing the neckline area at approximately 1812."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure from the 1725 low to the 1850 high. Price is now breaking down and approaching the recent swing low, threatening a structural shift to bearish."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp rally from 1725 to 1850 followed by downward drift and consolidation near the highs, resembling a bearish flag formation."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected from ~1850 twice, forming lower highs. Current price at 1812 testing support. Volume relatively low during the recent decline.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Pattern not confirmed until neckline/support break",
+      "Intraday noise may invalidate the setup"
+    ]
+  }
+}

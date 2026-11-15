@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:47:12.645138+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:45:03+05:30",
+    "last_price": 1821.75,
+    "candle_timestamp": 1794751200000,
+    "open": 1830.75,
+    "high": 1830.75,
+    "low": 1817.33,
+    "close": 1821.75,
+    "volume": 4559.188,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct lows visible with middle low (head) at approximately 1725, left and right shoulders near 1775-1780. Price rallied above neckline area around 1825-1830 and reached 1850 before current pullback."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish lower highs/lows to bullish higher lows. Price broke above prior swing high around 1830, indicating structural change to bullish."
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct bottoms visible at approximately 1725 and 1775 with a rally in between to 1830. Price is testing the resistance area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price formed higher lows after a significant downtrend from 1900 to 1725. An inverse head and shoulders structure is visible with neckline around 1825-1830. Price briefly exceeded 1850 and is currently consolidating near 1821.75 with a red candle forming.",
+    "limitations": [
+      "Last candle is still forming and red",
+      "Volume profile does not show clear confirmation",
+      "Pullback could invalidate breakout if price falls below 1775"
+    ]
+  }
+}

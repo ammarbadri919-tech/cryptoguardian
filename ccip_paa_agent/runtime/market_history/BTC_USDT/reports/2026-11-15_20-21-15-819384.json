@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:21:15.814365+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:20:25+05:30",
+    "last_price": 64858.49,
+    "candle_timestamp": 1794753900000,
+    "open": 64634.13,
+    "high": 64858.5,
+    "low": 64634.13,
+    "close": 64858.49,
+    "volume": 83.60348,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive rally from approximately 62300 to 66200 followed by downward drift and consolidation, forming a potential downward-sloping flag channel."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Rejection from local high near 66200 with downward momentum; potential shift from bullish to bearish market structure if the recent higher low is breached."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Impulse move up from approximately 62300 to 66200, followed by a multi-candle pullback to current price near 64858 with decreasing volume.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern not yet confirmed",
+      "Insufficient candle count for reliable trendline validation"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:14:54.123224+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:14:07+05:30",
+    "last_price": 1833.19,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1828.61,
+    "close": 1833.19,
+    "volume": 2344.6502,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder low around 1800, head at approximately 1725, right shoulder low around 1775-1800, neckline resistance near 1825, price currently trading above neckline at 1833.19."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure with lower highs and lower lows broken; higher low formed around 1775 followed by breakout above previous swing high near 1800-1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward move from approximately 1775 to 1840 followed by tight sideways consolidation near recent highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Inverse head and shoulders pattern with neckline breakout visible, CHoCH from bearish to bullish structure, price consolidating near highs after strong rally.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Volume confirmation unclear from chart alone",
+      "Pattern could invalidate if price retraces below 1775"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:50:52.061693+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:49:55+05:30",
+    "last_price": 65624.03,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65654.26,
+    "low": 65536.36,
+    "close": 65624.03,
+    "volume": 81.55957,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Sharp upward impulse from approximately 64000 to 66000 followed by tight sideways consolidation near 65500-66000"
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Three distinct lows visible with left shoulder near 64000, head near 62200, and right shoulder near 64000-64500; price has advanced above the neckline area"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Prior bearish market structure of lower highs and lower lows invalidated by price breaking above the swing high near 65000-65500"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 72,
+    "visual_evidence": "Price established a low near 62200, recovered, pulled back, then rallied sharply to approximately 66000 before entering a consolidation phase. Inverse head and shoulders structure is visible from the swing lows, and a bullish flag is forming from the recent impulse.",
+    "limitations": [
+      "15-minute timeframe noise may obscure pattern validity",
+      "Current candle may still be forming",
+      "Price levels estimated from chart grid and may not be exact"
+    ]
+  }
+}

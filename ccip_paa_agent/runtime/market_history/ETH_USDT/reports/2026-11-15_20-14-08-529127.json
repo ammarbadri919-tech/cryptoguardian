@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:14:08.528896+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:13:33+05:30",
+    "last_price": 1799.4,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1794.43,
+    "close": 1799.4,
+    "volume": 8159.3854,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct swing highs visible near 1850 and 1835-1840 with price currently breaking down from this resistance zone toward the 1800 area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Prior bullish structure (higher highs and higher lows from the 1725 low) is being violated as price breaks below recent swing lows on the right side of the chart."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price has formed two distinct swing highs near 1850 and 1835-1840 and is currently breaking down from this resistance zone toward 1800 support, with current price approximately 1799.4.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly.",
+      "The latest candle may still be forming, so levels are subject to change.",
+      "Volume profile does not clearly confirm the breakdown at this moment."
+    ]
+  }
+}

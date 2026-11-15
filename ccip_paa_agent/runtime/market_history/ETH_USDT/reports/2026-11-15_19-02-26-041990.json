@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:02:26.041812+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:00:33+05:30",
+    "last_price": 1833.92,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1833.7,
+    "close": 1833.92,
+    "volume": 23.9816,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from lower highs and lower lows to higher highs and higher lows after price held the ~1775 low and broke above the ~1800 swing high."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct lows visible with the middle low (~1725) lower than the shoulders (~1775 and ~1780-1800). Neckline resistance near 1800-1825 has been breached by current price action."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp impulsive rally into current zone followed by tight sideways consolidation near recent highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from a downtrend at approximately 1725, formed a higher low near 1775, broke above the 1800-1825 resistance zone, and is currently consolidating above broken structure near 1833.",
+    "limitations": [
+      "15m timeframe susceptible to noise and false signals",
+      "Current candle may still be forming",
+      "Exact price levels estimated from chart visualization",
+      "Volume confirmation not clearly distinguishable at this resolution"
+    ]
+  }
+}

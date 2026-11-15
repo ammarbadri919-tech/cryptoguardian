@@ -1,0 +1,56 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:42:25.661565+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:41:30+00:00",
+    "last_price": 65428.0,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65395.29,
+    "close": 65428.0,
+    "volume": 91.41958,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Prior bearish market structure invalidated by strong impulsive rally from swing low around 62500 that broke above key swing highs"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 62500 to 66000 followed by tight sideways consolidation between 65000 and 66000"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Price compressing after the rally with lower highs and higher lows forming a narrowing range"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 68,
+    "visual_evidence": "Strong impulsive rally from approximately 62500 to 66000 followed by tight consolidation between 65000 and 66000, suggesting bullish continuation patterns. Market structure shifted from bearish to bullish.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Breakout not yet confirmed",
+      "Volume profile limited visibility"
+    ]
+  }
+}

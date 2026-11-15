@@ -1,0 +1,55 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:47:50.215797+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:46:54+00:00",
+    "last_price": 65514.01,
+    "candle_timestamp": 1794746700000,
+    "open": 65495.99,
+    "high": 65526.02,
+    "low": 65480.33,
+    "close": 65514.01,
+    "volume": 13.1777,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Price established a higher low around 64000 and broke above the prior swing high near 65500, reaching approximately 66000."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong upward impulse from approximately 64000 to 66000 followed by a tight consolidation near the top around 65500-66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 62,
+        "evidence": "Left shoulder near 65500, head at approximately 62000, right shoulder around 64000, with price breaking above the neckline near 65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "BTC/USDT 15m shows a shift from bearish to bullish structure after a sharp V-shaped recovery from ~62000. Price broke above key resistance near 65500 and reached ~66000, currently consolidating in a potential bullish flag. Higher highs and higher lows are visible in the recent swing structure.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact candle wicks and closes not visible for precise FVG or candlestick pattern identification",
+      "Pattern confirmation requires additional candle closes"
+    ]
+  }
+}

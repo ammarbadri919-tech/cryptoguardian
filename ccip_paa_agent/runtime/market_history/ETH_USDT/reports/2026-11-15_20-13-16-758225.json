@@ -1,0 +1,42 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:13:16.758135+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:12:25+05:30",
+    "last_price": 1799.19,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1794.43,
+    "close": 1799.19,
+    "volume": 7641.0351,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Two distinct price peaks visible near the 1850 level separated by a decline to approximately 1800. Current price at 1799 is retesting the intermediate trough/neckline area after the second peak."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price formed two highs near 1850 with a pullback between them to around 1800. Current price is testing the 1800 support area. A breakdown below this level would confirm bearish reversal.",
+    "limitations": [
+      "Pattern is not yet confirmed; price is currently at the neckline and could bounce back up.",
+      "Exact peak and trough levels are visual estimates from the chart."
+    ]
+  }
+}

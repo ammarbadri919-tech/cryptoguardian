@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:31:32.549556+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:30:04+05:30",
+    "last_price": 1835.93,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1840.88,
+    "low": 1830.33,
+    "close": 1835.93,
+    "volume": 2891.2029,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior downtrend from 1900 to 1725 created lower lows. Price then formed a higher low near 1775 and broke above the prior swing high at 1825, indicating a bullish change of character."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder near 1775, head at 1725, right shoulder near 1775-1780. Neckline resistance around 1825. Price currently trading above neckline at approximately 1836."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Series of higher lows (1725, 1775, 1820) approaching horizontal resistance near 1845-1850."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from the 1725 area, formed higher lows, and broke above the 1825 swing high. Current price around 1836 shows bullish momentum with recent structure intact.",
+    "limitations": [
+      "15m timeframe noise may cause false breakouts",
+      "Pattern confirmation requires candle close validation",
+      "Volume profile not fully visible for breakout confirmation"
+    ]
+  }
+}

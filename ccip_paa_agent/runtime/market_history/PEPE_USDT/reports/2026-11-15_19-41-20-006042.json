@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:41:20.005858+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:40:24+05:30",
+    "last_price": 3.98e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.98e-06,
+    "volume": 196450608662.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp impulsive rally visible followed by tight sideways/slightly downward consolidation forming a flag pattern after the pole."
+      },
+      {
+        "name": "Fair Value Gap",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 60,
+        "evidence": "Large bullish impulsive candle likely created a fair value gap/imbalance below current price action."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price has made higher highs and higher lows from the swing low near 0.0000037, with a recent impulsive move to 0.0000041 followed by consolidation. No breakout or breakdown has occurred yet.",
+    "limitations": [
+      "Current candle may still be forming",
+      "Exact FVG boundaries difficult to determine without lower timeframe data",
+      "Pattern confirmation requires candle close"
+    ]
+  }
+}

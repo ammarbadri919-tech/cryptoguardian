@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:40:48.589958+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:39:42+05:30",
+    "last_price": 64655.72,
+    "candle_timestamp": 1794754800000,
+    "open": 64766.08,
+    "high": 64827.12,
+    "low": 64474.99,
+    "close": 64655.72,
+    "volume": 213.73704,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks near 66000 are visible on the chart, separated by a significant decline. Price is currently retesting the intermediate low area around 64500-64800 after failing at the 66000 resistance zone again."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from the 62000 low up to 66000 is showing signs of deterioration. Recent price action is making lower highs and is breaking below recent swing lows around 64800-65000."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp rally from approximately 62000 to 66000 followed by consolidation near the top. Price is now breaking lower from the consolidation zone after failing to hold above 65500."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 62,
+    "visual_evidence": "BTC/USDT 15m shows price rejecting 66000 resistance twice, forming a potential double top. Recent candles are breaking below the 65000 area and testing 64500 support. Market structure is shifting from bullish to bearish after the failure at 66000.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Key levels are visual estimates based on chart grid",
+      "15m timeframe prone to noise and false signals",
+      "Pattern confirmation requires close below neckline/support"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:01:53.208676+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:59:37+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.05e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 68964724290.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulse candle around 14:00 followed by tight sideways consolidation between 0.0000040 and 0.0000041. Price is holding above flag support."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows converging price action with resistance near 0.0000041 and support near 0.0000040."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 60,
+        "evidence": "Price rallied from the 0.0000039 area to create a higher high near 0.00000405, breaking the previous local range structure."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "PEPE/USDT is consolidating after a sharp rally around 14:00. The market structure shows higher lows since the 04:00 low. Current price is approximately 0.00000402.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakouts are not guaranteed",
+      "Limited candle count in the current consolidation formation"
+    ]
+  }
+}

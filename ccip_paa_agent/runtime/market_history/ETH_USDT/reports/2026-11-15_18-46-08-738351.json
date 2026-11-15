@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:46:08.738166+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:45:03+05:30",
+    "last_price": 1834.67,
+    "candle_timestamp": 1794747600000,
+    "open": 1835.93,
+    "high": 1839.2,
+    "low": 1831.81,
+    "close": 1834.67,
+    "volume": 2079.1928,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 1725 to 1840 followed by sideways/downward consolidation near highs."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 65,
+        "evidence": "Market structure shifted from lower highs/lows to higher highs/lows after the approximately 1725 swing low."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Series of higher lows approaching horizontal resistance near 1835-1840."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price has transitioned from a downtrend to an uptrend structure with higher highs and higher lows. Currently consolidating near recent highs in a potential bullish flag formation.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise may invalidate intraday patterns",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

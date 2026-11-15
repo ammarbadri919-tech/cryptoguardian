@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:42:00.137708+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:40:59+05:30",
+    "last_price": 3.94e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.94e-06,
+    "volume": 84192192528.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Two distinct peaks formed near 0.0000041 with an intervening trough around 0.00000395. Price is currently trading below the neckline area at approximately 0.00000394."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Left shoulder near 0.00000405, head near 0.0000041, and right shoulder forming near 0.00000405. Neckline support is around 0.00000395."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Market structure shifted from higher highs to lower highs, with price breaking below the recent swing low and current structure showing bearish displacement."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 75,
+    "visual_evidence": "Price formed a double top near 0.0000041 and is breaking below the 0.00000395 support area. Recent 15m candles show lower highs and lower lows with bearish momentum on the right side of the chart.",
+    "limitations": [
+      "Latest candle may still be forming, so final close is not confirmed.",
+      "Volume profile details are limited on this view.",
+      "Pattern targets are visual estimates and not guaranteed price levels."
+    ]
+  }
+}

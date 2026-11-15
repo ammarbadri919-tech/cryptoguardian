@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:49:16.578825+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:48:32+05:30",
+    "last_price": 65398.01,
+    "candle_timestamp": 1794752100000,
+    "open": 65304.01,
+    "high": 65398.01,
+    "low": 65263.72,
+    "close": 65398.01,
+    "volume": 19.76807,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish lower highs and lower lows to bullish after price broke above prior swing highs following the sharp low near 62200."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong upward impulse from approximately 64000 to 66200 followed by tight downward-sloping consolidation near current price 65398."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Three distinct lows visible: left shoulder around 64000-64500, head around 62200, right shoulder around 64000. Price is testing the neckline area near 65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recovered sharply from approximately 62200 low to approximately 66200, then entered consolidation. Structure shows higher lows and broken bearish trend. Current price 65398 is in the consolidation zone near recent highs.",
+    "limitations": [
+      "15m chart noise may invalidate short-term formations quickly",
+      "Latest candle may still be forming, so levels are subject to change",
+      "Volume profile is not fully conclusive for breakout confirmation"
+    ]
+  }
+}

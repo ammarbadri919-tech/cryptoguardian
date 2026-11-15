@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:45:39.899730+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:44:49+05:30",
+    "last_price": 1822.11,
+    "candle_timestamp": 1794751200000,
+    "open": 1830.75,
+    "high": 1830.75,
+    "low": 1817.33,
+    "close": 1822.11,
+    "volume": 4498.0477,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish lower-highs/lower-lows (from 1900 down to 1725) to bullish structure with a higher low around 1780-1800 and a higher high near 1845. Price broke above prior downtrend resistance and is holding above key support."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Three swing lows are visible: left shoulder around 1790, head at approximately 1725, and right shoulder forming around 1780-1800. Neckline resistance is developing around 1825-1830, which price is currently testing near 1822."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 50,
+        "evidence": "Strong impulsive rally from the major low at ~1725 up to ~1845, followed by a slight downward drift and consolidation near the highs. Current price at ~1822 is pulling back within the potential flag area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price recovered sharply from the major low at 1725, establishing higher lows and higher highs. Recent volume spike near 14:45 accompanied the move to ~1845. Current price is pulling back to ~1822 but remains above key structural support. Latest candle may still be forming.",
+    "limitations": [
+      "Exact swing points are estimated from visual chart analysis and may not be precise.",
+      "Latest candle is potentially still forming, so pattern status could change on close.",
+      "No breakout confirmation has occurred yet; all patterns are developing or confirming.",
+      "Volume profile is visible but not detailed enough for definitive confirmation signals."
+    ]
+  }
+}

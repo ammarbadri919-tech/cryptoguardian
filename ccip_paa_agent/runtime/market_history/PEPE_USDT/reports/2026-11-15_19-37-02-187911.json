@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:37:02.187821+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:36:17+05:30",
+    "last_price": 3.97e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.97e-06,
+    "volume": 170098260427.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 3.9e-6 to 4.1e-6 followed by sideways/drifting consolidation forming a downward-sloping flag channel."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Recent price action compressing with lower highs and higher lows within the consolidation zone near 4.0e-6 to 4.1e-6."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Multiple price rejections visible near the 4.1e-6 resistance area suggesting potential top formation."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price consolidated after a sharp rally, forming potential flag and triangle patterns near 4.1e-6 resistance. The latest candle is still forming and showing downward pressure but has not closed.",
+    "limitations": [
+      "Latest candle still forming, confirmation pending",
+      "Pattern breakout direction uncertain",
+      "Volume profile inconclusive on this timeframe"
+    ]
+  }
+}

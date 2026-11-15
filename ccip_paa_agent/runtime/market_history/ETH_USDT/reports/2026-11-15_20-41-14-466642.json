@@ -1,0 +1,48 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:41:14.466418+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:40:07+05:30",
+    "last_price": 1809.6,
+    "candle_timestamp": 1794754800000,
+    "open": 1806.99,
+    "high": 1809.83,
+    "low": 1800.49,
+    "close": 1809.6,
+    "volume": 3040.7401,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Two swing highs visible near 1840-1845 with an intervening trough around 1820. Price at 1809.6 is approaching or breaking below neckline support."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure with higher highs up to 1845. Price is breaking below recent higher low area near 1800-1810."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price rejected from 1840-1845 resistance area and is breaking down toward 1800 support. Prior bullish structure is failing.",
+    "limitations": [
+      "Latest candle may still be forming; exact wick highs/lows difficult to determine from image; volume profile not fully visible."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:48:11.654560+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:45:48+05:30",
+    "last_price": 3.98e-06,
+    "candle_timestamp": 1794752100000,
+    "open": 3.98e-06,
+    "high": 3.99e-06,
+    "low": 3.96e-06,
+    "close": 3.98e-06,
+    "volume": 46724405480.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish market structure with higher highs up to 0.0000041 and higher lows. Price is now rejecting from 0.0000041 and retracing toward the key swing low at 0.0000039."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse to 0.0000041 followed by a downward-drifting consolidation near current price 0.00000398."
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from 0.0000041 resistance and is retracing toward 0.0000039 support. Bullish structure intact but at risk of Change of Character if support fails.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Pattern confirmation requires close beyond key levels",
+      "Symmetrical triangle evidence insufficient for separate report"
+    ]
+  }
+}

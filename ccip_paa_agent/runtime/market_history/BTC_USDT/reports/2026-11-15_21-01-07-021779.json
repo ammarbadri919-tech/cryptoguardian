@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:01:07.021614+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:59:59+05:30",
+    "last_price": 64633.99,
+    "candle_timestamp": 1794755700000,
+    "open": 64685.33,
+    "high": 64796.22,
+    "low": 64590.01,
+    "close": 64633.99,
+    "volume": 131.12494,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing highs near the 66000 level visible on the right side of the chart, with price currently declining from the second top."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure from the 62000 low appears compromised by rejection at 66000 and subsequent downward price movement."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 60,
+    "visual_evidence": "Price rejected at 66000 resistance twice forming a potential double top, with current price declining toward the 64000 support area.",
+    "limitations": [
+      "15m chart noise may invalidate intraday patterns",
+      "Pattern confirmation requires lower timeframe validation",
+      "Key levels are visual estimates from chart gridlines"
+    ]
+  }
+}

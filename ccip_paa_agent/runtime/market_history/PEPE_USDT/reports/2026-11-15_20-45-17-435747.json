@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:45:17.435667+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:44:06+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.92e-06,
+    "volume": 97206729436.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Prior bullish structure (higher highs and higher lows) is failing as price breaks down from the recent swing high near 0.0000041 toward the 0.0000039 support area."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from ~0.0000039 to ~0.0000041 followed by a downward-sloping consolidation/drift consistent with a bearish flag."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price is rejecting from the 0.0000041 area after a bullish impulse, showing lower highs and approaching key support at 0.0000039. Bullish market structure is under threat.",
+    "limitations": [
+      "15m timeframe noise",
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below key support"
+    ]
+  }
+}

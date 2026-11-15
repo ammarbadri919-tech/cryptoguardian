@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:58:59.228948+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:58:00+05:30",
+    "last_price": 1809.81,
+    "candle_timestamp": 1794755700000,
+    "open": 1808.77,
+    "high": 1812.81,
+    "low": 1805.28,
+    "close": 1809.81,
+    "volume": 2212.1317,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two swing highs near 1840-1850 visible, separated by a pullback to approximately 1780-1790. Price is currently rejecting from the second top and declining toward the neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish structure from the 1720 low to the 1840 high is shifting; price is making lower highs and breaking down from recent resistance near 1840-1850."
+      },
+      {
+        "name": "Bearish Engulfing",
+        "type": "CANDLESTICK",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Potential bearish engulfing candle visible near the recent swing high around 1840-1850, suggesting rejection at resistance."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "ETH/USDT 15m showing rejection from approximately 1840-1850 resistance after two tests, forming a potential double top. Price currently at 1809.81 declining toward neckline near 1780. Market structure appears to be shifting from bullish to bearish.",
+    "limitations": [
+      "Latest candle may still be forming; pattern confirmation requires a closed candle below neckline support.",
+      "Exact candlestick open/close data not fully visible from image alone.",
+      "Double top time separation between tops is extended, reducing immediacy of the setup."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:36:18.290579+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:35:15+05:30",
+    "last_price": 65261.79,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65261.79,
+    "close": 65261.79,
+    "volume": 109.64344,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish to bullish after price formed a higher low near 64000 and broke above the prior swing high around 65500-66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Left shoulder low near 64500, head low near 62200, right shoulder low near 64000. Price rallied above the neckline area around 65500 to 66000, now pulling back to 65261."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp rally from 64000 to 66000 followed by sideways/slight downward consolidation near the top."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price recovered from swing low near 62200, formed higher low near 64000, and broke above resistance around 65500-66000. Current price 65261 is near the breakout zone with potential inverse H&S and bullish flag structures developing.",
+    "limitations": [
+      "Latest 15m candle still forming",
+      "Key levels are visual estimates from chart",
+      "Intraday noise may invalidate short-term patterns",
+      "Breakout confirmation requires candle close above trigger level"
+    ]
+  }
+}

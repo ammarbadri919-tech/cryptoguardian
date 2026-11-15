@@ -1,0 +1,43 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:07:55.474262+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:06:51+05:30",
+    "last_price": 1814.83,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1807.06,
+    "close": 1814.83,
+    "volume": 3200.6344,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing highs formed near 1830-1840 with an intervening swing low near 1775. Price is currently declining from the second high toward the neckline support."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "ETH/USDT 15m shows a rally from ~1725 to ~1840, followed by a pullback and retest of similar highs, forming a potential Double Top. Current price at 1814.83 is below the highs but above the neckline.",
+    "limitations": [
+      "Pattern not yet confirmed; breakdown below neckline required",
+      "Latest candle may still be forming",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

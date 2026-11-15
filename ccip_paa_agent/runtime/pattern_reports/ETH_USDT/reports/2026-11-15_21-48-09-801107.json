@@ -1,0 +1,99 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:48:09.800796+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:46:56+05:30",
+    "last_price": 1808.67,
+    "candle_timestamp": 1794759300000,
+    "open": 1807.43,
+    "high": 1809.73,
+    "low": 1807.43,
+    "close": 1808.67,
+    "volume": 555.1432,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "CONFIRMING",
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1840.0,
+          "level_low": 1810.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1840.0
+        },
+        "confidence": 80,
+        "evidence": "Sharp rally to ~1840 followed by tight consolidation between 1820-1840, with price now breaking below the flag support around 1815.",
+        "pattern_id": "9c230f95-f5cd-4d72-82b0-f96a68dff2c7",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:09.798581+00:00",
+        "last_seen": "2026-11-15T16:18:09.798581+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1845.0,
+          "level_low": 1800.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1845.0
+        },
+        "confidence": 70,
+        "evidence": "Two distinct peaks near ~1840-1845 resistance with a swing low between them around 1815-1820; price has broken below the neckline area.",
+        "pattern_id": "cd97a55c-23db-4ee4-94e0-ca5d380807b9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:09.798581+00:00",
+        "last_seen": "2026-11-15T16:18:09.798581+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1840.0,
+          "level_low": 1800.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1840.0
+        },
+        "confidence": 65,
+        "evidence": "Market structure shifted from bullish to bearish after price broke below the recent higher low and swing low around 1815-1820.",
+        "pattern_id": "2f127793-a597-49a3-9007-49ff568ec588",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:09.798581+00:00",
+        "last_seen": "2026-11-15T16:18:09.798581+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 70,
+    "visual_evidence": "Price rejected from ~1840 resistance, broke below consolidation support around 1820, and is trading near 1808 with lower highs forming.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "Volume profile inconclusive at exact breakdown point"
+    ]
+  }
+}

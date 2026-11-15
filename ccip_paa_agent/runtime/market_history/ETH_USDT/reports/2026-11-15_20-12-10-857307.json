@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:12:10.857105+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:11:23+05:30",
+    "last_price": 1795.77,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1795.77,
+    "close": 1795.77,
+    "volume": 6774.3223,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs visible near 1835 and 1850 with an intermediate low around 1775. Price is currently declining from the second top toward the neckline support area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Prior bullish market structure (higher highs and higher lows from the 1725 low to 1850) is showing a bearish impulse from the 1850 rejection. A structural shift is possible if support fails."
+      },
+      {
+        "name": "Bearish Order Block",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Rejection at the 1850 swing high leaves a potential bearish order block / supply zone at the recent swing high area."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "ETH/USDT 15m shows rejection at approximately 1850 after a rally from the 1725 area. Two swing highs are forming a potential double top, with price declining toward the neckline near 1775. Bearish bias is intact until support at 1775 holds.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming, so levels are approximate",
+      "Pattern confirmation requires a close below the neckline (~1775)",
+      "No breakout has occurred yet; all patterns are incomplete"
+    ]
+  }
+}

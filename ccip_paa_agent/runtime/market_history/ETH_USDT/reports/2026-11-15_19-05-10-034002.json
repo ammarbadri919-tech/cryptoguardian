@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:05:10.033781+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:04:33+05:30",
+    "last_price": 1832.61,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1831.3,
+    "close": 1832.61,
+    "volume": 633.0684,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 1775 to 1840 followed by tight sideways consolidation near the highs, forming a potential flag pattern."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sequence of higher lows around 1775, 1800, and 1815 approaching horizontal resistance near 1840-1850."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Price approaching the 1840-1850 area for a second time after an earlier swing high, with a significant low in between around 1775."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price has established higher highs and higher lows since the 1725 swing low, currently consolidating near resistance around 1840-1850 after a strong rally.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakouts not guaranteed",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

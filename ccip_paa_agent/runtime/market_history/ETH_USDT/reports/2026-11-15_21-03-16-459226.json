@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:03:16.458757+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:01:57+05:30",
+    "last_price": 1812.31,
+    "candle_timestamp": 1794756600000,
+    "open": 1809.48,
+    "high": 1812.84,
+    "low": 1808.93,
+    "close": 1812.31,
+    "volume": 308.5636,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct peaks visible near 1840 with an intermediate trough around 1780-1790. Price currently declining from second peak at approximately 1812."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish structure (higher highs and higher lows) from 1720 to 1840. Recent price action forming lower highs after rejection at 1840, suggesting potential shift to bearish structure."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Sharp decline from 1840 followed by small consolidation range near current price 1812. Potential continuation pattern if breakdown occurs."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at 1840 resistance twice, forming lower highs. Current price at 1812.31 declining from recent highs. Volume relatively low on recent down move.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Patterns are incomplete and lack confirmation breakouts",
+      "Current candle may still be forming",
+      "Key levels are visual estimates from chart grid"
+    ]
+  }
+}

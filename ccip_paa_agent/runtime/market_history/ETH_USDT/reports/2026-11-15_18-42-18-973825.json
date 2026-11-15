@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:42:18.973689+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:41:31+05:30",
+    "last_price": 1836.36,
+    "candle_timestamp": 1794747600000,
+    "open": 1835.93,
+    "high": 1839.2,
+    "low": 1831.81,
+    "close": 1836.36,
+    "volume": 1815.0989,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish structure from 1900 down to 1725 was broken by a rally above 1800-1825, establishing a higher high and higher low."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder near 1780, head at 1725 low, right shoulder near 1780. Neckline resistance around 1800-1825 is being tested."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from 1725 to 1850 followed by a shallow consolidation/pullback toward 1825."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from the 1725 area, formed higher lows, and broke above prior downtrend resistance near 1825. Current price around 1836 is consolidating near recent highs.",
+    "limitations": [
+      "15m chart noise may produce false signals",
+      "Current candle may still be forming",
+      "Key levels are visual estimates from chart"
+    ]
+  }
+}

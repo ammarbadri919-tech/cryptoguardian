@@ -1,0 +1,55 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:38:24.428014+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:37:20+00:00",
+    "last_price": 1829.88,
+    "candle_timestamp": 1794745800000,
+    "open": 1831.59,
+    "high": 1833.13,
+    "low": 1829.4,
+    "close": 1829.88,
+    "volume": 960.3141,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 80,
+        "evidence": "Prior bearish structure broken by impulsive rally from ~1725 to ~1850; higher high and higher low established above previous downtrend resistance."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp vertical rally from ~1725 to ~1850 followed by tight sideways consolidation near the highs."
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Two distinct swing lows near ~1725 separated by a rally; price has already broken above the neckline around ~1775."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from ~1725 lows, broke above 1800 resistance, and is consolidating near 1825-1850 after an impulsive rally. Volume spikes accompanied the upward move.",
+    "limitations": [
+      "15m chart noise may invalidate intraday patterns quickly.",
+      "Exact candle wicks and closes are difficult to determine precisely from image.",
+      "Current candle may still be forming, affecting pattern validity."
+    ]
+  }
+}

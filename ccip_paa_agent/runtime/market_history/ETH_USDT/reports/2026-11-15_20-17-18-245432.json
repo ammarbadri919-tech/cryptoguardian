@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:17:18.245268+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:15:07+05:30",
+    "last_price": 1800.22,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1794.43,
+    "close": 1800.22,
+    "volume": 8752.0476,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp rally from approximately 1775 to 1850 followed by a tight, downward-sloping consolidation between roughly 1825 and 1845. Price is now testing the lower boundary of the flag near 1800."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Two distinct highs visible near 1840-1850 with an intervening pullback to approximately 1820. Price is currently retesting the neckline area around 1800."
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Prior bullish market structure (higher highs and higher lows) from the 1725 low. Recent price action shows a lower high around 1840 versus 1850, with price approaching the prior swing low near 1780-1800."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "ETH/USDT 15m shows a strong rally from approximately 1725 to 1850 followed by rejection and decline to current price near 1800. Price is testing key support after forming lower highs. Multiple short-term patterns are developing but none are confirmed.",
+    "limitations": [
+      "Latest candle is still forming and may alter the pattern structure.",
+      "Key levels are visual estimates from the chart and not exact prices.",
+      "15m timeframe is prone to noise and false signals.",
+      "No detailed volume profile confirmation visible for breakout validation."
+    ]
+  }
+}

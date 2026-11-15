@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:55:46.054358+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:52:48+05:30",
+    "last_price": 1809.28,
+    "candle_timestamp": 1794755700000,
+    "open": 1808.77,
+    "high": 1811.53,
+    "low": 1805.28,
+    "close": 1809.28,
+    "volume": 1233.2961,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows visible: left shoulder near 1760, head near 1720, right shoulder near 1780-1790. Price rallied above neckline resistance to approximately 1840 and is now pulling back to test the breakout area around 1809."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive rally from approximately 1720 to 1840 followed by a shallow pullback to current price near 1809, consistent with early flag formation after an impulsive move."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish structure invalidated by bullish impulse breaking above swing high near 1800-1810 after establishing a higher low around 1780-1790. Current price near 1809 is holding above the BOS level."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 72,
+    "visual_evidence": "Price formed a higher low near 1780-1790 after the 1720 swing low, then rallied to approximately 1840 breaking prior resistance. Current pullback to 1809 appears to be testing the breakout area.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly",
+      "Current candle may still be forming, so levels are approximate",
+      "Volume profile does not clearly confirm the breakout strength"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:04:40.506174+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:03:52+05:30",
+    "last_price": 3.96e-06,
+    "candle_timestamp": 1794753000000,
+    "open": 3.97e-06,
+    "high": 3.98e-06,
+    "low": 3.95e-06,
+    "close": 3.96e-06,
+    "volume": 57535259071.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct peaks visible near the 0.0000041 level with a pullback between them. Price is currently declining from the second peak toward the neckline area around 0.00000395."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Recent bullish structure showing higher highs is being rejected at 0.0000041. Price is approaching the most recent swing low, and a break below would signal a change of character from bullish to bearish."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Left shoulder and head visible near 0.00000405-0.0000041. Right shoulder appears to be forming at a similar level to the left shoulder around 0.00000405."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at 0.0000041 twice, forming a potential double top. Currently testing support near 0.00000395-0.00000396 with bearish momentum and lower highs.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below neckline",
+      "Volume profile inconclusive",
+      "Key levels are approximate based on visible gridlines"
+    ]
+  }
+}

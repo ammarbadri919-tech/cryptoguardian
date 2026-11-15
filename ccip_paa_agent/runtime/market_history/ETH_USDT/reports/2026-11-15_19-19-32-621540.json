@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:19:32.621058+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:19:01+05:30",
+    "last_price": 1833.18,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1833.3,
+    "low": 1830.64,
+    "close": 1833.18,
+    "volume": 481.8517,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows are visible with the middle low lower than the left and right shoulders; price has rallied above the approximate neckline around 1800-1825 and is holding near 1833."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Prior bearish structure of lower highs and lower lows was violated by a strong impulsive rally and break above the swing high around 1800-1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp rally from approximately 1725 to 1850 followed by tight sideways consolidation near current price 1833.18."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price reversed from the 1725 area, formed higher lows, broke above prior downtrend structure, and is consolidating near 1833-1850 with a bullish candlestick sequence.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact candle open/close prices not visible",
+      "Volume confirmation inconclusive from chart alone"
+    ]
+  }
+}

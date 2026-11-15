@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:17:36.360385+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:15:05+05:30",
+    "last_price": 1833.14,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1828.61,
+    "close": 1833.14,
+    "volume": 2413.7466,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Two distinct swing lows visible around 1720 and 1775 with an intervening rally to approximately 1825-1830. Price is currently retesting the neckline area near current price."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Three lows visible: left shoulder around 1760-1770, lower head around 1720, and right shoulder around 1775. Neckline resistance forming around 1800-1825."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure of lower highs and lower lows has been disrupted. A higher low was established near 1775 followed by price breaking above previous swing high resistance near 1800-1825."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price has rallied from approximately 1720 lows to current levels near 1833, forming higher lows and testing key resistance. Double bottom and inverse head-and-shoulders structures are visible in the price action.",
+    "limitations": [
+      "Intraday 15m charts are prone to noise and false breakouts",
+      "Current candle may still be forming and could reverse",
+      "Volume confirmation cannot be fully assessed from image alone"
+    ]
+  }
+}

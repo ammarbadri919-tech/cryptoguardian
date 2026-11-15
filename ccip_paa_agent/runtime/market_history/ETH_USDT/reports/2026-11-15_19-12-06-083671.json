@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:12:06.083563+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:11:01+05:30",
+    "last_price": 1830.21,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1828.61,
+    "close": 1830.21,
+    "volume": 1961.5062,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct swing lows visible: left shoulder near 1775-1800, head at 1725, right shoulder forming near 1775-1800. Neckline resistance around 1800-1825 has been approached and price is trading above it at 1830.21."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive upward move from approximately 1725 to 1840 followed by tight sideways consolidation near current price 1830.21."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish sequence of lower highs and lower lows to bullish structure after holding the 1725 low and establishing higher highs and higher lows."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 70,
+    "visual_evidence": "Price formed a significant low near 1725, rallied to test 1825 resistance, pulled back to form a right shoulder around 1775-1800, and is currently trading above the neckline area near 1830 with bullish momentum.",
+    "limitations": [
+      "15m timeframe noise may cause false signals",
+      "Latest candle may still be forming",
+      "Key levels are visual estimates from chart grid",
+      "Volume profile not fully conclusive for breakout confirmation"
+    ]
+  }
+}

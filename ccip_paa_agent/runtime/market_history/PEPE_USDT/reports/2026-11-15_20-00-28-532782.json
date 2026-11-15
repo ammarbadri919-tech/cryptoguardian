@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:00:28.532675+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:59:20+05:30",
+    "last_price": 3.98e-06,
+    "candle_timestamp": 1794752100000,
+    "open": 3.98e-06,
+    "high": 4.02e-06,
+    "low": 3.96e-06,
+    "close": 3.98e-06,
+    "volume": 129020718585.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Price action compressing between converging support and resistance, forming lower highs near 0.00000405 and higher lows near 0.00000390"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price testing resistance near 0.00000405 for a second time after initial rejection"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Prior bullish market structure with higher highs and higher lows; price now stalling at resistance and showing weakness"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price consolidating in a range between 0.00000390 and 0.00000405 after a rally from lower levels; no clear directional breakout yet",
+    "limitations": [
+      "Pattern confidence is moderate due to incomplete formations",
+      "Current candle may still be forming",
+      "Volume profile not clearly confirming any breakout"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:43:00.120543+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:42:00+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.93e-06,
+    "volume": 87863459085.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks formed near 0.0000041 with an intervening trough around 0.0000040. Price has broken below the neckline area and is trading near 0.00000393."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure showed higher highs and higher lows leading up to 0.0000041. Recent price action broke below the most recent swing low, indicating a potential shift from bullish to bearish market structure."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Following the sharp rejection from 0.0000041, price is drifting lower in a tight consolidation range near current levels, consistent with a bearish flag formation."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 60,
+    "visual_evidence": "Price formed a double top near 0.0000041, broke below the 0.0000040 neckline, and is currently trading around 0.00000393 with bearish momentum. Prior bullish structure was violated by a break below recent swing lows.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly.",
+      "Volume on the recent decline is relatively low, reducing conviction.",
+      "Key levels are visual estimates from chart gridlines and may not be exact."
+    ]
+  }
+}

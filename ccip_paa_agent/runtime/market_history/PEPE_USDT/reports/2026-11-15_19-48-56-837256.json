@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:48:56.836684+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:48:11+05:30",
+    "last_price": 3.99e-06,
+    "candle_timestamp": 1794752100000,
+    "open": 3.98e-06,
+    "high": 4e-06,
+    "low": 3.96e-06,
+    "close": 3.99e-06,
+    "volume": 65141362783.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp upward impulse to approximately 0.0000041 followed by downward-sloping consolidation near resistance"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Two distinct price rejections near the 0.0000041 resistance zone"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price compressing between converging support and resistance boundaries"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price is consolidating after a sharp rally, forming potential bearish continuation patterns near the 0.0000041 resistance zone",
+    "limitations": [
+      "15m timeframe noise",
+      "Patterns are incomplete and unconfirmed",
+      "Current candle may still be forming"
+    ]
+  }
+}

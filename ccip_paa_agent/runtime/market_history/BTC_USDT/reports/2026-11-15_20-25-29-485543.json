@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:25:29.485340+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:22:38+05:30",
+    "last_price": 64884.09,
+    "candle_timestamp": 1794753900000,
+    "open": 64634.13,
+    "high": 64920.0,
+    "low": 64634.13,
+    "close": 64884.09,
+    "volume": 108.95695,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Two distinct peaks visible near the 66000 resistance zone on the right side of the chart, with price currently declining from the second peak."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Prior bullish structure from the 05:30 low showed higher highs and higher lows; recent rejection at 66000 and current decline suggests potential shift to bearish order flow."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 54,
+        "evidence": "Strong impulsive rally from ~62500 to ~66000 followed by a downward-sloping consolidation/retracement on the right side."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price formed two peaks near 66000 resistance and is currently declining from the second peak. Prior structure was bullish from the 05:30 low but showing signs of weakness at the top.",
+    "limitations": [
+      "15m timeframe noise may obscure pattern clarity",
+      "Latest candle may still be forming",
+      "Key support/resistance levels are approximate visual estimates",
+      "Volume profile details are limited at this resolution"
+    ]
+  }
+}

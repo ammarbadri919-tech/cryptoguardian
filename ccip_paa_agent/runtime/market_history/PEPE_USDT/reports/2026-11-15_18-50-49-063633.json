@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:50:49.063461+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:50:04+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.03e-06,
+    "low": 4.01e-06,
+    "close": 4.03e-06,
+    "volume": 6892759359.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 78,
+        "evidence": "Market structure shifted from bearish lower highs (from 0.0000043) to bullish structure with higher low at 0.0000037 and higher high at 0.0000041."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.0000041 followed by slight downward/sideways consolidation between 0.0000040 and 0.0000041."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Price broke above previous local swing high around 0.0000040 after the 04:00 low, indicating bullish continuation."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 72,
+    "visual_evidence": "Price shifted from downtrend to uptrend after the 04:00 low near 0.0000037, forming higher lows and higher highs. Currently consolidating in a bullish flag formation near 0.0000040-0.0000041.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "15m timeframe noise may obscure structure.",
+      "No volume profile confirmation visible."
+    ]
+  }
+}

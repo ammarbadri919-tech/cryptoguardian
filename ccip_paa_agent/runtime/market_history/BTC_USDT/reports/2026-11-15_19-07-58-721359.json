@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:07:58.721262+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:07:15+05:30",
+    "last_price": 65528.0,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65420.0,
+    "close": 65528.0,
+    "volume": 76.58431,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Three distinct swing lows visible: left shoulder near 65000, head near 62200, right shoulder near 64200. Price broke above neckline resistance around 65500-66000 and is currently retesting the breakout level at approximately 65528."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse from approximately 64200 to 66000 followed by tight sideways consolidation near 65500-65800, forming a potential flag pattern."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 82,
+        "evidence": "Market structure shifted from bearish lower highs and lows to bullish after price broke above prior swing high near 65500, made a higher low around 64200, and rallied to approximately 66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price formed an inverse head and shoulders bottoming structure near 62000-65000, broke above neckline resistance around 65500-66000, and is consolidating in a bullish flag formation. Market structure has shifted from bearish to bullish with current price at 65528 retesting the breakout zone.",
+    "limitations": [
+      "15m timeframe noise may cause false breakouts",
+      "Current candle may still be forming",
+      "Volume profile not fully visible for pattern confirmation",
+      "Key levels are visual estimates from chart"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:58:55.775087+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:58:08+05:30",
+    "last_price": 65717.99,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65800.75,
+    "low": 65536.36,
+    "close": 65717.99,
+    "volume": 227.18056,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Prior bearish market structure with lower highs and lower lows was invalidated by a higher low at approximately 64000 followed by a break above the swing high at approximately 65000-65500."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder low around 64000, head low at approximately 62200, and right shoulder low around 64000-64200 are visible. Price is trading above the estimated neckline area of 65000-65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price formed a significant low at approximately 62200, followed by a higher low at approximately 64000, and has broken above prior resistance around 65000-65500, indicating a bullish reversal structure.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise may produce false signals",
+      "Key levels are visual estimates"
+    ]
+  }
+}

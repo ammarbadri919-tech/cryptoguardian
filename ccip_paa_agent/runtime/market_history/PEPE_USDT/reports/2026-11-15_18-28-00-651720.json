@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:28:00.651604+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:27:10+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794746700000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.03e-06,
+    "volume": 63713499516.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish downtrend to bullish after the 03:30 low; price is making higher highs and higher lows, breaking previous swing highs near 0.00000405."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp impulsive move up from the ~13:30 lows near 0.0000039 followed by tight consolidation between 0.0000040 and 0.0000041."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price testing horizontal resistance near 0.0000041 while forming higher lows around 0.00000395 to 0.0000040."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recovered from downtrend lows near 0.00000375 and is consolidating near recent highs around 0.0000040-0.0000041 after an impulsive move from the 13:30 area lows.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term formations quickly.",
+      "The latest candle may still be forming, so levels are approximate.",
+      "No clear volume confirmation visible for potential breakout."
+    ]
+  }
+}

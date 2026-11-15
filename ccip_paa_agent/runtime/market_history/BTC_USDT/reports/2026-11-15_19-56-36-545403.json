@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:56:36.545206+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:55:49+05:30",
+    "last_price": 65286.28,
+    "candle_timestamp": 1794752100000,
+    "open": 65304.01,
+    "high": 65542.01,
+    "low": 65263.72,
+    "close": 65286.28,
+    "volume": 102.3647,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Prior bearish structure with lower lows down to approximately 62200, followed by a higher low near 64000 and a decisive break above the swing high at approximately 65000, shifting market structure to bullish."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder low near 64000, head low near 62200, right shoulder low near 64000. Neckline resistance at approximately 65000 has been broken, with price reaching approximately 66200 and now pulling back toward the breakout level."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Sharp impulse rally from approximately 62200 to 66200 followed by early-stage consolidation in a tight range near the top."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from a local low near 62200, broke above the 65000 swing high, and formed an inverse head and shoulders structure. Current price at 65286 is holding above the breakout zone after reaching 66200.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Intraday noise can invalidate short-term structures",
+      "Volume confirmation is not clearly visible from the chart alone"
+    ]
+  }
+}

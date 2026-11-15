@@ -1,0 +1,56 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:36:28.112382+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:35:43+05:30",
+    "last_price": 65586.17,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65608.01,
+    "low": 65482.61,
+    "close": 65586.17,
+    "volume": 77.04943,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong upward impulse from approximately 62500 to 65500 followed by tight sideways/slight downward consolidation around 65500-65800."
+      },
+      {
+        "name": "Bullish Pennant",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Price action contracting into a narrow range after a sharp rally, forming converging trendlines characteristic of a pennant."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Price has rallied back above the prior local swing high around 65000-65500 after establishing a higher low near 64000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price formed a higher low near 64000 and rallied above prior swing highs around 65500, indicating bullish market structure. Currently consolidating in a tight range near 65500-65800 after a strong impulse move.",
+    "limitations": [
+      "Latest 15m candle may still be forming; exact pattern completion levels are estimates.",
+      "Consolidation could resolve in either direction; breakout not yet confirmed."
+    ]
+  }
+}

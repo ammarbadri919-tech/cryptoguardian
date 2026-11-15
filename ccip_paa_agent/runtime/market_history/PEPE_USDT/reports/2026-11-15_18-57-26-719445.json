@@ -1,0 +1,55 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:57:26.719263+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:56:27+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.05e-06,
+    "low": 4.01e-06,
+    "close": 4.03e-06,
+    "volume": 51317346844.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Sharp impulse rally from approximately 3.9e-6 to 4.1e-6 followed by tight sideways consolidation near the highs, forming a flag pole and flag body."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Price broke above prior swing high around 4.0e-6 after establishing a higher low at approximately 3.9e-6, indicating a shift from bearish to bullish structure."
+      },
+      {
+        "name": "Fair Value Gap (FVG)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Imbalance visible from the sharp bullish impulse candle around 14:00 where price moved rapidly from roughly 3.9e-6 to 4.1e-6 without retracing into the candle body."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Recent price action shows a break above prior resistance around 4.0e-6, impulse to 4.1e-6, and consolidation near highs. Higher lows visible since the 3.7e-6 area low.",
+    "limitations": [
+      "Current candle may still be forming; exact FVG boundaries cannot be precisely determined without wick-level data; pattern confirmation requires close above 4.1e-6."
+    ]
+  }
+}

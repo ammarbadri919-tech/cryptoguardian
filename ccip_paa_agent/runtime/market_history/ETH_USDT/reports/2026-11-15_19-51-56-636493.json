@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:51:56.636184+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:51:01+05:30",
+    "last_price": 1824.3,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1820.25,
+    "close": 1824.3,
+    "volume": 2196.022,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong impulsive rally from approximately 1775 to 1845 followed by sideways-to-downward consolidation near current price 1824.3."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows converging lower highs and higher lows within the consolidation after the rally."
+      },
+      {
+        "name": "Break of Structure (Bullish)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 60,
+        "evidence": "Market structure shifted from bearish to bullish after the low near 1725, with higher lows and a rally above prior resistance."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 62,
+    "visual_evidence": "ETH/USDT 15m shows price recovering from ~1725 low to ~1845 high, currently consolidating around 1824.3. Bullish flag and symmetrical triangle formations are developing in the consolidation zone.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Exact wick levels difficult to determine from image",
+      "Volume confirmation not clearly visible",
+      "Pattern breakout not yet occurred"
+    ]
+  }
+}

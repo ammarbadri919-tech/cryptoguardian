@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:33:29.008961+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:32:37+05:30",
+    "last_price": 65550.0,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65608.01,
+    "low": 65482.61,
+    "close": 65550.0,
+    "volume": 46.87126,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct swing lows visible: left shoulder near 64000, head near 62200, right shoulder near 64000-64500. Neckline resistance around 65000-65500 has been broken with price reaching 66000."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish market structure invalidated by formation of higher low near 64000 and higher high near 66000 after the 62200 swing low."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 72,
+    "visual_evidence": "Price formed an inverse head and shoulders pattern with neckline breakout above 65500. Market structure shifted from bearish to bullish with higher highs and higher lows established from the 62200 low.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern requires sustained close above neckline for full confirmation",
+      "Volume confirmation is not clearly visible from chart alone"
+    ]
+  }
+}

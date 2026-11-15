@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:17:55.028194+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:15:45+05:30",
+    "last_price": 64741.34,
+    "candle_timestamp": 1794753900000,
+    "open": 64634.13,
+    "high": 64741.34,
+    "low": 64634.13,
+    "close": 64741.34,
+    "volume": 6.73108,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Price has tested the 66000 resistance area twice on the right side of the chart with a pullback between the tests. Current price is declining toward the neckline support zone near 64000."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Market structure shifted from bullish (higher highs and higher lows from the ~62000 low) to potential bearish as price rejected at 66000 and is now breaking down toward prior swing lows."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 69,
+    "visual_evidence": "Price rejected from the 66000 level multiple times and is currently declining toward the 64000 support zone. Volume during the recent decline appears moderate.",
+    "limitations": [
+      "The latest candle may still be forming",
+      "Pattern confirmation requires a decisive close below the neckline/swing low",
+      "Exact swing levels are estimates based on visible grid lines"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:10:12.930971+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:07:59+05:30",
+    "last_price": 1814.07,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1807.06,
+    "close": 1814.07,
+    "volume": 3508.2215,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price is forming lower highs near 1835 and 1825 while approaching horizontal support around 1800-1810."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Two swing highs visible near the 1830-1835 resistance area."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price has established lower highs since the 1850 peak and is consolidating near 1814 with downward pressure.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below key support",
+      "Intraday noise may invalidate developing structures"
+    ]
+  }
+}

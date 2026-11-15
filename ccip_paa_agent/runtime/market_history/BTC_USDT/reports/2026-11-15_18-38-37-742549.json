@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:38:37.742380+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:37:43+05:30",
+    "last_price": 65532.0,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65608.01,
+    "low": 65482.61,
+    "close": 65532.0,
+    "volume": 90.47822,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Left shoulder formed near 64000, head at approximately 62200, right shoulder near 64000. Price currently testing neckline resistance around 65500."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Flat resistance near 66000 with rising support connecting higher lows around 64000. Price currently approaching resistance at 65532."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Market structure shifted from bearish to bullish after the 62200 low, with higher lows forming at 64000 and price approaching previous swing high."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Inverse head and shoulders structure visible with neckline at 65500. Price holding above key support at 64000 after the 62200 low. Ascending triangle forming with resistance at 66000.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Price levels estimated from chart grid",
+      "Confirmation candle close not yet visible",
+      "Volume profile limited for pattern validation"
+    ]
+  }
+}

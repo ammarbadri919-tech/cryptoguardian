@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:26:13.046834+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:25:17+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794750300000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 29823492445.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows are visible: left shoulder near 0.00000390, lower head near 0.00000375, and right shoulder near 0.00000390. Price has broken above the neckline resistance around 0.00000400 with a strong impulsive candle."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "A strong upward impulse formed the flagpole, followed by tight, slightly downward-sloping price consolidation near recent highs with decreasing volume."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Market structure shifted from bearish lower lows to bullish after price formed a higher low and broke above the prior swing high resistance zone."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price recently completed an inverse head and shoulders reversal and broke above key resistance, now consolidating in a bullish flag formation. Structure has shifted from bearish to bullish with higher lows.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation depends on candle close above resistance",
+      "15m timeframe noise may lead to false breakouts"
+    ]
+  }
+}

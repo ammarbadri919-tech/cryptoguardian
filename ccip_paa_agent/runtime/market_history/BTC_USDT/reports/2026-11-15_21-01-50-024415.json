@@ -1,0 +1,43 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:01:50.024232+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:00:02+05:30",
+    "last_price": 64634.0,
+    "candle_timestamp": 1794755700000,
+    "open": 64685.33,
+    "high": 64796.22,
+    "low": 64590.01,
+    "close": 64634.0,
+    "volume": 131.18889,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing highs visible near 66000 with an intervening swing low around 64000-64500. Price is currently declining from the second high toward the neckline area."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at approximately 66000 on two separate occasions with a lower trough between the peaks. Current price at 64634 is approaching the neckline support zone from above.",
+    "limitations": [
+      "Pattern not yet confirmed; breakout below neckline required",
+      "Current 15m candle may still be forming",
+      "Intraday volatility may produce false signals before confirmation"
+    ]
+  }
+}

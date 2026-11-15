@@ -1,0 +1,162 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T22:05:08.727706+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T22:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T22:04:10+05:30",
+    "last_price": 64555.99,
+    "candle_timestamp": 1794760200000,
+    "open": 64767.28,
+    "high": 64952.91,
+    "low": 64544.64,
+    "close": 64555.99,
+    "volume": 85.15998,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 66000.0,
+          "level_low": 64000.0,
+          "trigger_level": 65500.0,
+          "invalidation_level": 63800.0
+        },
+        "confidence": 65,
+        "evidence": "Strong impulse rally from approximately 62200 to 66000 followed by a downward-sloping consolidation near current price",
+        "pattern_id": "4068e82e-18a2-4715-8121-6400ce6a77c0",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:06.620316+00:00",
+        "last_seen": "2026-11-15T16:35:08.723056+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DETECTED",
+        "formation_state": "DETECTED",
+        "key_levels": {
+          "level_high": 65500.0,
+          "level_low": 62200.0,
+          "trigger_level": 65500.0,
+          "invalidation_level": 62200.0
+        },
+        "confidence": 55,
+        "evidence": "Visible left shoulder low near 64,000, clear head low near 62,200, and price currently hovering near potential right shoulder area around 64,600.",
+        "pattern_id": "81faf677-8623-4dd2-93db-5f6e3b4e33ce",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:06.620316+00:00",
+        "last_seen": "2026-11-15T16:18:06.620316+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 66000.0,
+          "level_low": 62200.0,
+          "trigger_level": 62200.0,
+          "invalidation_level": 66000.0
+        },
+        "confidence": 68,
+        "evidence": "Two distinct peaks visible near 66000 separated by a significant decline to approximately 62200. Price is currently declining from the second peak.",
+        "pattern_id": "a58fcf3c-5248-424c-89f6-cffeb6d56f13",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:20:35.479774+00:00",
+        "last_seen": "2026-11-15T16:28:16.965067+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 66000.0,
+          "level_low": 64200.0,
+          "trigger_level": 64200.0,
+          "invalidation_level": 66200.0
+        },
+        "confidence": 55,
+        "evidence": "Two distinct price peaks near the 66000 area separated by a decline to approximately 64200",
+        "pattern_id": "544ef307-9c2b-48d9-83d5-f66dd8f92bb4",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:23:06.284634+00:00",
+        "last_seen": "2026-11-15T16:35:08.723056+00:00",
+        "detections": 5,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 66000.0,
+          "level_low": 64500.0,
+          "trigger_level": 64400.0,
+          "invalidation_level": 65800.0
+        },
+        "confidence": 60,
+        "evidence": "Market previously made higher highs from the 62200 low to 66000. Recent rejection at 66000 and decline toward 64500 suggests potential shift from bullish to bearish character.",
+        "pattern_id": "146732d8-5e50-443c-b840-6464c9a777ae",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:23:06.284634+00:00",
+        "last_seen": "2026-11-15T16:34:07.583846+00:00",
+        "detections": 2,
+        "tracker_status": "updated_existing"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 66000.0,
+          "level_low": 64000.0,
+          "trigger_level": 64000.0,
+          "invalidation_level": 66000.0
+        },
+        "confidence": 60,
+        "evidence": "Prior bullish market structure interrupted by rejection from 66000 and subsequent decline toward 64500",
+        "pattern_id": "427f9b30-bf7f-4be8-9eaf-4a6d0c494c74",
+        "symbol": "BTC/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:25:47.605392+00:00",
+        "last_seen": "2026-11-15T16:35:08.723056+00:00",
+        "detections": 4,
+        "tracker_status": "updated_existing"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from approximately 66000 resistance after a strong rally from the 62200 low; current price is consolidating near 64556 with mixed candlestick signals",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact candle open/close prices not precisely visible from image",
+      "Volume profile details limited"
+    ]
+  }
+}

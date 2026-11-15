@@ -1,0 +1,48 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:41:29.832961+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:40:19+00:00",
+    "last_price": 65436.03,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65422.0,
+    "close": 65436.03,
+    "volume": 75.79503,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp impulse rally from approximately 64000 to 66000 followed by tight sideways consolidation between 65000 and 66000. Volume appears to have contracted during the pullback, consistent with flag formation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Two distinct peaks visible near the 66000 level with an intervening low around 64000-64500. Price is currently retracing from the second peak area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price has established higher lows (62000 to 64000) and is testing higher highs around 66000. Recent price action shows a bullish flag forming after the impulse move from 64000 to 66000, while a double top is possible if price fails at 66000 and breaks 64000.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout or breakdown",
+      "Volume analysis limited from static image"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:26:24.549480+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:25:36+05:30",
+    "last_price": 65499.78,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65566.0,
+    "low": 65430.0,
+    "close": 65499.78,
+    "volume": 99.62509,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Price formed a higher low near 64000 after sweeping lows around 62200, then rallied to break above the prior swing high area near 65500-66000, indicating a shift from bearish to bullish market structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Visible left shoulder low near 64000, head low near 62200, and right shoulder forming around 64000-64500. Neckline resistance is located near 65500-66000, which price is currently testing."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from approximately 64000 to 66000 followed by tight sideways consolidation near the highs, consistent with a bullish flag formation."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price has established a higher low near 64000 after the 62200 swing low and is currently testing resistance near 66000. Recent candles show consolidation at the top of the range with no clear breakdown.",
+    "limitations": [
+      "15m timeframe noise may produce false signals.",
+      "Latest candle may still be forming, so levels are subject to change.",
+      "Breakout above 66000 is not yet confirmed.",
+      "Volume profile is not fully visible to confirm institutional participation."
+    ]
+  }
+}

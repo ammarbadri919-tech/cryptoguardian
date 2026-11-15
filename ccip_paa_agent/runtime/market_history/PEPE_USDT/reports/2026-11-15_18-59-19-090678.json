@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:59:19.090518+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:58:37+05:30",
+    "last_price": 4.01e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.05e-06,
+    "low": 4.01e-06,
+    "close": 4.01e-06,
+    "volume": 67462649369.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Prior bearish structure (lower highs/lows from 18:00 to 04:00) shifted after price established higher lows near 0.00000375 and broke above the previous swing high around 0.0000040."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Sharp impulsive rally around 14:00 from 0.0000040 to 0.0000041 followed by mild consolidation/pullback near the breakout level, resembling early flag formation."
+      },
+      {
+        "name": "Fair Value Gap",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Large impulsive green candle around 14:00 likely left an unfilled fair value gap between price levels that may act as support on a retest."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 72,
+    "visual_evidence": "Price transitioned from a clear downtrend to an uptrend after breaking key resistance near 0.0000040. Current price around 0.00000401 shows consolidation near recent highs with potential continuation bias.",
+    "limitations": [
+      "Latest candle may still be forming; exact close unknown",
+      "FVG and flag boundaries estimated visually without exact OHLC data",
+      "Pattern confidence limited by early formation stage"
+    ]
+  }
+}

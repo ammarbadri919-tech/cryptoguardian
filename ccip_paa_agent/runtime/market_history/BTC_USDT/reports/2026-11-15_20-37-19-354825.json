@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:37:19.354653+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:36:23+05:30",
+    "last_price": 64572.48,
+    "candle_timestamp": 1794754800000,
+    "open": 64766.08,
+    "high": 64827.12,
+    "low": 64555.1,
+    "close": 64572.48,
+    "volume": 145.34654,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs are visible near the 66000 area on the right side of the chart with a pullback between them. Price is currently declining from the second high toward the intermediate low/neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Prior bullish market structure with higher highs up to 66000 is now being violated by downward price action from the recent highs."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price has formed two highs near 66000 and is declining from the second high. Prior bullish structure is weakening as price approaches key support near 64500.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below neckline",
+      "Chart resolution limits precise candlestick pattern identification"
+    ]
+  }
+}

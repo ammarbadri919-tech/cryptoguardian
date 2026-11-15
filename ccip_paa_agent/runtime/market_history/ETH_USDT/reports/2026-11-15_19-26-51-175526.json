@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:26:51.175419+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:26:10+05:30",
+    "last_price": 1835.0,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1836.96,
+    "low": 1830.64,
+    "close": 1835.0,
+    "volume": 1470.5131,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Prior bearish structure of lower highs and lower lows from 1900 down to 1725 was invalidated by a decisive break above 1800, followed by a higher low near 1775 and continuation toward 1835+."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct swing lows are visible: left shoulder near 1750, head near 1725, and right shoulder near 1775. Neckline resistance around 1800-1825 has been breached with price holding above 1830."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from 1725 to 1825 followed by consolidation/pullback into the 1775-1825 zone, with price now attempting to break above the flag resistance area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price has shifted from a downtrend structure to making higher highs and higher lows after the 1725 low, breaking key resistance at 1800 and 1825. Current consolidation near 1835 suggests continuation bias.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday structures quickly",
+      "Latest candle may still be forming, so breakout confirmation is preliminary",
+      "Volume profile is not fully visible to confirm institutional participation"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:47:35.849038+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:46:59+00:00",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794746700000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.03e-06,
+    "volume": 17055891469.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Prior bearish structure invalidated as price broke above local swing highs around 0.0000040 and established higher highs near 0.0000041 after the 13:30 rally."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp impulsive rally visible around 13:30 followed by tight consolidation with slight downward drift between approximately 0.0000040 and 0.0000041."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price shifted from a downtrend to an uptrend, forming higher lows and breaking resistance. Currently consolidating after an impulsive move near 0.00000403.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term patterns",
+      "Current candle may still be forming",
+      "Volume profile not clearly visible for confirmation"
+    ]
+  }
+}

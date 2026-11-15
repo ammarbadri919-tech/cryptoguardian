@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:35:36.388700+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:34:32+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.92e-06,
+    "close": 3.93e-06,
+    "volume": 57300200553.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Prior bullish structure with higher highs and higher lows up to swing high near 0.0000041. Price is now breaking below the most recent significant swing low around 0.0000039, signaling a potential shift to bearish market structure."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Two swing highs in the 0.0000040-0.0000041 zone separated by a swing low near 0.0000039. Price is declining from the second high toward the neckline support."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price is forming lower highs from the 0.0000041 peak while testing horizontal support near 0.0000039, creating a descending triangle shape."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price has broken below recent higher lows after reaching a local high near 0.0000041, indicating a shift from bullish to bearish short-term structure.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term structures",
+      "Current candle may still be forming",
+      "Pattern confirmation requires candle close below key support"
+    ]
+  }
+}

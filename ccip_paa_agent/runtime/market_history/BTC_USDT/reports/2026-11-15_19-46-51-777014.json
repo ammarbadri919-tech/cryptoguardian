@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:46:51.776825+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:45:01+05:30",
+    "last_price": 65304.01,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65106.62,
+    "close": 65304.01,
+    "volume": 235.69217,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Sharp impulsive rally from approximately 62500-63000 to roughly 66200, followed by tight sideways-to-downward consolidation between 65000 and 66000 with contracting price action."
+      },
+      {
+        "name": "Fair Value Gap",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Strong upward impulse candles during the rally likely left an unfilled price imbalance/FVG in the 64000-65000 region."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price formed a higher low around 62500-63000, launched an impulsive rally to approximately 66200, and is now consolidating in a tight range near 65300. The impulsive nature of the advance and higher lows suggest bullish structure, though current price action is range-bound.",
+    "limitations": [
+      "Latest candle may still be forming, so pattern status could change with the next close.",
+      "Exact price levels are visual estimates from chart gridlines and not precise exchange data.",
+      "Volume histogram is visible but exact volume values cannot be read from the image."
+    ]
+  }
+}

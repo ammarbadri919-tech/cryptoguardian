@@ -1,0 +1,55 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:10:03.329613+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:09:18+05:30",
+    "last_price": 65407.01,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65407.0,
+    "close": 65407.01,
+    "volume": 104.73276,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Visible left shoulder, head at approximately 62200, right shoulder around 64200, with price rallying above the neckline area near 65500."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Prior bearish structure of lower highs and lower lows invalidated by break above swing high following the higher low at 62200."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong impulsive rally from 62200 to 66200 followed by tight sideways consolidation near current price."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price has shifted from a downtrend to an uptrend after forming a low near 62200, breaking above key resistance, and consolidating in a bullish flag formation.",
+    "limitations": [
+      "Latest candle may still be forming, key levels are estimates based on visible gridlines, pattern confirmation requires candle close."
+    ]
+  }
+}

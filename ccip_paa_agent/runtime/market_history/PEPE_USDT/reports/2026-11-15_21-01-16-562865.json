@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:01:16.562784+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:00:00+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794755700000,
+    "open": 3.93e-06,
+    "high": 3.94e-06,
+    "low": 3.9e-06,
+    "close": 3.93e-06,
+    "volume": 51896480093.0,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 67,
+        "evidence": "Two swing highs visible near 0.0000041 separated by a decline to approximately 0.00000375. Price is currently retesting the neckline area around 0.0000039-0.00000395 after rejecting the recent high."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from session lows created higher highs up to approximately 0.0000041. Recent price action is breaking lower, suggesting a potential shift to bearish market structure."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse into approximately 0.0000041 followed by a downward drifting consolidation channel typical of a bearish flag formation."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 62,
+    "visual_evidence": "PEPE/USDT 15m shows two distinct swing highs near 0.0000041 with a deeper low between them around 0.00000375, forming a potential Double Top. Price is currently testing the neckline area near 0.0000039-0.00000395 after rejecting the recent high. Bearish CHoCH is possible if structure breaks lower.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Current candle may still be forming",
+      "Volume profile not clearly confirming the reversal"
+    ]
+  }
+}

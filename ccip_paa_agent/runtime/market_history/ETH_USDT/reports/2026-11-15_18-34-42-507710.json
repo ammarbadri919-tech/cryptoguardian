@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:34:42.507606+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:33:44+05:30",
+    "last_price": 1834.88,
+    "candle_timestamp": 1794747600000,
+    "open": 1835.93,
+    "high": 1839.2,
+    "low": 1834.62,
+    "close": 1834.88,
+    "volume": 802.0022,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 78,
+        "evidence": "Market shifted from bearish lower highs and lower lows to bullish structure after printing a higher low at approximately 1775 and breaking above prior resistance at approximately 1825."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Three distinct lows are visible: left shoulder near 1750, head at 1725, and right shoulder near 1780. Price has broken above the neckline resistance around 1825 and is trading at 1835."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Strong impulse rally from 1725 to 1825 followed by a consolidation/pullback to the 1775-1800 zone, with price now breaking back above 1825."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 72,
+    "visual_evidence": "Price reversed from the 1725 low, established a higher low at approximately 1775, and broke above the 1825 resistance zone, indicating a shift to bullish intraday structure.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly",
+      "The latest candle may still be forming",
+      "Volume confirmation on recent price action is relatively weak"
+    ]
+  }
+}

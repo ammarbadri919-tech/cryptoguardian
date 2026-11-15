@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:13:16.217100+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:11:11+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794749400000,
+    "open": 4.02e-06,
+    "high": 4.03e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 48849142201.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Price broke above previous swing high near 0.0000040 and is holding above it after strong upward impulse"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong upward impulse followed by slight downward/sideways consolidation near recent highs"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price broke above local resistance around 0.0000040 and is consolidating in a tight range after a strong impulsive move, suggesting bullish continuation potential",
+    "limitations": [
+      "Latest candle still forming",
+      "Pattern confirmation pending breakout above flag resistance",
+      "Intraday 15m structure can shift quickly"
+    ]
+  }
+}

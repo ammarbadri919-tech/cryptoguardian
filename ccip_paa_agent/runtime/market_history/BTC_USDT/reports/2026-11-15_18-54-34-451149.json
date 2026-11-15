@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:54:34.450969+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:53:59+05:30",
+    "last_price": 65660.19,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65800.75,
+    "low": 65536.36,
+    "close": 65660.19,
+    "volume": 182.60463,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish structure of lower lows and lower highs was invalidated by a higher low near 64200 followed by a decisive break above prior swing high resistance around 65200-65500."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder formed near 64800, head at approximately 62300, right shoulder near 64200, with price currently testing and breaking above the neckline zone around 65200-65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse from approximately 64200 to 65800 followed by minor sideways consolidation visible on the right edge of the chart."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price has shifted from bearish structure to bullish after breaking key resistance around 65000-65500, with higher lows established and current price near 65660.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "15m timeframe is susceptible to noise and false breakouts.",
+      "Pattern projections are visual estimates, not price guarantees."
+    ]
+  }
+}

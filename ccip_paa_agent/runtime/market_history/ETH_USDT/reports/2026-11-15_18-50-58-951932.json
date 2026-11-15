@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:50:58.951819+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:50:14+05:30",
+    "last_price": 1836.15,
+    "candle_timestamp": 1794748500000,
+    "open": 1834.67,
+    "high": 1836.61,
+    "low": 1832.97,
+    "close": 1836.15,
+    "volume": 767.0744,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Sharp rally from ~1725 to ~1830 followed by downward-sloping consolidation between 1775 and 1830; price now breaking above flag resistance."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Three distinct lows visible: left shoulder ~1775, head ~1725, right shoulder ~1775; neckline resistance near 1825-1830 being tested."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Prior downtrend structure invalidated by break above swing high at ~1825; market structure shifted from bearish to bullish."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 72,
+    "visual_evidence": "ETH/USDT reversed from a downtrend, formed higher lows around 1725-1775, and is breaking above consolidation resistance near 1825-1830 with bullish momentum.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Intraday breakout requires close confirmation",
+      "Lower timeframe noise can invalidate structure quickly"
+    ]
+  }
+}

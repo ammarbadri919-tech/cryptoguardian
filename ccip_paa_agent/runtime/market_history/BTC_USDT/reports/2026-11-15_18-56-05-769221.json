@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:56:05.769130+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:55:02+05:30",
+    "last_price": 65678.01,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65800.75,
+    "low": 65536.36,
+    "close": 65678.01,
+    "volume": 186.69102,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish structure with lower lows from 67000 down to ~62200. Price then established a higher low at ~64200 and broke above the previous swing high at ~65500, shifting market structure to bullish."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Head low visible at ~62200. Right shoulder formation near 64000-64500. Price breaking above the neckline area around 65000-65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive advance from ~62200 to ~65500 followed by a shallow consolidation/pullback toward 64200-65000, with price now testing the upper boundary."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 78,
+    "visual_evidence": "Price has transitioned from a downtrend to an uptrend, breaking key resistance at ~65500 after forming a higher low at ~64200. Current price ~65678 holds above recent structure.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly",
+      "Key levels are visual estimates from chart grid",
+      "Latest candle may still be forming"
+    ]
+  }
+}

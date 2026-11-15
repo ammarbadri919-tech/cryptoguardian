@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:46:28.259004+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:45:05+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794747600000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 44155740283.0,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 80,
+        "evidence": "Prior downtrend with lower highs and lower lows from 0.0000043 to 0.0000037. Price recently broke above the swing high at 0.0000040 and established a higher low near 0.00000385, indicating a potential shift from bearish to bullish structure."
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Two distinct swing lows visible near the 0.0000037-0.0000038 area with a rally between them. Price has broken above the intermediate resistance/neckline at approximately 0.0000040."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse visible around 13:45 followed by slight consolidation near the highs on the right edge of the chart."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price shifted from a prior downtrend to an uptrend after breaking above the 0.0000040 swing high. Double bottom lows near 0.0000037 appear to have held. Recent impulse suggests continuation potential.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "Patterns require volume confirmation not visible in the chart",
+      "Key levels are visual estimates from the chart axis"
+    ]
+  }
+}

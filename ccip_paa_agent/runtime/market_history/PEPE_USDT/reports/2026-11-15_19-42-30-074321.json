@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:42:30.074223+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:41:26+05:30",
+    "last_price": 3.98e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.98e-06,
+    "volume": 203892926612.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from ~0.00000385 to ~0.00000410 followed by tight consolidation near the top."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Price has tested the ~0.00000410 resistance area multiple times with recent rejection candles."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Recent failure at resistance and bearish candle suggest potential shift from bullish to bearish structure."
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price is consolidating in a range between ~0.00000395 and ~0.00000410 after a sharp rally, showing rejection at the upper boundary.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise",
+      "Exact wick extremes difficult to determine from image"
+    ]
+  }
+}

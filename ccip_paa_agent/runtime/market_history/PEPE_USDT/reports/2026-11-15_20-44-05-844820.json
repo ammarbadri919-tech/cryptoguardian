@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:44:05.844639+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:43:03+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.92e-06,
+    "volume": 94510862178.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.0000041 followed by downward drift consolidation near current price 0.00000392."
+      },
+      {
+        "name": "Head and Shoulders Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Left shoulder near 0.0000040, head at approximately 0.0000041, right shoulder forming near 0.0000040."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Prior bullish market structure showing higher highs, with recent decline from 0.0000041 threatening to break recent swing low."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rallied from major low near 0.00000372 to high near 0.0000041, establishing bullish structure, but is currently drifting downward from the peak with lower highs.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout beyond key levels",
+      "Multiple conflicting patterns possible in current consolidation"
+    ]
+  }
+}

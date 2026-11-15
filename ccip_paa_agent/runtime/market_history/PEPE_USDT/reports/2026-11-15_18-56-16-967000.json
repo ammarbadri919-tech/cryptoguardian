@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:56:16.966909+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:55:27+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.05e-06,
+    "low": 4.01e-06,
+    "close": 4.03e-06,
+    "volume": 48054783665.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Price broke above the local swing high around 0.0000040 after forming a higher low near 0.0000038, confirming a bullish structural break from the prior downtrend."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish lower highs/lows to bullish after the swing low near 0.0000037, with price breaking above prior resistance at approximately 0.0000040."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "A sharp upward impulse around 14:00 was followed by slight downward/sideways consolidation, forming the early shape of a bullish flag pattern."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 70,
+    "visual_evidence": "Price shifted from a downtrend to an uptrend structure after the 04:00 low, broke above 0.0000040 resistance, and is currently consolidating after a strong impulse move near 14:00.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term structures",
+      "Latest candle may still be forming",
+      "Pattern breakouts are not guaranteed"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:04:09.265901+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:03:30+05:30",
+    "last_price": 1832.23,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1831.3,
+    "close": 1832.23,
+    "volume": 500.4061,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 82,
+        "evidence": "Prior bearish market structure of lower highs and lower lows has been invalidated. A higher low formed around 1775 followed by a decisive break above the previous swing high near 1800-1825."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 76,
+        "evidence": "Three swing lows are visible: left shoulder near 1775, head near 1725, and right shoulder near 1775. Price has broken above the neckline resistance around 1800-1825 and is consolidating above it."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 64,
+        "evidence": "Sharp impulsive rally from approximately 1775 to 1840 followed by tight sideways consolidation near the highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from major lows near 1725, established higher lows, and broke above key resistance. Multiple bullish structures are developing near current price around 1832.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise can obscure pattern clarity",
+      "Key levels are visual estimates from chart image",
+      "Volume confirmation not fully conclusive"
+    ]
+  }
+}

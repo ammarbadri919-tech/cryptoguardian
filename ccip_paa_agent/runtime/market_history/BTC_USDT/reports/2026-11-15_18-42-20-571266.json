@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:42:20.571144+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:41:27+05:30",
+    "last_price": 65572.01,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65614.01,
+    "low": 65482.61,
+    "close": 65572.01,
+    "volume": 125.46662,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Visible left shoulder near 65000, head at 62500, and right shoulder forming around 64500-65000. Price currently testing neckline resistance near 65500-65700."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulsive rally from 62500 to 65500 followed by tight sideways consolidation between 65000 and 65800."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Structure shifted from bearish lower lows to bullish higher lows (62500 to 64200) with price reclaiming prior resistance near 65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price established a major low around 62500, formed higher lows, and is currently testing key resistance around 65500-65700 after a strong impulsive rally.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Volume confirmation not fully visible"
+    ]
+  }
+}

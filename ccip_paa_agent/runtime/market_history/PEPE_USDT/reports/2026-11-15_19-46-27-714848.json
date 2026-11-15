@@ -1,0 +1,43 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:46:27.714743+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:45:05+05:30",
+    "last_price": 3.99e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.99e-06,
+    "volume": 212517028993.0,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from approximately 0.00000385 to 0.0000041 followed by consolidation near the top, forming the early stages of a bullish flag."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price broke above previous downtrend resistance near 0.0000040 and rallied to 0.0000041, now consolidating. Higher highs and higher lows visible on the 15m timeframe.",
+    "limitations": [
+      "Chart resolution limits precise candlestick identification",
+      "Latest candle may still be forming",
+      "Low volume during consolidation reduces pattern reliability"
+    ]
+  }
+}

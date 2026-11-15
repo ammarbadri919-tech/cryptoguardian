@@ -1,0 +1,55 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:43:28.640927+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:42:32+00:00",
+    "last_price": 65428.01,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65395.29,
+    "close": 65428.01,
+    "volume": 97.31234,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from bearish lower highs and lower lows to a higher low near 64000 followed by a decisive break above the prior swing high around 65500-66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Three swing lows are visible: left shoulder near 64500, head at approximately 62200, and right shoulder near 64000-64500. The neckline resistance around 65500 has been breached with price reaching near 66000."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp impulsive rally from approximately 64000 to 66000 followed by consolidation near the highs around 65000-66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price formed a higher low near 64000 after the 62200 swing low, broke above prior swing highs near 65500, reached approximately 66000, and is currently consolidating around 65428.",
+    "limitations": [
+      "Latest candle may still be forming, so breakout confirmation is not final.",
+      "Exact price levels are visual estimates based on chart gridlines.",
+      "Volume histogram is not clearly readable for pattern confirmation."
+    ]
+  }
+}

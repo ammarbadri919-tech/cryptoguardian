@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:09:50.800374+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:09:08+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794749400000,
+    "open": 4.02e-06,
+    "high": 4.03e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 34146320502.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish to bullish with a clear break above the prior swing high around 0.0000040 following the impulsive move near 14:15."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Strong impulsive upward move followed by tight sideways to slightly downward consolidation near local highs, forming a flag-like structure."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Recent price action shows compression with lower highs and higher lows forming a converging range."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price broke above recent downtrend structure and is consolidating near highs, suggesting bullish continuation potential while awaiting a clear breakout direction.",
+    "limitations": [
+      "The latest candle may still be forming, so final close levels are not yet certain.",
+      "The consolidation range is narrow, making precise key level estimation difficult.",
+      "Volume profile does not clearly confirm a breakout at this time."
+    ]
+  }
+}

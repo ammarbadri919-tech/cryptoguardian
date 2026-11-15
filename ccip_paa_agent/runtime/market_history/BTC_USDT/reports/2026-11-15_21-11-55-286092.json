@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:11:55.285985+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:07:37+05:30",
+    "last_price": 64690.43,
+    "candle_timestamp": 1794756600000,
+    "open": 64633.99,
+    "high": 64785.54,
+    "low": 64605.05,
+    "close": 64690.43,
+    "volume": 103.78461,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Two distinct swing highs near 66000 visible with an intervening swing low near 64000. Price is currently declining from the second high toward the neckline."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive rally from ~62000 to ~66000 followed by a downward-sloping consolidation with lower highs and lower lows near the top."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 66,
+    "visual_evidence": "Price formed two swing highs near 66000 with an intervening low near 64000, suggesting a developing double top. Simultaneously, the sharp rally from 62000 to 66000 is followed by a downward drift consolidation, resembling a bullish flag. Neither pattern has triggered yet.",
+    "limitations": [
+      "15m chart noise",
+      "Latest candle may still be forming",
+      "Key levels are approximate visual estimates"
+    ]
+  }
+}

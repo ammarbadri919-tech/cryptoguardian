@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:33:44.940212+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:32:55+05:30",
+    "last_price": 4e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.98e-06,
+    "close": 4e-06,
+    "volume": 82299933104.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive upward move followed by tight sideways consolidation near local highs, forming a flag structure after the impulse leg."
+      },
+      {
+        "name": "Doji",
+        "type": "CANDLESTICK",
+        "status": "DETECTED",
+        "confidence": 60,
+        "evidence": "Recent candles display small real bodies with upper and lower wicks at resistance, indicating market indecision."
+      },
+      {
+        "name": "Fair Value Gap",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 65,
+        "evidence": "Large impulsive green candle created a visible price imbalance between adjacent candle wicks."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price recently impulsed upward from the 0.0000039 area to near 0.0000041 and is now consolidating in a tight range near the 0.000004 level with low volume.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Low volume during consolidation reduces pattern reliability",
+      "Key levels are visual estimates from gridlines"
+    ]
+  }
+}

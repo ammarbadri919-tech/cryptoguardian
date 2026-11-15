@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:03:58.381428+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:03:16+05:30",
+    "last_price": 1811.64,
+    "candle_timestamp": 1794756600000,
+    "open": 1809.48,
+    "high": 1813.47,
+    "low": 1808.93,
+    "close": 1811.64,
+    "volume": 611.7121,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks visible near the 1840-1850 resistance zone. Price has declined from the second top and is currently trading at approximately 1811, between the tops and the neckline area."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows contracting volatility with lower highs and higher lows forming a consolidation range between approximately 1800 and 1825."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Prior bullish market structure is failing as price makes lower highs after rejecting the 1840-1850 zone."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Chart shows two tops near 1840-1850 with current price at 1811.64 declining from the second peak. Recent consolidation suggests potential symmetrical triangle formation.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below neckline/support",
+      "Intraday 15m chart noise may invalidate early formations"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:54:00.730423+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:49:38+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794755700000,
+    "open": 3.93e-06,
+    "high": 3.93e-06,
+    "low": 3.9e-06,
+    "close": 3.93e-06,
+    "volume": 21190086903.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Price rallied to a local high near 0.0000041, then broke below the recent swing low around 0.0000039, indicating a shift from bullish to bearish market structure."
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Price spiked above recent local highs near 0.0000040 to approximately 0.0000041 before reversing sharply downward, consistent with a liquidity sweep above equal highs."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 68,
+    "visual_evidence": "Price rejected from local highs near 0.0000041 and is breaking below recent swing low structure around 0.0000039, with bearish candles dominating the right side of the chart.",
+    "limitations": [
+      "15m chart noise may produce false structure breaks",
+      "Exact candle wicks and closes are difficult to determine precisely from image",
+      "Current candle may still be forming"
+    ]
+  }
+}

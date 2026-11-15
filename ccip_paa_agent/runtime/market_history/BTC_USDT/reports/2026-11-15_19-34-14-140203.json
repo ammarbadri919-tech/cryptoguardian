@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:34:14.140088+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:31:11+05:30",
+    "last_price": 65350.01,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65316.17,
+    "close": 65350.01,
+    "volume": 47.7237,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 64000 to 66000 followed by tight consolidation near current price around 65350, forming a potential flag pole and flag structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Visible left shoulder near 64500, head at approximately 62200, and right shoulder near 64000-64500. Price has already broken above the estimated neckline around 65500 and reached 66000."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Price action compressing with lower highs near 66000 and higher lows around 65000-65200, forming converging trendlines."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price is consolidating after a strong rally from the 62000 area. Multiple bullish reversal and continuation structures are visible near current levels around 65350.",
+    "limitations": [
+      "Latest candle may still be forming; exact wick highs and lows are visual estimates.",
+      "Volume profile is not fully detailed for confirmation of breakout strength.",
+      "Pattern confidence reflects visual recognition only, not probability of profit."
+    ]
+  }
+}

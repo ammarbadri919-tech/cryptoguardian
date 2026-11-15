@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:57:25.420490+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:56:14+05:30",
+    "last_price": 64744.43,
+    "candle_timestamp": 1794755700000,
+    "open": 64685.33,
+    "high": 64796.22,
+    "low": 64590.01,
+    "close": 64744.43,
+    "volume": 97.96358,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct price highs near 66000 with an intermediate low around 64200; price currently declining from second top toward neckline"
+      },
+      {
+        "name": "Change of Character (Bearish)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from 62200 low showing higher highs; recent rejection at 66000 and decline indicates potential shift to bearish order flow"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 62,
+    "visual_evidence": "Price rejected at ~66000 resistance twice, forming potential double top; currently declining toward 64200 neckline support",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Price levels are visual estimates"
+    ]
+  }
+}

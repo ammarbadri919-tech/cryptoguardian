@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:38:13.185381+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:37:24+05:30",
+    "last_price": 64592.75,
+    "candle_timestamp": 1794754800000,
+    "open": 64766.08,
+    "high": 64827.12,
+    "low": 64500.0,
+    "close": 64592.75,
+    "volume": 162.17977,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Two distinct peaks near 66000 resistance with an intermediate low around 64200-64500. Price is currently declining from the second peak toward the neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Prior bullish structure (higher highs from 62200 to 66000) is breaking down as price fails at 66000 and declines toward prior swing lows."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Three peaks visible with the middle peak (head) slightly higher near 66200, flanked by shoulders around 65800-66000."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price formed two peaks near 66000 with a decline between them. Current price is testing the intermediate support area around 64200-64500. Volume shows selling pressure on the decline from the second peak.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "No confirmation of neckline break or structure shift yet"
+    ]
+  }
+}

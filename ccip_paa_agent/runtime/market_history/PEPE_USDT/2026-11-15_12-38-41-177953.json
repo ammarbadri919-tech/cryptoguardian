@@ -1,0 +1,55 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:38:41.175048+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:35:50+00:00",
+    "last_price": 4.05e-06,
+    "candle_timestamp": 1794745800000,
+    "open": 4.04e-06,
+    "high": 4.06e-06,
+    "low": 4.03e-06,
+    "close": 4.05e-06,
+    "volume": 43273373323.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 80,
+        "evidence": "Market structure shifted from bearish downtrend to bullish after price broke above previous swing high around 0.0000040 following a swing low near 0.0000037."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Sharp upward impulse move from approximately 0.0000039 to 0.00000405 followed by tight sideways consolidation near recent highs."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price is forming higher lows around 0.0000040 while facing resistance near 0.0000041, creating an ascending triangle shape."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price has shifted from a downtrend to an uptrend with a clear break above prior swing highs. Recent price action shows a strong impulse followed by consolidation near local highs around 0.00000405-0.0000041.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term patterns",
+      "Current candle may still be forming",
+      "Volume profile not clearly confirming breakout strength"
+    ]
+  }
+}

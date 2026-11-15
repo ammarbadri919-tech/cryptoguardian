@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:46:08.830718+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:45:02+05:30",
+    "last_price": 65550.01,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65614.01,
+    "low": 65482.61,
+    "close": 65550.01,
+    "volume": 157.34922,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Price shifted from bearish lower highs and lower lows (from 67000 down to 62200) to a bullish break above the 65000-65500 swing high, indicating a potential change of character to bullish structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Three distinct lows are visible: left shoulder near 64000, head near 62200, and right shoulder near 64000-64500. Neckline resistance is forming around 65000-65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulsive rally from approximately 64000 to 66000 followed by a tight consolidation/drift downward, characteristic of a bullish flag formation."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price recovered from the 62200 low, formed higher lows around 64000, and is testing resistance near 65500-66000 after a strong impulsive upward move. Recent structure has shifted from bearish to bullish.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "Exact wick levels are difficult to determine precisely from the image.",
+      "Volume confirmation is not clearly visible."
+    ]
+  }
+}

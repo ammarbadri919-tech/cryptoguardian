@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:11:18.615183+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:10:24+05:30",
+    "last_price": 3.95e-06,
+    "candle_timestamp": 1794753000000,
+    "open": 3.97e-06,
+    "high": 3.98e-06,
+    "low": 3.94e-06,
+    "close": 3.95e-06,
+    "volume": 107910194248.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Two distinct peaks visible near 0.0000041 resistance with price currently declining toward the neckline area around 0.0000039."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Series of lower highs forming below 0.0000041 with price approaching horizontal support near 0.0000039."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 58,
+        "evidence": "Prior bullish structure from 0.0000037 lows is deteriorating with lower highs forming; price approaching breakdown of recent higher low."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from 0.0000041 resistance multiple times and is drifting toward 0.0000039 support with a sequence of lower highs.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "No volume confirmation visible on potential breakdown",
+      "Price levels estimated from chart visual"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:44:36.247418+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:43:15+05:30",
+    "last_price": 64653.51,
+    "candle_timestamp": 1794754800000,
+    "open": 64766.08,
+    "high": 64859.5,
+    "low": 64474.99,
+    "close": 64653.51,
+    "volume": 261.12612,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Price formed two distinct peaks near the 66000 resistance area separated by a decline and a subsequent rally back to test the same zone. Current price is declining from the second peak toward the intermediate swing low between the tops."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Market structure was bullish with higher highs and higher lows from the ~62200 low. Price is now making lower highs and approaching the recent higher low around 64000-64200, suggesting a potential shift to bearish structure."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price is forming lower highs near 65800-66000 while testing a support area around 64500-64600, creating a descending triangle shape."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "UNCLEAR",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from ~66000 resistance twice and is declining toward prior swing lows. Volume was elevated at the bottom but has decreased during the recent decline.",
+    "limitations": [
+      "The latest candle may still be forming, so pattern completion is not guaranteed.",
+      "Key support/resistance levels are estimated from visual chart analysis and may not be exact."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:08:29.842722+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:07:41+05:30",
+    "last_price": 1809.61,
+    "candle_timestamp": 1794756600000,
+    "open": 1809.48,
+    "high": 1813.47,
+    "low": 1807.49,
+    "close": 1809.61,
+    "volume": 1279.3947,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks visible near the 1840-1850 resistance zone with an intermediate trough around 1800. Price is currently declining from the second peak toward 1809."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure from the 1720 low to the 1850 high showed higher highs and higher lows. Recent rejection at 1850 and decline toward 1800 suggests a potential shift in order flow."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Sharp decline from 1850 to 1800 followed by a small-range consolidation near 1800-1815."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price rejected from 1840-1850 resistance twice, forming potential double top. Currently trading near 1809 after decline from recent highs. Prior structure from 1720 low was bullish but recent price action suggests potential shift.",
+    "limitations": [
+      "15m timeframe noise",
+      "Latest candle may still be forming",
+      "Key confirmation levels not yet breached"
+    ]
+  }
+}

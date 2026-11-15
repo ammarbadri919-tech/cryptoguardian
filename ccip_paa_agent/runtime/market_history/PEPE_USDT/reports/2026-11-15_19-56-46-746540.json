@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:56:46.746272+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:56:00+05:30",
+    "last_price": 3.99e-06,
+    "candle_timestamp": 1794752100000,
+    "open": 3.98e-06,
+    "high": 4.02e-06,
+    "low": 3.96e-06,
+    "close": 3.99e-06,
+    "volume": 100957539977.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive upward move to approximately 0.0000041 followed by tight downward/sideways consolidation forming a descending flag channel."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish to bullish with price breaking above recent swing highs and forming higher highs after the impulsive rally from the 0.0000039 area."
+      },
+      {
+        "name": "Fair Value Gap (FVG)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Large bullish impulse candle around 14:00-15:00 likely left a price imbalance/FVG that current price action is retracing into near 0.000004."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price broke above recent consolidation resistance around 0.00000405-0.0000041 after a period of accumulation, forming a higher high. Current pullback appears to be testing the breakout area and potential FVG.",
+    "limitations": [
+      "Latest candle may still be forming, pattern completion not guaranteed",
+      "Key levels are visual estimates from chart grid",
+      "15m timeframe noise may invalidate short-term structures quickly"
+    ]
+  }
+}

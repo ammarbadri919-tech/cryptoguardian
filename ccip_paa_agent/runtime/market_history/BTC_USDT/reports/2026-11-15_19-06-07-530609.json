@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:06:07.530419+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:05:09+05:30",
+    "last_price": 65456.8,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65420.0,
+    "close": 65456.8,
+    "volume": 60.01068,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "A strong upward impulse from approximately 64000 to 66000 was followed by consolidation in a tight, slightly downward-sloping channel near the current price of 65456.8."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Price broke above the prior swing high structure around 65500-65800 with the recent rally to 66000, shifting short-term market structure from bearish to bullish."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows compression with lower highs and higher lows forming within the 65000-66000 range."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price recovered from lows near 62000-62500 to rally toward 66000, breaking prior bearish structure. Current price around 65456.8 is consolidating after the impulse move, suggesting a bullish flag or continuation pattern is forming.",
+    "limitations": [
+      "The latest candle may still be forming, introducing uncertainty in exact pattern boundaries and closes.",
+      "Symmetrical triangle breakout direction cannot be determined until price exits the compression zone.",
+      "Key levels are visual estimates from the chart and may not align with exact exchange prices."
+    ]
+  }
+}

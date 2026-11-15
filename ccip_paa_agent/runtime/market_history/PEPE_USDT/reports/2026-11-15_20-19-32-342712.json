@@ -1,0 +1,43 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:19:32.342628+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:15:46+05:30",
+    "last_price": 3.95e-06,
+    "candle_timestamp": 1794753900000,
+    "open": 3.94e-06,
+    "high": 3.96e-06,
+    "low": 3.94e-06,
+    "close": 3.95e-06,
+    "volume": 8554457200.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong upward impulse from approximately 0.00000375 to 0.00000405 followed by a downward sloping consolidation with lower highs"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price established higher lows from the 05:30 swing low and rallied to a local high near 0.00000405 around 15:30, now pulling back in a tight range with declining volume",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout above flag resistance",
+      "Volume is low reducing reliability of the formation"
+    ]
+  }
+}

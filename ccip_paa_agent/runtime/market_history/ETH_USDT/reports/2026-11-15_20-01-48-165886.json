@@ -1,0 +1,43 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:01:48.165604+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:00:24+05:30",
+    "last_price": 1814.75,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1814.75,
+    "low": 1812.31,
+    "close": 1814.75,
+    "volume": 236.4698,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks visible near 1850 separated by a trough around 1780-1800. Price is currently declining from the second peak toward the neckline area."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price formed two peaks near 1850 with an intervening pullback to ~1780-1800, and is now breaking down from the second peak toward current price ~1814.75.",
+    "limitations": [
+      "Pattern not yet confirmed; neckline break required.",
+      "15m intraday noise may invalidate the formation before completion.",
+      "Exact peak and trough levels are estimates based on visible chart structure."
+    ]
+  }
+}

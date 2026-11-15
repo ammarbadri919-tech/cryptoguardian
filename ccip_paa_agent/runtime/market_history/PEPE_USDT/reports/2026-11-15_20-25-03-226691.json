@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:25:03.226515+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:22:37+05:30",
+    "last_price": 3.97e-06,
+    "candle_timestamp": 1794753900000,
+    "open": 3.94e-06,
+    "high": 3.97e-06,
+    "low": 3.94e-06,
+    "close": 3.97e-06,
+    "volume": 30442910034.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Prior bullish market structure with higher highs and higher lows broken by downside move from 0.0000041 high; price trading below recent swing lows"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse to 0.0000041 followed by downward-sloping consolidation with lower highs"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Two swing highs near 0.0000040-0.0000041 with intervening low around 0.0000039"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price rejected from 0.0000041 high and is drifting lower with lower highs; prior bullish structure compromised",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Current candle may still be forming",
+      "Volume profile not clearly confirming breakdown"
+    ]
+  }
+}

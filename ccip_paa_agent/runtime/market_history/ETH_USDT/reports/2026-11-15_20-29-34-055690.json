@@ -1,0 +1,41 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:29:34.055512+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:28:48+05:30",
+    "last_price": 1811.73,
+    "candle_timestamp": 1794753900000,
+    "open": 1800.21,
+    "high": 1813.55,
+    "low": 1800.21,
+    "close": 1811.73,
+    "volume": 4001.0381,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Two distinct peaks are visible in the 1825-1850 zone with an intervening pullback to approximately 1775. Price is currently declining from the second peak toward the neckline area."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price formed a high around 1825, pulled back to ~1775, rallied to a higher high around 1840-1850, and is now declining at approximately 1811. This resembles the early formation of a double top reversal pattern.",
+    "limitations": [
+      "The two peaks are not at exactly the same price level, reducing pattern reliability. The neckline has not been broken. The pattern could fail if price rallies back above 1850."
+    ]
+  }
+}

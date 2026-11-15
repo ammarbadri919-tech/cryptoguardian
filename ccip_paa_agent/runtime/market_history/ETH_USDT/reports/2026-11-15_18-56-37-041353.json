@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:56:37.041257+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:55:32+05:30",
+    "last_price": 1835.75,
+    "candle_timestamp": 1794748500000,
+    "open": 1834.67,
+    "high": 1841.28,
+    "low": 1832.97,
+    "close": 1835.75,
+    "volume": 1829.4473,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish structure with lower highs and lows from 1900 down to 1725. Price formed a higher low around 1775 and broke above the prior swing high at approximately 1825. Current price at 1835.75 confirms bullish structure shift."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct lows visible: left shoulder near 1775, head near 1725, right shoulder near 1775-1800. Neckline resistance around 1800-1825. Price currently trading above neckline at 1835.75."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulse rally followed by consolidation near recent highs. Price action around 1820-1840 suggests potential flag formation after the upward move."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 80,
+    "visual_evidence": "Price shifted from downtrend to uptrend, breaking key resistance at 1825 after forming higher low at 1775. Inverse H&S structure visible with neckline breakout. Volume spike accompanied the upward move.",
+    "limitations": [
+      "Latest candle still forming and may close differently",
+      "Intraday 15m structures prone to noise and quick invalidation",
+      "Key levels are visual estimates, not exact prices"
+    ]
+  }
+}

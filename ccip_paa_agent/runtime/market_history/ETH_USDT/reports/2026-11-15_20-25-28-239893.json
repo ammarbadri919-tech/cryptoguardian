@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:25:28.239775+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:22:37+05:30",
+    "last_price": 1810.81,
+    "candle_timestamp": 1794753900000,
+    "open": 1800.21,
+    "high": 1811.67,
+    "low": 1800.21,
+    "close": 1810.81,
+    "volume": 2504.0055,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks visible near 1825-1830 with a trough between them around 1800. Price is currently declining from the second peak toward the neckline area."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Left shoulder around 1825, head near 1830-1835, and right shoulder forming around 1825-1830."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from the 1725 low is deteriorating with lower highs and price approaching breakdown below recent swing lows."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price formed dual peaks near 1825-1830 with intermediate support near 1800, currently testing downside breakdown from the second peak.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "Patterns are incomplete and require confirmation breaks"
+    ]
+  }
+}

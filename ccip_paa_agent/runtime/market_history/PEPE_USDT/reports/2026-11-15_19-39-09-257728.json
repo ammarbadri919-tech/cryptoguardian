@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:39:09.257625+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:38:20+05:30",
+    "last_price": 3.98e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.98e-06,
+    "volume": 184139569430.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price consolidating in a narrowing range between approximately 0.00000395 support and 0.0000041 resistance after rallying from lower levels, showing lower highs and higher lows"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Price rejected twice near the 0.0000041 resistance area with current price declining from the second peak toward current levels around 0.00000398"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "PEPE/USDT is consolidating after a rally from approximately 0.0000037 to 0.0000041, forming a symmetrical triangle and potential double top near the 0.0000041 resistance zone with current price around 0.00000398",
+    "limitations": [
+      "Latest candle may still be forming, so exact close is unknown",
+      "Precise open/close prices not visible from chart image alone",
+      "Volume profile is limited and does not confirm breakout conviction"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:44:22.184216+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:43:32+05:30",
+    "last_price": 3.98e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.98e-06,
+    "volume": 208784831929.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct highs forming near 0.0000041 with a pullback between them; price currently testing resistance again near 0.0000040."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp rally to 0.0000041 followed by tight downward-sloping consolidation near resistance."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Recent bullish structure showing higher highs/lows is failing at 0.0000041; potential shift to bearish if recent swing low is broken."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected at 0.0000041 resistance after rally from 0.0000039; forming potential double top and bearish flag near current price of 0.00000398.",
+    "limitations": [
+      "Current candle still forming",
+      "15m timeframe noise",
+      "Patterns incomplete and unconfirmed"
+    ]
+  }
+}

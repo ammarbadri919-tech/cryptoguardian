@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:28:42.380261+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:28:00+05:30",
+    "last_price": 65474.0,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65566.0,
+    "low": 65430.0,
+    "close": 65474.0,
+    "volume": 116.87318,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 62500 to 66000 followed by tight sideways consolidation with slight downward drift around 65400-65800."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Recent price action shows converging lower highs and higher lows in a narrowing range around 65300-65800."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price rallied strongly from ~62500 to ~66000 and is now consolidating near the top of that range, suggesting a bullish flag or continuation pattern. No confirmed breakout yet.",
+    "limitations": [
+      "Latest candle may still be forming, so pattern completion is uncertain.",
+      "Exact price levels are estimates based on visual chart analysis.",
+      "Symmetrical triangle breakout direction is unknown until price exits the pattern."
+    ]
+  }
+}

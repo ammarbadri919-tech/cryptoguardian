@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:03:58.182505+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:02:56+05:30",
+    "last_price": 64861.01,
+    "candle_timestamp": 1794753000000,
+    "open": 64901.16,
+    "high": 65029.58,
+    "low": 64761.0,
+    "close": 64861.01,
+    "volume": 80.50897,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong upward impulse from approximately 62200 to 66000 followed by a downward-sloping consolidation/pullback. Current price at 64861 is within the potential flag formation."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Left shoulder formed around 64500-65000 prior to the decline. Head formed at approximately 62200. Right shoulder is currently forming as price retraces from 66000 to around 64861."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Prior bullish market structure with higher highs and higher lows from the 62200 low. Recent rejection from 66000 and decline toward 64861 suggests potential structural shift if support breaks."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price is pulling back from a local high near 66000 after a strong rally from 62200. The 15m chart shows potential bullish flag and inverse H&S formations, but neither is confirmed. Volume is relatively low during the pullback.",
+    "limitations": [
+      "Current candle may still be forming, so levels are approximate.",
+      "Pattern confirmation requires breakout or breakdown which has not yet occurred.",
+      "Chart resolution limits precise candlestick pattern identification."
+    ]
+  }
+}

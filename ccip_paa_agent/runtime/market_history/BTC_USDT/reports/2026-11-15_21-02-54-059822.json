@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:02:54.059600+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:01:07+05:30",
+    "last_price": 64653.16,
+    "candle_timestamp": 1794756600000,
+    "open": 64633.99,
+    "high": 64670.26,
+    "low": 64605.05,
+    "close": 64653.16,
+    "volume": 9.02878,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Two distinct peaks visible near the 66000 level with a swing low between them around 64000-64500. Current price at 64653 is testing the neckline area after rejecting the second top."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 62,
+        "evidence": "Market structure shifted from bullish (higher highs and higher lows from the 06:15 low) to bearish as price rejects the 66000 area and forms lower highs."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse from the 06:15 low to 66000 followed by a downward drifting consolidation channel."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "UNCLEAR",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from the 66000 resistance area twice, forming a potential double top. Current price is declining toward the neckline support around 64000-64500. Volume has decreased during the recent decline.",
+    "limitations": [
+      "Current candle may still be forming, pattern completion not guaranteed",
+      "Key levels are visual estimates from chart grid",
+      "15m timeframe noise may invalidate intraday patterns quickly"
+    ]
+  }
+}

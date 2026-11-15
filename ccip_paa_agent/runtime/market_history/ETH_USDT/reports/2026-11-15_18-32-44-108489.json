@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:32:44.108412+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:30:50+05:30",
+    "last_price": 1835.93,
+    "candle_timestamp": 1794747600000,
+    "open": 1835.93,
+    "high": 1835.93,
+    "low": 1835.0,
+    "close": 1835.93,
+    "volume": 60.2892,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulse rally from approximately 1725 to 1825 followed by consolidation between 1800 and 1835."
+      },
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Market structure shifted from bearish to bullish after price broke above prior swing high near 1825."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price forming higher lows near 1780-1800 while testing horizontal resistance around 1835-1840."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price formed a strong impulse from ~1725 to ~1825 followed by consolidation. Market structure shifted from bearish to bullish with higher lows forming near resistance at ~1835-1840.",
+    "limitations": [
+      "15m timeframe noise",
+      "Latest candle still forming",
+      "Exact candle bodies difficult to discern from image resolution"
+    ]
+  }
+}

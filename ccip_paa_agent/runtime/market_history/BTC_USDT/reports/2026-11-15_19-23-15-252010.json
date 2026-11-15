@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:23:15.251630+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:20:43+05:30",
+    "last_price": 65522.01,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65538.03,
+    "low": 65430.0,
+    "close": 65522.01,
+    "volume": 50.19617,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 62200 to 66000 followed by tight sideways consolidation near the top of the move."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish to bullish after the swing low at approximately 62200, with price establishing higher highs and higher lows."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Visible low structure with head near 62200 and shoulder lows around 64000. Price is currently testing the neckline resistance near 65500-66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 72,
+    "visual_evidence": "Price formed a significant low near 62200, followed by a rally to 66000 and a pullback to 64000. Current price at 65522 is testing resistance near the 65500-66000 area, consistent with an inverse head and shoulders neckline and a bullish flag consolidation.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Key levels are visual estimates",
+      "No volume breakout confirmation visible yet"
+    ]
+  }
+}

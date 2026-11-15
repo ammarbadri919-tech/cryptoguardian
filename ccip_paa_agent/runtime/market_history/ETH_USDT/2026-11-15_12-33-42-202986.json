@@ -1,0 +1,56 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:33:42.201159+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:32:38+00:00",
+    "last_price": 1830.97,
+    "candle_timestamp": 1794745800000,
+    "open": 1831.59,
+    "high": 1832.71,
+    "low": 1829.4,
+    "close": 1830.97,
+    "volume": 320.7503,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish structure of lower highs and lower lows reversed; price established a higher low near 1775 and broke above prior swing high resistance around 1825."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Three distinct lows visible: left shoulder near 1775, head near 1725, right shoulder near 1775; neckline resistance around 1800-1825; price currently trading above neckline at 1830.97."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Sharp rally from 1725 to 1825 formed the pole; consolidation/drift between 1775 and 1825 formed the flag; price breaking above 1825 resistance."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 80,
+    "visual_evidence": "Price formed a higher low at 1775 after the 1725 swing low, broke above 1825 resistance, and is trading at 1830.97 with bullish reversal structure intact.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Breakout could fail without volume confirmation",
+      "Pattern targets are projections, not guarantees",
+      "Intraday noise may invalidate short-term structure"
+    ]
+  }
+}

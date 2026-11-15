@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:32:23.804848+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:30:07+05:30",
+    "last_price": 3.96e-06,
+    "candle_timestamp": 1794753900000,
+    "open": 3.94e-06,
+    "high": 3.97e-06,
+    "low": 3.94e-06,
+    "close": 3.96e-06,
+    "volume": 42007996093.0,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs visible near the 0.0000041 level with an intermediate pullback. Price is currently declining from the second peak toward the neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure with higher highs and higher lows. Current price action is breaking down from recent highs and approaching the most recent swing low."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price formed two swing highs near 0.0000041 with a pullback between them. Current candle is declining from the second high, testing the neckline area around 0.00000395.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Pattern not yet confirmed by neckline break",
+      "Latest candle may still be forming"
+    ]
+  }
+}

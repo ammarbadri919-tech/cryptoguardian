@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:26:30.658156+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:25:29+05:30",
+    "last_price": 64942.56,
+    "candle_timestamp": 1794753900000,
+    "open": 64634.13,
+    "high": 64946.08,
+    "low": 64634.13,
+    "close": 64942.56,
+    "volume": 143.46167,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (Bullish)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from bearish to bullish after price broke above prior swing highs following the major low at approximately 62600. Higher high at 66000 confirms bullish character."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Left shoulder formed near 64800-65200, head at approximately 62600, right shoulder developing near 64200-64600. Price currently testing neckline area around 65000."
+      },
+      {
+        "name": "Fair Value Gap (Bullish)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 65,
+        "evidence": "Imbalance visible from the strong impulsive candle following the 62600 low, leaving an unfilled gap around 63200-64500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price reversed from major low at 62600, established bullish structure with higher high at 66000, currently pulling back toward 65000 area.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Key levels are visual estimates"
+    ]
+  }
+}

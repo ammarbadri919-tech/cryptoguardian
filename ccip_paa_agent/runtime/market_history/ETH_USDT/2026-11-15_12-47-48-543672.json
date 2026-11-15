@@ -1,0 +1,48 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:47:48.543413+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:47:09+00:00",
+    "last_price": 1832.29,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1833.44,
+    "low": 1830.63,
+    "close": 1832.29,
+    "volume": 321.8613,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Price formed a higher low around 1775 after the 1725 swing low, then broke above the prior descending swing high/resistance near 1825, shifting short-term structure from bearish to bullish."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three distinct lows are visible: left shoulder near 1780, head near 1725, and right shoulder near 1780. The neckline resistance around 1800-1825 has been breached with price at approximately 1832."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from the ~1725 low, established a higher low, and broke above the 1825 resistance zone. Current price around 1832 shows bullish momentum on the 15m timeframe.",
+    "limitations": [
+      "Latest candle may still be forming; exact close and wick are unknown.",
+      "Pattern targets are visual projections, not guaranteed outcomes.",
+      "Volume confirmation cannot be fully assessed from price chart alone."
+    ]
+  }
+}

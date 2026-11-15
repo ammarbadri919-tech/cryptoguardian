@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:01:50.807222+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:00:09+05:30",
+    "last_price": 65564.0,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65564.0,
+    "close": 65564.0,
+    "volume": 0.80244,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 62300 to 66000 followed by tight consolidation with lower highs near 65800-66000."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish to bullish after price rallied from the 62300 low and broke above prior swing highs around 65000-65500."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Recent price action forming lower highs below 66000 and higher lows above 65000, converging into a triangle shape."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price rallied strongly from ~62300 low to ~66000, now consolidating in a bullish flag formation. Market structure shows higher lows and a potential change of character to bullish.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term patterns",
+      "Current candle may still be forming",
+      "Volume profile not clearly visible for confirmation"
+    ]
+  }
+}

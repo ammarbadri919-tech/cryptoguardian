@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:01:56.940904+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:00:06+05:30",
+    "last_price": 1812.37,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1809.44,
+    "close": 1812.37,
+    "volume": 5338.0351,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct price peaks near 1850 resistance are visible, separated by a pullback to approximately 1780. Current price at 1812 is approaching the neckline support area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure from the 1725 low is showing weakness with failure at 1850 resistance and downward price momentum toward 1812."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward move followed by slight downward-sloping consolidation near recent highs, consistent with a bearish flag formation."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from ~1850 resistance twice and is declining toward 1812, suggesting potential double top and bearish continuation setup.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact price levels estimated from chart visuals",
+      "Pattern confirmation requires close below key support levels"
+    ]
+  }
+}

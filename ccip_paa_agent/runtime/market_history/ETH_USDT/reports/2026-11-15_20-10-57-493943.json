@@ -1,0 +1,51 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:10:57.493758+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:10:15+05:30",
+    "last_price": 1806.93,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1817.1,
+    "low": 1806.38,
+    "close": 1806.93,
+    "volume": 4716.1061,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct price peaks visible near the 1825-1830 resistance area. Price is currently declining from the second peak toward the neckline support around 1800."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from the 1725 low created higher highs and higher lows. Recent rejection at 1830 and decline toward 1800 suggests potential shift to bearish structure."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected twice near 1825-1830, forming lower highs. Current price at 1806.93 is testing support near 1800. Volume has declined during the recent pullback.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise",
+      "No clear volume confirmation visible",
+      "Key levels are approximate visual estimates"
+    ]
+  }
+}

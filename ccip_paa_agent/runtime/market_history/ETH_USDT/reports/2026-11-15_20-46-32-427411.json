@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:46:32.427142+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:45:10+05:30",
+    "last_price": 1808.77,
+    "candle_timestamp": 1794754800000,
+    "open": 1806.99,
+    "high": 1814.18,
+    "low": 1800.49,
+    "close": 1808.77,
+    "volume": 4007.1207,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing highs are visible near the 1835-1845 area with a pullback between them. Price is currently declining from the second top toward the neckline support zone around 1780-1800."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure with higher highs is shifting to lower highs after the 1845 peak. Price is approaching the key structural low that would need to break to confirm a bearish CHoCH."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Sequence of lower highs forming after the 1845 peak, with price consolidating near the 1800 support area."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 62,
+    "visual_evidence": "Price has formed two distinct highs near 1840-1845 and is declining toward the 1800 support zone. Recent structure shows lower highs, suggesting short-term bearish pressure.",
+    "limitations": [
+      "Current candle may still be forming",
+      "Pattern confirmation requires close below key support",
+      "Volume profile not fully conclusive on this view"
+    ]
+  }
+}

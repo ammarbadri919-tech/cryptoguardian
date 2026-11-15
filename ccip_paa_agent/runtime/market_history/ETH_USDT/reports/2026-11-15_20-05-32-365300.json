@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:05:32.365099+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:04:17+05:30",
+    "last_price": 1814.05,
+    "candle_timestamp": 1794753000000,
+    "open": 1812.36,
+    "high": 1815.48,
+    "low": 1807.06,
+    "close": 1814.05,
+    "volume": 2368.3415,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price action on the right side shows converging lower highs and higher lows between approximately 1800 and 1835, forming a coil pattern after the rally from 1725."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from ~1725 low to ~1835 high; recent price action is forming lower highs and testing recent support area around 1800-1810."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "ETH/USDT is consolidating after a rally to ~1835, forming lower highs and higher lows in a symmetrical triangle. Short-term structure is weakening with potential bearish CHoCH if support at 1800 fails.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Pattern breakout direction not yet determined",
+      "Intraday noise may invalidate developing structures"
+    ]
+  }
+}

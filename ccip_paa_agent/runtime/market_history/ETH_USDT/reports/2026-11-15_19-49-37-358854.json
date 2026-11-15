@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:49:37.358680+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:48:55+05:30",
+    "last_price": 1829.83,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1820.25,
+    "close": 1829.83,
+    "volume": 1446.275,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 1725 to 1835 followed by tight downward-sloping consolidation near 1825-1835."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Three distinct lows visible with middle low (head) near 1725 lower than shoulders near 1775; price has broken above neckline area around 1800-1825."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 65,
+        "evidence": "Market structure shifted from bearish lower lows to bullish higher lows/higher highs after the 1725 low, with break above prior swing highs near 1800."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price formed higher lows after the 1725 swing low, broke above 1800 resistance, and is currently consolidating in a bullish flag formation near 1825-1835.",
+    "limitations": [
+      "15m timeframe noise may cause false signals",
+      "Current candle may still be forming",
+      "Key levels are visual estimates from chart"
+    ]
+  }
+}

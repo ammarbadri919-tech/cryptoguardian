@@ -1,0 +1,51 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:20:40.875885+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:19:34+05:30",
+    "last_price": 65526.02,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65526.02,
+    "low": 65430.0,
+    "close": 65526.02,
+    "volume": 40.51445,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Distinct head formed at approximately 62000 after decline from 67000. Left shoulder and right shoulder reaction lows visible around 64000-64500. Price currently testing neckline resistance zone around 65500-65800."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Strong impulsive rally from approximately 62000 to 66000 followed by sideways/slightly downward consolidation near the highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price established a higher low at approximately 64000 after the 62000 swing low, then rallied to test 66000 resistance. Current price action is consolidating near the 65500-65800 zone, respecting the bullish structure intact from the 62000 low.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Key levels are visual estimates from chart",
+      "15m timeframe susceptible to noise",
+      "Pattern confirmation requires candle close"
+    ]
+  }
+}

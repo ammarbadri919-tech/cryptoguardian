@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:11:23.456905+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:08:42+05:30",
+    "last_price": 1810.44,
+    "candle_timestamp": 1794756600000,
+    "open": 1809.48,
+    "high": 1813.47,
+    "low": 1807.49,
+    "close": 1810.44,
+    "volume": 1494.4739,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure with higher highs up to approximately 1845. Recent price action rejecting higher prices and forming lower highs from the 1845 area. Current price at 1810 declining toward the 1790-1800 support zone."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Three peaks visible in recent price action: left shoulder around 1830, head around 1845, and right shoulder forming around 1840. Price is declining from the right shoulder toward the neckline area near 1800."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price rejected from approximately 1845 and is forming lower highs. The 15m chart shows a potential top formation after the rally from 1720. Volume has decreased on the recent decline.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below key support levels",
+      "Pattern recognition confidence is not probability of profit"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:37:41.517772+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:36:53+00:00",
+    "last_price": 65473.93,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65422.0,
+    "close": 65473.93,
+    "volume": 49.21358,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Prior bearish structure from 67000 down to 62200 was broken by strong upward displacement. Price has moved above previous swing highs around 65000-65500 and is currently holding near 65473."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Three distinct lows visible: left shoulder near 64000, head near 62200, and right shoulder near 64000. Neckline resistance around 65000-65500 is being tested by current price at 65473."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Strong impulse move from 62200 to 66000 followed by consolidation/pullback toward 64000-65000, with current price consolidating near 65473 after testing 66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price reversed from major low near 62200, broke above prior downtrend structure, and is consolidating near 65500 after testing 66000. Multiple bullish reversal and continuation elements are visible but not yet confirmed.",
+    "limitations": [
+      "15m chart noise may invalidate intraday patterns quickly",
+      "Current candle may still be forming",
+      "Volume profile not fully visible for confirmation",
+      "Key levels are approximate based on chart gridlines"
+    ]
+  }
+}

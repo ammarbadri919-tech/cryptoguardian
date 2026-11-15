@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:12:02.748256+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:11:21+05:30",
+    "last_price": 65430.01,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65368.0,
+    "close": 65430.01,
+    "volume": 117.25709,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Three distinct swing lows visible: left shoulder near 64000, head near 62200, right shoulder near 63500-64000. Neckline resistance around 65000-65500 has been tested and broken with rally to 66000."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish lower lows to bullish higher high after breaking prior swing high around 65500 following the 62200 low."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from 62200 to 66000 followed by consolidation near highs around 65000-66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price formed an inverse head and shoulders bottoming pattern near 62200-64000, broke above the 65000-65500 neckline, and is currently consolidating around 65400-65500 after reaching 66000.",
+    "limitations": [
+      "Current candle may still be forming",
+      "Exact price levels are visual estimates from chart",
+      "15m timeframe may contain noise"
+    ]
+  }
+}

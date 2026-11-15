@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:28:45.873217+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:27:32+05:30",
+    "last_price": 1812.73,
+    "candle_timestamp": 1794753900000,
+    "open": 1800.21,
+    "high": 1813.55,
+    "low": 1800.21,
+    "close": 1812.73,
+    "volume": 3828.7026,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Two distinct peaks visible near the 1840-1850 resistance zone with a pullback between them. Price is currently declining from the second peak toward the neckline area around 1805-1810."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Price is forming lower highs (rejected at ~1845, then ~1830, then ~1825) while repeatedly testing support near the 1800 level, creating a descending triangle structure."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 62,
+    "visual_evidence": "Price rejected twice near 1840-1850 forming a double top structure. Current price at 1812.73 is declining toward the 1800 support zone while making lower highs, consistent with a descending triangle formation.",
+    "limitations": [
+      "Latest candle may still be forming, pattern completion not guaranteed",
+      "15m timeframe noise may invalidate intraday patterns",
+      "Key levels are visual estimates based on chart grid alignment"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:04:56.471110+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:04:06+05:30",
+    "last_price": 65458.01,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65420.0,
+    "close": 65458.01,
+    "volume": 51.87168,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from downtrend (lower highs and lower lows) to uptrend after price broke above the swing high near 65000 following the low at approximately 62500."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Left shoulder formed near 64000, head at approximately 62500, right shoulder near 64000, with price breaking above the neckline around 65000-65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp impulse rally from 62500 to 66000 followed by consolidation/pullback between 65000 and 66000, forming a potential flag pattern."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from a low near 62500, broke above prior downtrend structure, and is consolidating near 65458 after reaching 66000.",
+    "limitations": [
+      "15m chart noise may obscure exact pattern boundaries",
+      "Latest candle may still be forming",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

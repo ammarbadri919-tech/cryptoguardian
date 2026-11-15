@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:06:21.844527+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:05:26+05:30",
+    "last_price": 64919.67,
+    "candle_timestamp": 1794753000000,
+    "open": 64901.16,
+    "high": 65029.58,
+    "low": 64761.0,
+    "close": 64919.67,
+    "volume": 112.99469,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price formed a left shoulder near 64500, dropped to a head around 62200, rallied toward the neckline area near 65500, and is now forming a right shoulder around 64000-64900."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp rally from ~62200 to ~66000 followed by a downward drifting consolidation from 66000 to current ~64900."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent bullish structure shows a higher high near 66000 and a higher low near 64200; price is currently breaking down from recent highs toward that higher low."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price is consolidating between roughly 64000 and 66000 after a strong rally from the 62200 area. Multiple patterns are developing but none are confirmed.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Key levels are visual estimates from the chart",
+      "Intraday noise may invalidate developing structures"
+    ]
+  }
+}

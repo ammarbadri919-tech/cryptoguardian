@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:25:20.429047+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:24:26+05:30",
+    "last_price": 65491.95,
+    "candle_timestamp": 1794746700000,
+    "open": 65495.99,
+    "high": 65526.02,
+    "low": 65412.0,
+    "close": 65491.95,
+    "volume": 112.35334,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing lows visible around 62500 and 64100 with a rally between them. Price is currently approaching the neckline resistance area around 65500-66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Left shoulder formation near 64500-65000, head at approximately 62500, right shoulder near 64100. Neckline resistance around 65000-65500."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from lower lows/lower highs to a higher low at 64100 and break above prior swing high around 65000-65200."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 68,
+    "visual_evidence": "Price reversed from a sharp low around 62500, formed a higher low near 64100, and is rallying toward resistance at 65500-66000. Recent candles show consolidation near key resistance.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "No volume confirmation visible for breakout",
+      "15m timeframe susceptible to noise",
+      "Pattern not yet confirmed"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:17:49.010290+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:16:37+05:30",
+    "last_price": 1831.68,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1833.13,
+    "low": 1831.57,
+    "close": 1831.68,
+    "volume": 187.8737,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish downtrend to bullish with higher highs and higher lows established after the 1725 swing low"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from approximately 1775 to 1850 followed by tight consolidation near the highs"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price has established higher highs and higher lows since the 1725 low, currently consolidating near 1830-1850 after a strong rally",
+    "limitations": [
+      "Current candle may still be forming",
+      "Exact candle wicks and closes not precisely visible from image",
+      "Volume profile not fully analyzable from image alone"
+    ]
+  }
+}

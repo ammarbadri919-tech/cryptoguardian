@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:45:15.663703+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:44:34+05:30",
+    "last_price": 65544.01,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65614.01,
+    "low": 65482.61,
+    "close": 65544.01,
+    "volume": 155.74852,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Market structure shifted from bearish (lower highs and lower lows from 67000 down to 62500) to bullish after an impulsive rally broke key swing highs around 64000-65000."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp upward impulse from approximately 62500 to 65500+ followed by tight sideways/slight downward consolidation typical of a bullish flag formation."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Recent price action showing contraction with lower highs and higher lows around the 65000-65600 area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price shifted from bearish structure to bullish after an impulsive rally from the 62500 low. Currently consolidating near 65500 with potential bullish flag and CHoCH confirmation pending.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term structures quickly.",
+      "Latest candle may still be forming, affecting pattern completion assessment.",
+      "Exact key levels are visual estimates based on chart grid."
+    ]
+  }
+}

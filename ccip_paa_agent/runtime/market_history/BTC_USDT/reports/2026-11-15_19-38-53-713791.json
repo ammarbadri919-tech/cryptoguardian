@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:38:53.713522+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:37:36+05:30",
+    "last_price": 65175.76,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65106.62,
+    "close": 65175.76,
+    "volume": 158.2517,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Market structure shifted from bearish to bullish after price established a higher low around 64000 and broke above prior swing resistance near 65500-66000."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong upward impulse from approximately 64000 to 66000 followed by tight consolidation between 65500 and 66000. Current price at 65175 is testing the lower boundary of the flag formation."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price has established higher lows and higher highs from the 62500 area, currently consolidating near recent highs after a strong upward rally.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Intraday noise can invalidate short-term formations",
+      "Volume confirmation is not clearly visible from the chart"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:36:36.996668+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:35:51+00:00",
+    "last_price": 65474.01,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65422.0,
+    "close": 65474.01,
+    "volume": 42.227,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Prior bearish market structure invalidated by strong impulsive rally from the 62200 low, breaking above previous swing highs and forming higher highs."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong vertical rally from approximately 62200 to 66000 followed by tight sideways consolidation near the top of the move."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Left shoulder near 64500, head at approximately 62200, right shoulder forming near 64000-64500 with neckline around 65500-65800."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price reversed from a significant low near 62200, rallied to approximately 66000, and is currently consolidating around 65474. Recent structure shows higher highs and higher lows after the reversal.",
+    "limitations": [
+      "Latest candle may still be forming, so pattern completion is not certain.",
+      "Volume profile is visible but not definitive for breakout confirmation.",
+      "Pattern confidence reflects visual recognition only, not probability of profit."
+    ]
+  }
+}

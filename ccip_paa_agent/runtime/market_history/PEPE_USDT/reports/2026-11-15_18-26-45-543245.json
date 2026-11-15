@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:26:45.543073+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:26:08+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794746700000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.03e-06,
+    "volume": 61413589236.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Left shoulder low near 0.00000385, head low near 0.00000375, right shoulder low near 0.0000039. Price has broken above neckline around 0.0000040."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Prior bearish structure of lower lows invalidated by higher low at 0.0000039 and break above swing high at 0.0000040."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp upward impulse from 0.0000039 to 0.00000405 followed by tight consolidation between 0.00000398 and 0.0000041."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price formed an inverse head and shoulders with neckline break near 0.0000040, followed by bullish flag consolidation. Market structure shifted from bearish lower lows to bullish higher lows.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Low timeframe noise may invalidate intraday patterns",
+      "Volume profile not clearly visible for breakout confirmation"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:10:22.760452+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:09:24+05:30",
+    "last_price": 3.95e-06,
+    "candle_timestamp": 1794753000000,
+    "open": 3.97e-06,
+    "high": 3.98e-06,
+    "low": 3.95e-06,
+    "close": 3.95e-06,
+    "volume": 99182172694.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price rejected from local high near 0.0000041 and is forming lower highs while approaching support around 0.0000039."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure showing higher highs is being invalidated by rejection from 0.0000041 and subsequent lower highs."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 62,
+    "visual_evidence": "Price rejected from local highs near 0.0000041, forming lower highs and drifting toward support at 0.0000039. Volume has tapered during the recent pullback.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "Pattern confirmation requires a close below support.",
+      "Limited historical context on the 15m timeframe."
+    ]
+  }
+}

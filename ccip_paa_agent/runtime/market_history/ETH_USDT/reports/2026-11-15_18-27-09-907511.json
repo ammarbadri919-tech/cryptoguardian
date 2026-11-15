@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:27:09.907320+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:26:12+05:30",
+    "last_price": 1831.94,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1833.92,
+    "low": 1830.33,
+    "close": 1831.94,
+    "volume": 1031.7781,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Prior bearish structure from 1900 down to 1725. Price broke above key swing highs around 1800-1825 and established higher lows at 1775, confirming shift to bullish market structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows visible: left shoulder ~1775, head ~1725, right shoulder ~1775. Neckline resistance around 1825. Price currently trading above neckline at 1832."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp upward impulse from 1775 to 1840 followed by sideways consolidation between 1820-1840."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price has shifted from bearish downtrend to bullish structure with higher lows at 1725 and 1775, breaking above resistance around 1825. Current price 1832 holds above key levels.",
+    "limitations": [
+      "Latest candle may still be forming, pattern completion not guaranteed",
+      "Inverse H&S left shoulder is less distinct than ideal",
+      "Bullish flag is short-term and may resolve either way"
+    ]
+  }
+}

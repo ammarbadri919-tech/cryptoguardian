@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:55:06.835524+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:54:02+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794755700000,
+    "open": 3.93e-06,
+    "high": 3.93e-06,
+    "low": 3.9e-06,
+    "close": 3.92e-06,
+    "volume": 35635887148.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct peaks visible near 0.0000041 with an intermediate trough around 0.00000395-0.0000040. Price is currently declining from the second peak toward/below the neckline area at current price ~0.00000392."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Market structure shifted from bullish to bearish; price failed at 0.0000041 resistance and broke below recent swing low around 0.00000395."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp upward impulse to 0.0000041 followed by downward-sloping consolidation near current price 0.00000392."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price formed a double top near 0.0000041 and is breaking below the intermediate support around 0.00000395. Short-term structure has shifted bearish with lower highs forming.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Key levels estimated from chart visuals",
+      "Low timeframe noise may invalidate pattern quickly",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

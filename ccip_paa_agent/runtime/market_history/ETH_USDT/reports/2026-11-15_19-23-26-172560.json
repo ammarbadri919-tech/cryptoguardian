@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:23:26.172446+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:22:39+05:30",
+    "last_price": 1836.95,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1836.96,
+    "low": 1830.64,
+    "close": 1836.95,
+    "volume": 1060.0521,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 80,
+        "evidence": "Market structure shifted from bearish to bullish as price broke above the prior swing high around 1825 after establishing a higher low near 1775."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Three lows visible with middle low (head) near 1725 lower than left and right shoulders near 1775-1800. Neckline resistance around 1825 has been breached."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse followed by tight consolidation near recent highs."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price transitioned from downtrend to uptrend structure after breaking key resistance at 1825. Inverse head and shoulders pattern visible with breakout above neckline. Current price consolidating near 1835-1850.",
+    "limitations": [
+      "15m timeframe noise; exact candlestick formations difficult to verify at this resolution.",
+      "Pattern invalidation possible if price reclaims below 1775.",
+      "Volume profile not clearly visible to confirm breakout strength."
+    ]
+  }
+}

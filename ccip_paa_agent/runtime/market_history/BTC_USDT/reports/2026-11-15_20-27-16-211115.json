@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:27:16.210918+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:26:32+05:30",
+    "last_price": 64950.0,
+    "candle_timestamp": 1794753900000,
+    "open": 64634.13,
+    "high": 64956.79,
+    "low": 64634.13,
+    "close": 64950.0,
+    "volume": 152.66405,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct price highs visible near 66000 separated by a swing low around 64500. Price is currently declining from the second top toward the neckline."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure from the 62000 area low with higher highs and higher lows. Recent rejection at 66000 and decline toward 64500 suggests a potential structural shift."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows contracting range with lower highs near 66000 and higher lows near 64500-65000."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "BTC/USDT rejected from approximately 66000 twice, forming a potential double top. Current price at 64950 is testing the neckline area around 64500. Volume has tapered during the consolidation at the top.",
+    "limitations": [
+      "15m timeframe is susceptible to noise and false signals",
+      "Current candle may still be forming and could alter the pattern",
+      "Pattern confirmation requires a close below key support levels"
+    ]
+  }
+}

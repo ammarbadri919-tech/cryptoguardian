@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:39:25.159230+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:36:53+05:30",
+    "last_price": 1833.8,
+    "candle_timestamp": 1794747600000,
+    "open": 1835.93,
+    "high": 1839.2,
+    "low": 1833.8,
+    "close": 1833.8,
+    "volume": 1164.5564,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 80,
+        "evidence": "Left shoulder low around 1775, head low around 1725, right shoulder low around 1775-1780. Neckline resistance around 1800-1825. Current price 1833.8 is above neckline."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish lower highs/lows to bullish higher highs/lows. Price is breaking above prior swing high around 1825-1840."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 78,
+    "visual_evidence": "Price has formed higher lows (1725 to 1775) and is breaking above recent swing highs around 1825-1840. Inverse H&S structure visible with neckline breakout.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Volume confirmation not clearly visible on chart",
+      "Pattern targets are projections, not guarantees"
+    ]
+  }
+}

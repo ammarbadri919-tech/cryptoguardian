@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:07:34.983501+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:06:36+05:30",
+    "last_price": 64923.26,
+    "candle_timestamp": 1794753000000,
+    "open": 64901.16,
+    "high": 65029.58,
+    "low": 64761.0,
+    "close": 64923.26,
+    "volume": 128.79862,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from approximately 62300 to 66000 followed by a downward drift/consolidation toward current price 64923, consistent with a bullish flag formation."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Two swing highs in the 66000-67000 area separated by a decline toward 64000-64500, with current price pulling back from the second top."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 50,
+        "evidence": "Recent bullish structure established a higher high near 66000, but the current pullback is approaching the prior swing low around 64000, threatening a structural shift."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Strong rally from 62300 to 66000 followed by consolidation/pullback; price currently near 64923 testing the lower portion of the post-rally range.",
+    "limitations": [
+      "Latest candle may still be forming, so pattern states could change.",
+      "Pattern confirmation requires breakout or breakdown; no confirmation is currently visible.",
+      "Volume profile and exact candle wicks are not fully resolvable from the image."
+    ]
+  }
+}

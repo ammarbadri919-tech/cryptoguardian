@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:51:01.573286+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:49:59+05:30",
+    "last_price": 1825.64,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1820.25,
+    "close": 1825.64,
+    "volume": 1955.5812,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price consolidating after strong rally from 1725, forming lower highs near 1850 and higher lows near 1800-1825"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish higher-high structure failing at 1850, price making lower highs and testing support near 1825"
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse to 1850 followed by slight downward-sloping consolidation with decreasing volume"
+      }
+    ],
+    "market_structure": "SIDEWAYS",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 58,
+    "visual_evidence": "Price ranging between 1800 and 1850 after strong rally from 1725, recent rejection at 1850 with current price near 1825",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakout direction uncertain",
+      "Intraday noise may invalidate developing structures"
+    ]
+  }
+}

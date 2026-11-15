@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:36:40.952003+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:35:37+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.92e-06,
+    "volume": 72577132193.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Two swing highs visible near the 0.0000041 level with an intervening trough. Price is currently retesting the neckline support around 0.0000039."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bullish market structure with higher highs failed at 0.0000041. Price is now breaking below recent swing lows and shifting to bearish order flow."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Lower highs forming from the 0.0000041 peak while price finds repeated support near 0.0000039. Converging toward a breakdown point."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 70,
+    "visual_evidence": "Price formed a double top near 0.0000041 and is breaking below neckline support at 0.0000039. Recent structure shifted from bullish to bearish with lower highs.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Rightmost candle may still be forming",
+      "Pattern confirmation requires candle close below key support"
+    ]
+  }
+}

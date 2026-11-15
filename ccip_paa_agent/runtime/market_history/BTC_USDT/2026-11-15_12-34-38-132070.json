@@ -1,0 +1,56 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:34:38.131232+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:33:39+00:00",
+    "last_price": 65492.01,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65520.0,
+    "low": 65422.0,
+    "close": 65492.01,
+    "volume": 29.65136,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from bearish to bullish after price established a higher low near 62500 and broke above prior swing highs around 65000-66000."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 62500 to 66000 followed by tight consolidation with slight downward drift between 64000 and 66200."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Two distinct price rejections near 66000-66500 with an intermediate low around 64000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price is consolidating after a strong bullish impulse from the 62500 swing low. Structure shows higher lows with resistance near 66000. Multiple competing patterns are possible.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close above or below key levels",
+      "Conflicting patterns (Bullish Flag vs Double Top) require breakout confirmation"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:24:34.397164+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:23:17+05:30",
+    "last_price": 65504.0,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65566.0,
+    "low": 65430.0,
+    "close": 65504.0,
+    "volume": 83.59544,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish (lower lows from 67000 to 62500) to bullish with a higher low at approximately 64000 and a break above prior swing high near 65500-66000."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 64000 to 66000 followed by tight sideways to slightly downward consolidation between 65000 and 65800."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Price broke above the prior swing high around 65500, reaching approximately 66000, indicating a bullish structural break within the emerging uptrend."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 70,
+    "visual_evidence": "Price transitioned from a bearish downtrend to a bullish uptrend with higher lows and higher highs. A strong impulse from approximately 62500 to 66000 was followed by consolidation near resistance at 65500-65800.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "15m timeframe is susceptible to noise.",
+      "Key levels are visual estimates from the chart image.",
+      "Volume confirmation is not fully assessable from the image alone."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:00:23.455799+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:59:27+05:30",
+    "last_price": 1811.21,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1833.07,
+    "low": 1809.44,
+    "close": 1811.21,
+    "volume": 5121.3393,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct swing highs near the 1850 resistance level are visible; price is currently declining toward the neckline support area around 1800-1810."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish market structure appears invalidated; price is making lower highs after the 1850 peak and approaching key swing low support."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Lower highs near 1850 with horizontal support around 1810 are forming a descending triangle pattern."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at 1850 resistance twice, forming potential double top; currently testing support near 1810 with bearish candles.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise can invalidate intraday patterns",
+      "Confirmation requires close below key support levels"
+    ]
+  }
+}

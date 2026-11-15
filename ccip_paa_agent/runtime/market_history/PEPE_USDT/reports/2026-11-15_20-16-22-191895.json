@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:16:22.191671+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:15:02+05:30",
+    "last_price": 3.94e-06,
+    "candle_timestamp": 1794753000000,
+    "open": 3.97e-06,
+    "high": 3.98e-06,
+    "low": 3.91e-06,
+    "close": 3.94e-06,
+    "volume": 157258723539.0,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp impulsive rally to approximately 0.00000410 followed by downward-sloping consolidation with lower highs and lower lows."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Shift from prior bullish impulse structure to bearish drift with lower highs after rejection at 0.00000410."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from local high near 0.00000410 and is drifting downward toward support near 0.00000390 with bearish candlestick sequence.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe noise",
+      "No volume profile confirmation visible"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:05:27.713415+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:05:01+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794749400000,
+    "open": 4.02e-06,
+    "high": 4.03e-06,
+    "low": 4.01e-06,
+    "close": 4.03e-06,
+    "volume": 21244131471.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse move followed by tight sideways consolidation with contracting volatility near 0.0000040"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Market structure shifted from prior downtrend to uptrend with higher highs and higher lows established after the swing low"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Price action contracting into a narrowing range following the recent impulse rally"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Strong impulse move upward followed by consolidation at higher levels; market structure has shifted from bearish to bullish with higher highs and higher lows",
+    "limitations": [
+      "Current candle may still be forming",
+      "Pattern confirmation requires breakout above resistance",
+      "Low timeframe noise may invalidate short-term structures",
+      "Key levels are estimates based on visible price action"
+    ]
+  }
+}

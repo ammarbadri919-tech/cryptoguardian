@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:16:36.600363+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:15:04+05:30",
+    "last_price": 1832.86,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1833.13,
+    "low": 1832.85,
+    "close": 1832.86,
+    "volume": 15.1526,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Three distinct swing lows visible: left shoulder near 1790, head at 1725, right shoulder near 1780. Neckline resistance around 1820-1825. Current price 1832.86 trades above neckline."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong impulsive rally from approximately 1725 to 1830 followed by tight sideways consolidation between 1825 and 1850."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish to bullish after price broke above prior swing high following the low at 1725. Sequence of higher highs and higher lows established."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Inverse head and shoulders forming with head at 1725 and neckline near 1825. Bullish flag consolidation after rally from 1725 to 1830. Bullish market structure shift confirmed.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Latest candle may still be forming",
+      "Breakout not yet confirmed with volume expansion"
+    ]
+  }
+}

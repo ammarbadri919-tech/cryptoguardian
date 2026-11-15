@@ -1,0 +1,55 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:42:26.361086+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:41:48+00:00",
+    "last_price": 4.04e-06,
+    "candle_timestamp": 1794745800000,
+    "open": 4.04e-06,
+    "high": 4.06e-06,
+    "low": 4.03e-06,
+    "close": 4.04e-06,
+    "volume": 60792787272.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 78,
+        "evidence": "Price shifted from making lower highs and lower lows during the downtrend to breaking above the prior swing high around 0.0000040, establishing a bullish market structure shift."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "A sharp impulsive upward move from approximately 0.00000385 to 0.00000405 was followed by tight downward/sideways consolidation near recent highs."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Price created a higher high after the CHoCH, breaking above the most recent swing high and confirming bullish continuation structure."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price reversed from a prior downtrend, established bullish structure with higher highs and higher lows, and is currently consolidating after a strong impulse move near 0.00000404.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakout not yet confirmed",
+      "Volume profile is not fully conclusive"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:59:19.969156+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:58:23+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794755700000,
+    "open": 3.93e-06,
+    "high": 3.94e-06,
+    "low": 3.9e-06,
+    "close": 3.93e-06,
+    "volume": 51458317786.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct peaks visible near the 0.0000040-0.00000405 area with a trough between them around 0.00000392-0.00000395. Price is currently declining from the second peak toward the neckline support."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish market structure showing higher highs and higher lows is being challenged by recent downside price action from the 0.00000405 resistance area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price has rejected from the 0.0000040-0.00000405 area twice, forming a potential double top. Current price at 0.00000393 is testing the neckline support area. Volume has been relatively low during the recent decline.",
+    "limitations": [
+      "Pattern confirmation requires candle close below key support levels.",
+      "Current candle may still be forming, so levels could shift.",
+      "Low volume during the decline reduces conviction."
+    ]
+  }
+}

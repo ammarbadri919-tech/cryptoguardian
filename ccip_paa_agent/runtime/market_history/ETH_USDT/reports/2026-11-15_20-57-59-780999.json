@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:57:59.780727+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:56:48+05:30",
+    "last_price": 1811.53,
+    "candle_timestamp": 1794755700000,
+    "open": 1808.77,
+    "high": 1812.81,
+    "low": 1805.28,
+    "close": 1811.53,
+    "volume": 2073.1284,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Two distinct price peaks near the 1840 level are visible on the right side of the chart, with price now declining from the second peak toward 1810."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish structure from the 1720 low is failing after rejection at 1840; a lower high is forming and price is approaching a potential lower low."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 58,
+        "evidence": "Left shoulder (~1760), head (~1720), and right shoulder (~1780) are visible; neckline near 1820 was previously broken before the rally to 1840."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at 1840 twice forming a developing double top; current decline from 1840 toward 1810 suggests bearish pressure, though confirmation below 1820 is pending.",
+    "limitations": [
+      "15m chart noise may invalidate intraday patterns quickly",
+      "The latest candle may still be forming",
+      "Volume profile is inconclusive at this resolution",
+      "Inverse H&S neckline retest is ambiguous as price is already below 1820"
+    ]
+  }
+}

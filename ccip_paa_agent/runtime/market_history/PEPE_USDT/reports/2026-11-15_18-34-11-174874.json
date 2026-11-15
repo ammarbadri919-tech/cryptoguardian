@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:34:11.174794+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:33:21+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794747600000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.03e-06,
+    "volume": 11430647054.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Prior bearish structure of lower highs and lower lows broken by rally above swing high near 0.0000040."
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Two distinct swing lows visible around 0.0000037 and 0.00000385-0.0000039 with intervening rally to neckline near 0.0000040."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp upward impulse followed by tight consolidation near recent highs around 0.0000040-0.0000041."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price shifted from bearish downtrend to bullish uptrend, breaking key resistance at 0.0000040. Double bottom structure visible with lows around 0.0000037 and 0.00000385.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation pending close above key levels",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

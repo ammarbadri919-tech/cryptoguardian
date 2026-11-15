@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:06:46.327318+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:05:56+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794756600000,
+    "open": 3.93e-06,
+    "high": 3.94e-06,
+    "low": 3.92e-06,
+    "close": 3.93e-06,
+    "volume": 16371065719.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs visible near 0.0000040-0.0000041 with a pullback between them. Price is currently retesting the neckline area around 0.00000393 after rejection from the 0.0000041 resistance zone."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Left shoulder near 0.0000040, head near 0.0000041, and right shoulder forming near 0.0000040. The neckline sits around 0.0000039-0.00000395."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Prior bullish structure showing higher highs is failing at 0.0000041 with lower highs forming. The recent downside move from the 0.0000041 area suggests a potential shift in market character."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from 0.0000041 resistance, forming lower highs. Potential double top and head-and-shoulders patterns developing at the neckline around 0.0000039-0.00000395.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "No volume confirmation visible on potential breakdown",
+      "Key levels are estimates based on visible axis labels"
+    ]
+  }
+}

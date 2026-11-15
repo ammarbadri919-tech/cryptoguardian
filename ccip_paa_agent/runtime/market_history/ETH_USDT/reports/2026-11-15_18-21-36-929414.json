@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:21:36.929315+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:20:50+05:30",
+    "last_price": 1831.11,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1833.44,
+    "low": 1830.33,
+    "close": 1831.11,
+    "volume": 577.5935,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 82,
+        "evidence": "Prior market structure was bearish with lower highs and lower lows down to approximately 1720. Price has broken above the prior swing high structure around 1800-1825 and is holding at 1831, indicating a shift to bullish market structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 76,
+        "evidence": "Three distinct lows visible: left shoulder around 1775, head around 1720, right shoulder around 1775-1780. Price has rallied above the neckline area around 1800-1825 and is currently at 1831."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 64,
+        "evidence": "Sharp rally from approximately 1720 to 1845 followed by tight consolidation near current price 1831, forming a potential bullish flag pattern."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 74,
+    "visual_evidence": "Price has shifted from a downtrend to an uptrend structure, breaking above key resistance around 1825 and forming higher lows. Current price at 1831 holds above broken structure with recent consolidation near highs.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern targets are projections, not guarantees",
+      "Volume confirmation not clearly visible from chart alone"
+    ]
+  }
+}

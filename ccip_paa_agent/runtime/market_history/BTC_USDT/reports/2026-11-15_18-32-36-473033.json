@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:32:36.472923+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:30:37+05:30",
+    "last_price": 65498.01,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65509.24,
+    "low": 65482.61,
+    "close": 65498.01,
+    "volume": 5.99189,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Prior downtrend from ~67000 to ~62500 followed by strong bullish impulse breaking above swing highs around 65000-65500, indicating potential shift in market structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Left shoulder around ~64000, head at ~62500, and right shoulder forming near ~64500-65000 with price currently testing neckline area around 65500."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Price consolidating after rally to ~66000 with lower highs and higher lows forming a narrowing range near current price ~65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price recovered from major low ~62500, made higher highs around 66000, and is currently consolidating around 65500 with bullish structure intact.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern recognition based on visual estimation without exact OHLC data",
+      "15m timeframe noise may invalidate intraday patterns quickly"
+    ]
+  }
+}

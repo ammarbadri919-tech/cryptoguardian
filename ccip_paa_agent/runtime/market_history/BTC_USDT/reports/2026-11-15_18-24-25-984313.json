@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:24:25.984090+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:21:55+05:30",
+    "last_price": 65445.99,
+    "candle_timestamp": 1794746700000,
+    "open": 65495.99,
+    "high": 65526.02,
+    "low": 65412.0,
+    "close": 65445.99,
+    "volume": 101.55546,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from bearish to bullish after price broke above the prior swing high around 65500 following the swing low near 62200. Price subsequently made a higher high near 66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Left shoulder formed near 65500/64000, head formed at the swing low near 62200, right shoulder formed near 64200/66000. Price broke above the neckline around 65500 and is currently retesting it near 65445."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulsive rally from approximately 64000 to 66000 followed by a slight downward/sideways consolidation near current price 65445."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "Price reversed from a swing low near 62200, broke above prior resistance around 65500, reached 66000, and is currently consolidating near 65445. Volume shows increased activity during the reversal and breakout move.",
+    "limitations": [
+      "Latest candle may still be forming; pattern status could change on candle close.",
+      "Exact high/low levels are estimates based on visible grid lines.",
+      "Candlestick-level patterns (e.g., engulfing, doji) cannot be reliably identified at this chart resolution."
+    ]
+  }
+}

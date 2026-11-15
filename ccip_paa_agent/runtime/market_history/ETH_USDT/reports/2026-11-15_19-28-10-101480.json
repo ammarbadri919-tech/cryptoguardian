@@ -1,0 +1,51 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:28:10.101395+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:27:12+05:30",
+    "last_price": 1834.3,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1836.96,
+    "low": 1830.64,
+    "close": 1834.3,
+    "volume": 1605.6889,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Sharp upward impulse from approximately 1725 to 1850 followed by tight sideways consolidation near recent highs. Current price 1834.3 is inside the flag formation."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Price compressing between roughly 1825 and 1850 with initial lower highs and higher lows beginning to form."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Recent sharp rally from ~1725 to ~1850 followed by consolidation between 1825-1850. Price currently at 1834.3 within a potential bullish flag. Market structure shifted from bearish to bullish with the upward impulse.",
+    "limitations": [
+      "15m chart resolution limits precise wick analysis",
+      "Current candle may still be forming",
+      "Pattern requires breakout confirmation; no guarantee of future price movement",
+      "Exact support/resistance levels are estimates based on visible grid lines"
+    ]
+  }
+}

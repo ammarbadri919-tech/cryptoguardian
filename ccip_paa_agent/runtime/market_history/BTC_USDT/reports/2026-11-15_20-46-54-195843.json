@@ -1,0 +1,51 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:46:54.195742+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:45:08+05:30",
+    "last_price": 64685.33,
+    "candle_timestamp": 1794754800000,
+    "open": 64766.08,
+    "high": 64859.5,
+    "low": 64474.99,
+    "close": 64685.33,
+    "volume": 278.48008,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Two distinct peaks near 66000 with an intermediate trough around 64800-65000. Price is currently declining from the second peak toward the neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Prior bullish structure from the 62200 low is deteriorating; recent price action shows lower highs and is approaching the recent swing low."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "BTC/USDT 15m shows price topping near 66000 with two distinct peaks forming a potential double top. Price is currently at 64685, testing the neckline area. Prior bullish structure from the 62200 low is weakening with lower highs.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact candle open/close not visible from image",
+      "15m timeframe susceptible to noise",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

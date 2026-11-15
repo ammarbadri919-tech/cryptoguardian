@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:41:27.342581+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:38:47+05:30",
+    "last_price": 65490.0,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65608.01,
+    "low": 65482.61,
+    "close": 65490.0,
+    "volume": 98.80482,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish to bullish after price broke above the prior swing high near 65500 following the low at approximately 62300. Higher highs near 66000 and higher lows near 64000-64500 are visible."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulsive rally from approximately 64000 to 66200 followed by tight sideways/slight downward consolidation near 65500-65800."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Low at approximately 62300 (head), with a higher low forming around 64000-64500 (right shoulder). Price is currently testing the neckline area near 65500-65800."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 60,
+    "visual_evidence": "Price has shifted from a downtrend to an uptrend structure with higher highs near 66000 and higher lows near 64000-64500. Current consolidation near 65500 suggests potential continuation or reversal completion.",
+    "limitations": [
+      "Latest candle may still be forming, so levels are approximate.",
+      "Pattern confirmation requires candle close above key resistance.",
+      "Volume profile is not clearly aligned with price action in all areas."
+    ]
+  }
+}

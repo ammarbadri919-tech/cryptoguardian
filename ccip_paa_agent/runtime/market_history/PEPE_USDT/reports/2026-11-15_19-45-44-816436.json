@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:45:44.816291+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:44:35+05:30",
+    "last_price": 3.99e-06,
+    "candle_timestamp": 1794751200000,
+    "open": 4e-06,
+    "high": 4.01e-06,
+    "low": 3.96e-06,
+    "close": 3.99e-06,
+    "volume": 212153805207.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.0000041 followed by consolidation in a tight, slightly downward-sloping range near current price of 0.00000399."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Price action is converging between approximately 0.00000395 and 0.00000405 after the rally to 0.0000041, forming lower highs and higher lows."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 60,
+    "visual_evidence": "PEPE/USDT recovered from lower lows near 0.00000375, rallied impulsively to approximately 0.0000041, and is currently consolidating just below 0.0000040 at 0.00000399. Recent structure shows higher lows and a shift from prior bearish momentum.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires a decisive breakout beyond consolidation boundaries",
+      "Intraday noise on the 15m timeframe may produce false early signals"
+    ]
+  }
+}

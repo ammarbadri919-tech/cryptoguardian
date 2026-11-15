@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:51:54.801581+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:50:46+05:30",
+    "last_price": 3.99e-06,
+    "candle_timestamp": 1794752100000,
+    "open": 3.98e-06,
+    "high": 4.02e-06,
+    "low": 3.96e-06,
+    "close": 3.99e-06,
+    "volume": 90026507392.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from ~0.0000039 to ~0.0000041 followed by downward drift with lower highs, forming a potential bearish flag channel."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Prior bullish market structure (higher highs and higher lows) is breaking down as price falls below recent swing lows near ~0.0000039-0.00000395."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Price tested the ~0.0000041 resistance area multiple times with intervening pullbacks, suggesting a potential double top formation."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected from ~0.0000041 resistance and is drifting lower with lower highs. Recent structure shows potential bearish flag and double top formations developing, with bullish structure breaking down.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle may still be forming",
+      "Key levels are visual estimates",
+      "Pattern confirmation pending"
+    ]
+  }
+}

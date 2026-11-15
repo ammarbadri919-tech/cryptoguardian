@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:47:29.815744+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:45:45+05:30",
+    "last_price": 65323.01,
+    "candle_timestamp": 1794752100000,
+    "open": 65304.01,
+    "high": 65335.87,
+    "low": 65263.72,
+    "close": 65323.01,
+    "volume": 4.63738,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Price shifted from a bearish downtrend structure to bullish after making a higher low near 62500 and breaking above the prior swing high structure around 65000-65500."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Left shoulder formed near 64500, head formed near 62500, and right shoulder is currently forming near 64000-64500 with price approaching the neckline area."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from approximately 62500 to 66000 followed by a tight consolidation/pullback near current price levels."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 75,
+    "visual_evidence": "Price recently reversed from a local low near 62500, rallied to approximately 66000, and is now consolidating near 65300 while testing prior structure as support.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Latest candle may still be forming",
+      "Key levels are visual estimates from the chart",
+      "No volume confirmation data available in image"
+    ]
+  }
+}

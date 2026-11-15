@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:44:49.767622+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:41:51+05:30",
+    "last_price": 65242.18,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65106.62,
+    "close": 65242.18,
+    "volume": 202.62116,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 78,
+        "evidence": "Market structure shifted from bearish to bullish after the swing low near 62500. Price broke above prior swing high and established a higher low near 64000 before rallying to 66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Three swing lows visible: left shoulder near 64000, head near 62500, right shoulder near 64000-64500. Neckline resistance around 65500. Current price at 65242 is testing the neckline area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 75,
+    "visual_evidence": "Price has shifted from a downtrend to an uptrend structure after the 62500 low. Current price is consolidating near the 65500 neckline area after rallying to 66000.",
+    "limitations": [
+      "15m timeframe noise may cause false breakouts",
+      "Pattern confirmation requires candle close above key levels",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

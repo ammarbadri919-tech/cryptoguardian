@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:48:18.307244+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:47:30+05:30",
+    "last_price": 65356.01,
+    "candle_timestamp": 1794752100000,
+    "open": 65304.01,
+    "high": 65356.01,
+    "low": 65263.72,
+    "close": 65356.01,
+    "volume": 15.58653,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish to bullish after low at ~62200; price broke above prior swing high at ~65500 to reach ~66000, establishing higher high and higher low."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive rally from ~62200 to ~66000 followed by consolidation in a downward-sloping range between ~64000 and ~66000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Three distinct lows visible with middle low (~62200) lower than left and right shoulders (~64000 area); neckline resistance around ~65000-65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price action shows a shift from bearish to bullish structure after the ~62200 low, with consolidation near recent highs suggesting potential continuation patterns.",
+    "limitations": [
+      "15m timeframe noise",
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout validation",
+      "Volume profile not fully visible"
+    ]
+  }
+}

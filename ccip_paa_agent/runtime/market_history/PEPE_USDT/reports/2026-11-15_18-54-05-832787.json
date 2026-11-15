@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:54:05.832608+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:53:10+05:30",
+    "last_price": 4.04e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.05e-06,
+    "low": 4.01e-06,
+    "close": 4.04e-06,
+    "volume": 46306753055.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish downtrend to bullish after price broke above prior swing highs around 0.0000040 following the 04:00 low."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp impulse move up around 14:00 from ~0.0000039 to ~0.00000405 followed by tight downward/sideways consolidation forming a flag channel."
+      },
+      {
+        "name": "Fair Value Gap (FVG)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Large impulsive candle around 14:00 left a visible price imbalance/gap between approximately 0.00000395 and 0.00000402 that remains unfilled."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price shifted from bearish to bullish structure after the 04:00 low, forming higher highs and higher lows. Currently consolidating near 0.0000040-0.00000405 after a sharp 14:00 impulse, suggesting a developing bullish flag. An unfilled fair value gap exists below recent price action.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Current candle may still be forming",
+      "No volume profile confirmation available"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:38:51.263874+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:37:44+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.92e-06,
+    "volume": 75013126897.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Price made a higher high near 0.0000041 then broke below the recent higher low around 0.00000395, indicating a shift from bullish to bearish market structure."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Left shoulder formed near 0.0000040, head peaked near 0.0000041, and right shoulder is forming near 0.0000040 with price now declining toward the neckline."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 70,
+    "visual_evidence": "Price rejected from the 0.0000041 area and is breaking below recent swing lows, with lower highs and lower lows developing on the 15m timeframe.",
+    "limitations": [
+      "Current candle may still be forming",
+      "Pattern confirmation requires candle close",
+      "Low timeframe noise may invalidate structure"
+    ]
+  }
+}

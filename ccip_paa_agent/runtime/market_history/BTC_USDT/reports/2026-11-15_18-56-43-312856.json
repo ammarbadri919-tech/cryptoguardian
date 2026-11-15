@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:56:43.312673+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:56:08+05:30",
+    "last_price": 65646.02,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65800.75,
+    "low": 65536.36,
+    "close": 65646.02,
+    "volume": 199.41703,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 78,
+        "evidence": "Strong impulsive rally from approximately 62200 to 66000 followed by a tight downward-sloping consolidation near the highs. Current price at 65646 is within the flag formation."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Prior market structure was bearish with lower highs and lower lows down to approximately 62200. Price has since broken above key swing highs and is holding above 65000, indicating a shift to bullish structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Left shoulder formed near 65000, head at approximately 62200, and right shoulder forming near 64000-64500. Price is currently testing the neckline area around 65500-66000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recovered from a major low near 62200 with strong bullish momentum, broke above prior downtrend structure, and is currently consolidating near recent highs around 65600-66000.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Breakout above resistance not yet confirmed",
+      "Intraday noise may invalidate short-term patterns"
+    ]
+  }
+}

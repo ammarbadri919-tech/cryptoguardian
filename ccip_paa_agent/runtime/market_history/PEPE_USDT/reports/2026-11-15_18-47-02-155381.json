@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:47:02.155263+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:45:38+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794748500000,
+    "open": 4.02e-06,
+    "high": 4.02e-06,
+    "low": 4.01e-06,
+    "close": 4.02e-06,
+    "volume": 369431660.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish lower lows to bullish higher low at 14:00, with price breaking above prior swing high near 0.0000040"
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing lows visible around 04:00 and 14:00, with second low higher than first, price currently testing neckline resistance"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Tight consolidation forming after impulsive upward move from 14:00 low"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Price formed higher low structure after downtrend, currently testing resistance at 0.00000405. Double bottom and CHoCH structures are developing with bullish bias.",
+    "limitations": [
+      "15m timeframe noise may invalidate formations quickly",
+      "Current candle may still be forming",
+      "Volume confirmation not clearly visible on breakout levels"
+    ]
+  }
+}

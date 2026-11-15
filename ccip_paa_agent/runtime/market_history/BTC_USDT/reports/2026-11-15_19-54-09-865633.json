@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:54:09.865528+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:53:18+05:30",
+    "last_price": 65373.5,
+    "candle_timestamp": 1794752100000,
+    "open": 65304.01,
+    "high": 65542.01,
+    "low": 65263.72,
+    "close": 65373.5,
+    "volume": 84.30963,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Visible three-low structure: left shoulder near 64000, head near 62300, right shoulder near 64200. Neckline resistance around 65500. Current price 65373 testing neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 70,
+        "evidence": "Prior bearish structure of lower lows invalidated by strong rally from 62300 low. Price established higher highs and higher lows, shifting market character to bullish."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp impulsive rally from 62300 to 66100 followed by downward-sloping consolidation near current price."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price formed a V-bottom near 62300, rallied to 66100, and is now consolidating near 65373. Inverse head and shoulders structure is visible with neckline around 65500.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact wick highs/lows difficult to determine from image",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:20:46.467782+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:19:48+05:30",
+    "last_price": 65414.12,
+    "candle_timestamp": 1794746700000,
+    "open": 65495.99,
+    "high": 65526.02,
+    "low": 65412.0,
+    "close": 65414.12,
+    "volume": 76.22589,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish structure of lower highs and lower lows from 67000 down to 62200 was invalidated. Price made a higher low at approximately 64000 after the head low, then broke above the previous swing high at approximately 65500, shifting market structure to bullish."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 78,
+        "evidence": "Distinct head formed at approximately 62200. Left shoulder low near 64000-64500 before the drop. Right shoulder low near 64000-64500 after the initial bounce. Neckline resistance around 65500 was broken with a rally to approximately 66000. Price currently at 65414 is retesting the neckline area."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from approximately 62200 to 66000 followed by tight consolidation between 65000 and 65800, forming a potential bullish flag pattern after the impulse move."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 75,
+    "visual_evidence": "BTC/USDT 15m chart shows a clear shift from bearish to bullish structure. Price formed an inverse head and shoulders with head at approximately 62200, shoulders near 64000-64500, and neckline around 65500. Breakout above the neckline reached approximately 66000 before the current retest to 65414. CHoCH is confirmed as price broke prior lower highs. A bullish flag consolidation is developing after the impulse rally.",
+    "limitations": [
+      "15m timeframe is susceptible to noise and false signals",
+      "Current candle may still be forming, altering pattern context",
+      "Volume confirmation is not fully conclusive from visual inspection",
+      "Pattern retest could fail, invalidating the breakout"
+    ]
+  }
+}

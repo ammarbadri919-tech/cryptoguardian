@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:05:42.563763+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:04:53+05:30",
+    "last_price": 3.97e-06,
+    "candle_timestamp": 1794753000000,
+    "open": 3.97e-06,
+    "high": 3.98e-06,
+    "low": 3.95e-06,
+    "close": 3.97e-06,
+    "volume": 72998402804.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Two distinct swing highs visible near 0.0000041 with a pullback between them. Price is currently breaking below the intermediate low/neckline area around 0.00000395."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish market structure showing higher highs and higher lows has been disrupted. Price is making lower highs and breaking below recent structural support."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 70,
+    "visual_evidence": "Price formed double top near 0.0000041 and is breaking below the neckline around 0.00000395. Recent structure shifted from bullish to bearish with lower highs.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns",
+      "Exact price levels are estimates from chart visuals",
+      "Latest candle may still be forming"
+    ]
+  }
+}

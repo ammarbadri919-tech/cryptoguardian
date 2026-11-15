@@ -1,0 +1,51 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:49:38.553612+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:48:15+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794755700000,
+    "open": 3.93e-06,
+    "high": 3.93e-06,
+    "low": 3.9e-06,
+    "close": 3.92e-06,
+    "volume": 19616448196.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct swing highs near 0.00000405-0.0000041 with a pullback between them; price currently breaking below the intervening support/neckline area around 0.00000395"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Prior bullish market structure with higher highs and higher lows invalidated by rejection at 0.0000041; price breaking below recent higher low"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at 0.0000041 forming double top; breaking below neckline around 0.00000395; bearish sequence developing at resistance",
+    "limitations": [
+      "Current candle may still be forming",
+      "15m timeframe noise may invalidate intraday structure",
+      "Confirmation requires close below neckline/support",
+      "Volume profile not clearly confirming breakdown"
+    ]
+  }
+}

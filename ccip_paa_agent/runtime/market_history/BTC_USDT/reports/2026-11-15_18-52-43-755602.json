@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:52:43.755514+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:51:56+05:30",
+    "last_price": 65736.01,
+    "candle_timestamp": 1794748500000,
+    "open": 65550.01,
+    "high": 65800.75,
+    "low": 65536.36,
+    "close": 65736.01,
+    "volume": 146.55322,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Price shifted from a downtrend to an uptrend by establishing a higher low around 64000 and breaking above the prior swing high near 65000."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Visible left shoulder near 64500, head near 62500, right shoulder near 64000, with price approaching the neckline around 65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Sharp rally from 62500 to 65500 followed by a downward-sloping consolidation/pullback to 64000, now breaking above flag resistance."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 80,
+    "visual_evidence": "Price reversed from a downtrend, established higher lows, and is breaking above key resistance near 65000-65500 with current price around 65736.",
+    "limitations": [
+      "Latest candle may still be forming.",
+      "Pattern confirmation depends on candle close.",
+      "SMC levels are approximate visual estimates.",
+      "Volume data is limited in resolution."
+    ]
+  }
+}

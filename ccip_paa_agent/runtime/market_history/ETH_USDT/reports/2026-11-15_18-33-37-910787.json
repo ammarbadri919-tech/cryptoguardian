@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:33:37.910608+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:32:44+05:30",
+    "last_price": 1836.73,
+    "candle_timestamp": 1794747600000,
+    "open": 1835.93,
+    "high": 1839.2,
+    "low": 1835.0,
+    "close": 1836.73,
+    "volume": 640.2672,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 80,
+        "evidence": "Three distinct swing lows visible at approximately 1775 (left shoulder), 1725 (head), and 1775 (right shoulder). Neckline resistance formed around 1825-1830. Current price 1836.73 is trading above the neckline breakout zone."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Prior bearish market structure of lower highs and lower lows from 1900 to 1725 invalidated by decisive rally above 1825 swing high. Price currently holding above broken structure level at 1836.73."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Following CHoCH above 1825, price is carving higher highs toward 1840, breaking intraday bearish microstructure."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 80,
+    "visual_evidence": "ETH/USDT 15m chart shows inverse head and shoulders reversal with neckline breakout above 1825. Price at 1836.73 confirms shift from prior bearish structure to bullish. CHoCH and BOS aligned to the upside.",
+    "limitations": [
+      "15m timeframe susceptible to noise and false breakouts",
+      "Pattern invalidation if price reclaims below 1775 right shoulder low",
+      "Candlestick resolution limits precise formation-state assessment"
+    ]
+  }
+}

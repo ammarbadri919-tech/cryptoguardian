@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:14:37.274815+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:13:44+05:30",
+    "last_price": 3.94e-06,
+    "candle_timestamp": 1794753000000,
+    "open": 3.97e-06,
+    "high": 3.98e-06,
+    "low": 3.91e-06,
+    "close": 3.94e-06,
+    "volume": 154498031463.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price tested resistance near 0.0000041 on two occasions with a pullback to approximately 0.00000395 between tests. Current price is breaking down from the second top area toward the neckline."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure formed higher highs up to 0.0000041. Price is now breaking below the recent higher low around 0.0000039, indicating a potential shift from bullish to bearish market character."
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Price spiked above the 0.0000041 resistance area, likely sweeping stop-loss liquidity above recent highs, before reversing sharply downward."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from 0.0000041 resistance, forming lower highs and breaking down toward 0.0000039 support. Recent candles show bearish momentum with selling pressure on the decline.",
+    "limitations": [
+      "Latest 15m candle is still forming and may close differently",
+      "Patterns are developing but not yet confirmed by candle closes",
+      "Intraday 15m noise may invalidate short-term setups"
+    ]
+  }
+}

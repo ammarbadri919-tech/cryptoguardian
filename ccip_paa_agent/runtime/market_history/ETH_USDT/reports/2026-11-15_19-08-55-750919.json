@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:08:55.750710+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:06:40+05:30",
+    "last_price": 1832.36,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1831.3,
+    "close": 1832.36,
+    "volume": 1076.3006,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Three swing lows are visible: left shoulder near 1775, head near 1725, and right shoulder near 1775-1780. Price is rallying above the neckline resistance around 1825."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from lower lows to a higher low after the ~1725 swing low. Price is breaking above the prior swing high resistance near 1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulsive rally from ~1725 to ~1825 followed by a consolidation/pullback formation. Price is attempting to break above the flag resistance area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price reversed from ~1725 lows, formed higher lows, and is breaking above recent resistance around 1825-1830. Volume shows increased activity on the rally.",
+    "limitations": [
+      "Latest candle may still be forming, exact close unknown.",
+      "Pattern targets are projections, not guarantees.",
+      "15m timeframe noise may invalidate intraday structures."
+    ]
+  }
+}

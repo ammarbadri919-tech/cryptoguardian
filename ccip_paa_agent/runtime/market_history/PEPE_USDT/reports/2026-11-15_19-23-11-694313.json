@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:23:11.694208+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:22:06+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794750300000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.01e-06,
+    "close": 4.03e-06,
+    "volume": 20352461971.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse around 14:30 from approximately 0.0000039 to 0.00000405 followed by tight sideways consolidation near 0.00000400-0.00000404"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Price broke above previous local highs and established a higher high after the prior downtrend from 0.0000043"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 58,
+        "evidence": "Recent price action compressing with lower highs and higher lows forming a converging range near 0.00000400"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 65,
+    "visual_evidence": "Recent rally from approximately 0.0000039 to 0.00000405 followed by consolidation suggests a bullish continuation setup, though breakout direction is not yet confirmed",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern breakout not yet confirmed",
+      "Low timeframe noise may invalidate short-term structures"
+    ]
+  }
+}

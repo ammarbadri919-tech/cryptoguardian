@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:28:14.657516+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:27:15+05:30",
+    "last_price": 1832.65,
+    "candle_timestamp": 1794746700000,
+    "open": 1830.64,
+    "high": 1833.92,
+    "low": 1830.33,
+    "close": 1832.65,
+    "volume": 1086.6322,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Left shoulder formed near 1790, head at 1725, right shoulder around 1780. Price is trading above the neckline area near 1825-1830."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish lower lows to a bullish higher low around 1775-1800, with price breaking above prior swing high resistance near 1825."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Sharp upward impulse into current price area followed by tight sideways consolidation at the top right of the chart."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 70,
+    "visual_evidence": "Price has rallied from 1725 lows, formed a higher low around 1775-1800, and is trading above key resistance near 1825-1830. Recent candles show consolidation at higher levels.",
+    "limitations": [
+      "15m timeframe noise may invalidate short-term patterns",
+      "Current candle may still be forming",
+      "Volume profile not fully conclusive for breakout strength"
+    ]
+  }
+}

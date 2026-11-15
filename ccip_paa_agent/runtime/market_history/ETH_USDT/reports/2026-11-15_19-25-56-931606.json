@@ -1,0 +1,58 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:25:56.931426+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:25:09+05:30",
+    "last_price": 1835.68,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1836.96,
+    "low": 1830.64,
+    "close": 1835.68,
+    "volume": 1366.5232,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish lower lows to bullish higher highs after the major swing low near 1725, with price now holding above prior resistance."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulse rally from ~1725 to ~1850 followed by tight sideways consolidation near the highs."
+      },
+      {
+        "name": "Ascending Triangle",
+        "type": "CONTINUATION",
+        "status": "DETECTED",
+        "confidence": 55,
+        "evidence": "Price testing ~1850 resistance repeatedly while forming higher lows in the 1800-1825 area."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price is consolidating near recent highs after a strong impulse rally from the ~1725 swing low. Market structure has shifted to bullish with higher highs and higher lows. Resistance is visible near 1850, support near 1825.",
+    "limitations": [
+      "15m chart noise may invalidate short-term patterns",
+      "Current candle may still be forming",
+      "Pattern breakouts are not guaranteed",
+      "Key levels are visual estimates"
+    ]
+  }
+}

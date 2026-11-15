@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:16:45.063039+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:15:05+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794750300000,
+    "open": 4.03e-06,
+    "high": 4.03e-06,
+    "low": 4.03e-06,
+    "close": 4.03e-06,
+    "volume": 436861.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs are visible near the 0.00000405 area with a pullback between them. Price is currently testing the second top region around 0.00000403."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "A sharp upward impulse moved price from approximately 0.00000390 to 0.00000405, followed by a slight downward consolidation forming a potential flag channel."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Recent price action shows converging lower highs and higher lows within a tightening range between roughly 0.00000395 and 0.00000405."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price has rallied from lower lows and is consolidating near recent highs around 0.00000405. Two distinct tops are visible at similar levels suggesting a potential double top, while the post-rally consolidation resembles a bullish flag. A symmetrical triangle is also forming in the most recent candles.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout beyond key levels",
+      "Volume profile not fully visible for confirmation"
+    ]
+  }
+}

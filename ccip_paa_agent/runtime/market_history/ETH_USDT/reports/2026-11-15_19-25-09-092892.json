@@ -1,0 +1,51 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:25:09.092711+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:23:39+05:30",
+    "last_price": 1835.24,
+    "candle_timestamp": 1794750300000,
+    "open": 1833.13,
+    "high": 1836.96,
+    "low": 1830.64,
+    "close": 1835.24,
+    "volume": 1206.0937,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Market structure shifted from bearish lower highs/lows (1900 to 1725) to bullish structure. Price broke above prior swing highs around 1800-1825 and is holding above 1800 with higher lows near 1775."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMED",
+        "confidence": 78,
+        "evidence": "Three swing lows visible: left shoulder ~1775, head ~1725, right shoulder ~1775. Neckline resistance around 1800-1825 has been breached with price trading near 1835."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 80,
+    "visual_evidence": "Price transitioned from downtrend structure (1900 to 1725) to uptrend structure with higher lows (~1775) and higher highs (~1835). Inverse Head and Shoulders neckline broken. CHoCH confirmed as bearish structure invalidated.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Key levels are approximate visual estimates from chart",
+      "No lower timeframe confirmation",
+      "Volume profile not fully analyzed"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:40:27.701071+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:39:39+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794747600000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.01e-06,
+    "close": 4.03e-06,
+    "volume": 25841211628.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Left shoulder formed near 0.0000039 around 22:45, head at 0.0000037 around 03:45, right shoulder forming near 0.0000039 around 08:45-13:45. Neckline resistance around 0.0000040-0.0000041."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulse rally around 13:45 from 0.0000039 to 0.0000041 followed by tight sideways consolidation near 0.0000040-0.0000041."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 55,
+        "evidence": "Market structure shifted from lower lows to higher lows after the 03:45 bottom, with price breaking above prior swing high near 0.0000040."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price formed higher lows after 03:45 decline, testing neckline resistance near 0.0000040-0.0000041. Inverse head and shoulders structure visible with left shoulder ~0.0000039, head ~0.0000037, right shoulder ~0.0000039. Bullish flag consolidation forming after 13:45 impulse.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns before completion",
+      "Pattern confirmation requires candle close above key levels",
+      "Volume profile not clearly visible for breakout validation",
+      "Current candle may still be forming, levels are estimates"
+    ]
+  }
+}

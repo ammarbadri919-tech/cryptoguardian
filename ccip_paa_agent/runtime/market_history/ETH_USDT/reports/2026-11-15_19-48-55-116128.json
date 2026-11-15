@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:48:55.114466+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:45:42+05:30",
+    "last_price": 1822.13,
+    "candle_timestamp": 1794752100000,
+    "open": 1821.76,
+    "high": 1822.13,
+    "low": 1820.25,
+    "close": 1822.13,
+    "volume": 150.5222,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from approximately 1775 to 1850 followed by a tight downward/sideways consolidation near 1820-1850."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Two distinct swing highs near 1850 separated by a pullback to approximately 1790-1800."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DETECTED",
+        "confidence": 50,
+        "evidence": "Prior bullish structure of higher highs and higher lows is at risk if price breaks below the recent higher low near 1790."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "ETH/USDT rallied from approximately 1725 to 1850, forming two distinct highs near 1850. Price is currently consolidating around 1822 after rejection at 1850 resistance. A bullish flag is developing off the recent impulse, while a double top and potential CHoCH are forming if support fails.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Chart image resolution limits precise wick analysis",
+      "Volume confirmation not clearly visible"
+    ]
+  }
+}

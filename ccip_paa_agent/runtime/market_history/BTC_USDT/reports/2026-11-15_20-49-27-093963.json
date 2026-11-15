@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:49:27.093824+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:48:16+05:30",
+    "last_price": 64656.77,
+    "candle_timestamp": 1794755700000,
+    "open": 64685.33,
+    "high": 64691.6,
+    "low": 64590.01,
+    "close": 64656.77,
+    "volume": 30.87733,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs visible near 66000 (session open and recent 14:00-15:00 peak). Price declining from second peak toward neckline support around 64000-64500."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure from 62500 low to 66000 high. Recent price action forming lower highs and approaching recent swing low at 64000. Potential bearish structure break."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Left shoulder near 65800, head near 66000, right shoulder forming near 65500-65800. Neckline support around 64000."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rallied from 62500 low to 66000 high, now correcting toward 64000. Two tops near 66000 suggest potential reversal. Volume lower on recent rally compared to selling climax at 62500.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires close below key support levels",
+      "Intraday 15m noise may invalidate formations quickly"
+    ]
+  }
+}

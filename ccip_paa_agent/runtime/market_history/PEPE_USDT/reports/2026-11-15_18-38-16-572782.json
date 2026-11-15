@@ -1,0 +1,50 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:38:16.572690+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:37:36+05:30",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794747600000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.02e-06,
+    "volume": 20088755402.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from lower highs and lower lows to higher highs and higher lows after the swing low near 03:45 at approximately 0.0000037; price broke above prior downtrend resistance around 0.0000040"
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse around 13:45 from approximately 0.0000039 to 0.0000041 followed by tight sideways consolidation near local highs"
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "BREAKOUT_UP",
+    "confidence": 65,
+    "visual_evidence": "Price shifted from a clear downtrend to an uptrend after the 03:45 swing low, with a recent strong impulse up and consolidation near 0.0000040-0.0000041",
+    "limitations": [
+      "15m chart noise may invalidate short-term formations quickly",
+      "The latest candle may still be forming, so levels are approximate",
+      "Pattern confirmation requires a decisive breakout above resistance; no breakout is guaranteed"
+    ]
+  }
+}

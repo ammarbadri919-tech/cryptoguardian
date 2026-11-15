@@ -1,0 +1,48 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:34:48.130938+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:33:41+00:00",
+    "last_price": 1831.3,
+    "candle_timestamp": 1794745800000,
+    "open": 1831.59,
+    "high": 1832.71,
+    "low": 1829.4,
+    "close": 1831.3,
+    "volume": 430.4715,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong upward impulse from approximately 1775 to 1840 followed by tight consolidation with slightly lower highs, forming a flag channel."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Market structure shifted from bearish to bullish after price established a higher low near 1725 and reclaimed prior swing high area around 1825."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "ETH/USDT is trading around 1831.3 after a strong rally from the 1725 area. Recent price action shows a bullish flag formation with consolidation near 1830-1840. Market structure has shifted bullish with higher highs and higher lows.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "No confirmed breakout yet",
+      "Intraday noise can invalidate short-term patterns"
+    ]
+  }
+}

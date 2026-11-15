@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:03:10.430087+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:02:28+05:30",
+    "last_price": 1831.91,
+    "candle_timestamp": 1794749400000,
+    "open": 1836.1,
+    "high": 1836.31,
+    "low": 1831.3,
+    "close": 1831.91,
+    "volume": 391.6305,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse from approximately 1725 to 1835 followed by tight sideways consolidation near the highs, forming the flag portion after the pole."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Three swing lows visible: left shoulder around 1760, lower head around 1725, right shoulder around 1775. Price has rallied above the neckline area (~1800-1810)."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price formed higher lows after the 1725 swing low, with a strong impulse into current resistance. Recent consolidation suggests a bullish flag forming after the latest leg up.",
+    "limitations": [
+      "Current candle may still be forming",
+      "15m timeframe prone to noise",
+      "Breakout confirmation pending"
+    ]
+  }
+}

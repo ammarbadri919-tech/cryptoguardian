@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:26:07.326583+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:25:27+05:30",
+    "last_price": 65493.15,
+    "candle_timestamp": 1794746700000,
+    "open": 65495.99,
+    "high": 65526.02,
+    "low": 65412.0,
+    "close": 65493.15,
+    "volume": 116.43593,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 75,
+        "evidence": "Market structure shifted from bearish lower highs and lower lows to bullish after price broke above the prior swing high near 65500-66000 following the major low around 62400."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Sharp upward impulse from approximately 62400 to 66200 followed by tight sideways consolidation near current price 65493."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Three distinct lows visible with the middle low (head) near 62400 lower than the surrounding shoulders, with neckline resistance around 65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "UNCLEAR",
+    "confidence": 70,
+    "visual_evidence": "Price reversed from a major low near 62400, broke above prior swing high structure indicating a bullish CHoCH, and is currently consolidating near resistance around 65500-66000.",
+    "limitations": [
+      "Latest 15m candle may still be forming",
+      "Intraday noise can invalidate short-term structures",
+      "Pattern confirmation requires candle close beyond key levels"
+    ]
+  }
+}

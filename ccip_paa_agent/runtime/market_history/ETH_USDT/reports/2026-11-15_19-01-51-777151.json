@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:01:51.776966+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:00:04+05:30",
+    "last_price": 1836.1,
+    "candle_timestamp": 1794748500000,
+    "open": 1834.67,
+    "high": 1841.28,
+    "low": 1832.32,
+    "close": 1836.1,
+    "volume": 2806.9083,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 78,
+        "evidence": "Market structure shifted from bearish lower lows/lower highs (decline from 1900 to 1725) to bullish higher highs/higher lows. Price broke above the 1825 swing high and is currently holding above it near 1836."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Price is consolidating in a narrowing range after the sharp rally from 1725, forming lower highs near 1840-1845 and higher lows near 1825-1830."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulsive advance from 1725 to 1835 followed by tight sideways consolidation near the top of the move."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price has shifted from a downtrend to an uptrend structure after the 1725 low, but is currently consolidating in a tight range between 1825 and 1845 without a clear breakout.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout beyond current range",
+      "Volume profile not fully visible for all candles"
+    ]
+  }
+}

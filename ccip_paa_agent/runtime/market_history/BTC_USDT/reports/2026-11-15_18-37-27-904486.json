@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:37:27.904291+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:36:44+05:30",
+    "last_price": 65523.06,
+    "candle_timestamp": 1794747600000,
+    "open": 65509.24,
+    "high": 65608.01,
+    "low": 65482.61,
+    "close": 65523.06,
+    "volume": 84.72655,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse from approximately 64000 to 66000 followed by tight consolidation near 65500, forming a potential flag pattern."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Market structure shifted from bearish lower lows to bullish higher highs after the major low near 62200, with price breaking above prior swing highs."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Major low near 62200 (head), followed by a higher low near 64000 (right shoulder), with price approaching the neckline area around 65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recovered from a major low near 62200 to approximately 66000, now consolidating around 65500 with bullish momentum intact but lacking breakout confirmation.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "Key levels are approximate visual estimates from the chart",
+      "Volume profile is not fully detailed for confirmation"
+    ]
+  }
+}

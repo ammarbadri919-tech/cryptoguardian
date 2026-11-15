@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:45:36.026748+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:43:27+05:30",
+    "last_price": 1807.79,
+    "candle_timestamp": 1794754800000,
+    "open": 1806.99,
+    "high": 1814.18,
+    "low": 1800.49,
+    "close": 1807.79,
+    "volume": 3808.9086,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bullish market structure (higher highs and higher lows from the 1725 low) has been violated as price broke below the recent swing low around 1800-1810 after rejection at 1840-1845 resistance."
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct swing highs visible near 1840-1845 with an intervening trough around 1800-1810, forming the classic double top shape."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price rejected at 1840-1845 resistance twice and has broken below recent swing lows around 1800, shifting structure from bullish to bearish. A double top formation is developing with neckline near 1800.",
+    "limitations": [
+      "15m timeframe noise may invalidate intraday patterns quickly",
+      "Current candle may still be forming, so price levels are estimates",
+      "Volume confirmation is not clearly distinguishable from the chart alone"
+    ]
+  }
+}

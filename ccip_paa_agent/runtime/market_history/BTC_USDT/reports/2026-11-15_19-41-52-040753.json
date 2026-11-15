@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:41:52.040656+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:38:54+05:30",
+    "last_price": 65176.0,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65106.62,
+    "close": 65176.0,
+    "volume": 164.99561,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 85,
+        "evidence": "Price established a bearish structure with lower lows down to approximately 62000, then rallied decisively above prior swing highs around 65000-65500, shifting market structure from bearish to bullish."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Three swing lows are visible: left shoulder near 64000-64500, head at approximately 62000-62500, and right shoulder near 64000-64500. Price has broken above the estimated neckline around 65000-65500."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp vertical rally from approximately 62000 to 66000 followed by tight, choppy consolidation near the top of the move."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "BTC/USDT 15m shows a sharp V-shaped recovery from ~62000 to ~66000 after a downtrend from ~67000. Market structure has shifted bullish with a CHoCH above 65000-65500. Price is currently consolidating near 65000-66000 after reaching ~66000.",
+    "limitations": [
+      "15m chart noise may obscure smaller timeframe structure",
+      "Current candle may still be forming",
+      "Exact swing points are visual estimates without OHLC data"
+    ]
+  }
+}

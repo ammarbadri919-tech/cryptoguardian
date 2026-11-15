@@ -1,0 +1,49 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:23:49.026538+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:22:57+05:30",
+    "last_price": 4.03e-06,
+    "candle_timestamp": 1794746700000,
+    "open": 4.03e-06,
+    "high": 4.04e-06,
+    "low": 4.02e-06,
+    "close": 4.03e-06,
+    "volume": 50540374315.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMED",
+        "confidence": 75,
+        "evidence": "Price broke above prior swing high near 0.0000040 after establishing higher lows, shifting market structure from bearish to bullish."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive move up followed by tight downward-sloping consolidation between roughly 0.0000040 and 0.0000041."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Market structure shifted from downtrend to uptrend with a break of structure around 0.0000040. Price is currently consolidating in a bullish flag formation near 0.0000040-0.0000041.",
+    "limitations": [
+      "Latest candle may still be forming; pattern completion not guaranteed.",
+      "Key levels are visual estimates from chart grid."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:50:15.974723+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:49:12+05:30",
+    "last_price": 1810.87,
+    "candle_timestamp": 1794755700000,
+    "open": 1808.77,
+    "high": 1810.87,
+    "low": 1805.28,
+    "close": 1810.87,
+    "volume": 633.4935,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two swing highs near 1830-1840 visible, separated by a swing low near 1785. Price is currently declining from the second high toward the neckline area."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp upward impulse from ~1780 to ~1840 followed by a downward drifting consolidation from the 1840 peak."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Prior bullish market structure from the 06:00 low is being challenged by rejection at 1840 and downward price momentum."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected at ~1840 resistance twice with an intermediate low near 1785. Current decline from second high suggests developing bearish reversal structure.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "15m timeframe prone to noise and false breakouts",
+      "Key support break not yet confirmed"
+    ]
+  }
+}

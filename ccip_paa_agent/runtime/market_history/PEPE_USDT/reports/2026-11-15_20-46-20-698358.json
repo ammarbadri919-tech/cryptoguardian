@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:46:20.698175+05:30",
+  "cycle_completed": true,
+  "cycle_start_ist": "2026-11-15T20:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:45:07+05:30",
+    "last_price": 3.93e-06,
+    "candle_timestamp": 1794754800000,
+    "open": 3.96e-06,
+    "high": 3.96e-06,
+    "low": 3.91e-06,
+    "close": 3.93e-06,
+    "volume": 98993640604.0,
+    "candle_is_probably_closed": true
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct peaks visible near the 0.0000041 resistance area with a pullback between them; price is currently declining from the second peak toward the neckline area."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish structure of higher highs and higher lows has been disrupted; price is now forming lower highs and testing lower lows after rejection at 0.0000041."
+      },
+      {
+        "name": "Descending Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Lower highs are forming near the 0.0000041 resistance zone while price consolidates above the 0.0000039 support area."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 60,
+    "visual_evidence": "Price rejected at the 0.0000041 resistance zone, formed lower highs, and is currently declining from approximately 0.00000393 toward the 0.0000039 support level.",
+    "limitations": [
+      "15m timeframe noise may produce false signals.",
+      "Patterns are incomplete and lack breakout confirmation.",
+      "Volume profile is not clearly conclusive for pattern validation."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:59:58.078864+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:58:30+05:30",
+    "last_price": 64660.92,
+    "candle_timestamp": 1794755700000,
+    "open": 64685.33,
+    "high": 64796.22,
+    "low": 64590.01,
+    "close": 64660.92,
+    "volume": 121.0979,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive rally from approximately 62,200 to 66,000 followed by a downward-sloping price drift/consolidation toward current ~64,660."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Bullish market structure from the 62,200 swing low to 66,000 high is deteriorating as price forms lower highs and approaches prior swing low."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rallied from ~62,200 to ~66,000, then drifted lower to current ~64,660 with lower highs forming. No confirmed breakout yet.",
+    "limitations": [
+      "15m chart noise",
+      "Latest candle may still be forming",
+      "Pattern confirmation pending breakout"
+    ]
+  }
+}

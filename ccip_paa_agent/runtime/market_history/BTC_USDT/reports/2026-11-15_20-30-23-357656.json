@@ -1,0 +1,58 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:30:23.357407+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:27:34+05:30",
+    "last_price": 64951.46,
+    "candle_timestamp": 1794753900000,
+    "open": 64634.13,
+    "high": 64974.0,
+    "low": 64634.13,
+    "close": 64951.46,
+    "volume": 166.06124,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Two distinct price highs near the 66000 level are visible on the chart. Price is currently declining from the second high near 66000 after rejecting that resistance area."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "A sharp rally from approximately 64000 to 66000 was followed by a consolidation/drift lower near current price action around 64951."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 50,
+        "evidence": "Market structure shifted from bullish (higher low from 62000 to 64000, higher high to 66000) to potential bearish as price rejects 66000 and declines toward current levels."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 55,
+    "visual_evidence": "Price formed resistance near 66000 twice and is currently breaking down from that area. Recent price action is approximately 64951, below the 65000 psychological level, with red candles dominating the most recent sequence.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Key levels are approximate visual estimates from chart",
+      "15m timeframe noise may invalidate intraday patterns",
+      "Pattern confirmation requires close of additional candles"
+    ]
+  }
+}

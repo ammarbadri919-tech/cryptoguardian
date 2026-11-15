@@ -1,0 +1,43 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:10:58.843959+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:10:18+05:30",
+    "last_price": 65426.0,
+    "candle_timestamp": 1794749400000,
+    "open": 65566.0,
+    "high": 65570.01,
+    "low": 65368.0,
+    "close": 65426.0,
+    "volume": 112.96866,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Strong impulsive rally from approximately 62500 to 66000 followed by a downward-sloping consolidation channel near current price 65426."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recently rallied strongly from ~62500 to ~66000 and is now consolidating in a slight downward channel, consistent with a bullish flag formation.",
+    "limitations": [
+      "Current candle may still be forming",
+      "Pattern confirmation requires breakout above flag resistance",
+      "Exact flag boundaries are approximate"
+    ]
+  }
+}

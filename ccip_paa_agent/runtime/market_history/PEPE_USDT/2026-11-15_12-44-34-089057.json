@@ -1,0 +1,55 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:44:34.088308+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:43:53+00:00",
+    "last_price": 4.02e-06,
+    "candle_timestamp": 1794745800000,
+    "open": 4.04e-06,
+    "high": 4.06e-06,
+    "low": 4.02e-06,
+    "close": 4.02e-06,
+    "volume": 66295939758.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse from approximately 0.0000039 to 0.00000405 followed by consolidation in a slight downward-sloping channel near current price 0.00000402."
+      },
+      {
+        "name": "Break of Structure (BOS)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Price has moved above the recent swing high around 0.0000040 after establishing a higher low near 0.0000039, suggesting a shift to bullish market structure."
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Recent price action shows converging lower highs and higher lows within the consolidation range between 0.0000040 and 0.0000041."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price is consolidating after a strong upward impulse from the 0.0000039 area. Recent structure shows higher lows and an attempt to establish higher highs, with current price around 0.00000402.",
+    "limitations": [
+      "15m timeframe noise may cause false pattern signals",
+      "Current candle may still be forming, levels are approximate",
+      "No volume confirmation visible in pattern analysis"
+    ]
+  }
+}

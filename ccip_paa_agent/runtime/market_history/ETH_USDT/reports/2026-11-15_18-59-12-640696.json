@@ -1,0 +1,50 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T18:59:12.640612+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T18:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T18:58:41+05:30",
+    "last_price": 1832.33,
+    "candle_timestamp": 1794748500000,
+    "open": 1834.67,
+    "high": 1841.28,
+    "low": 1832.32,
+    "close": 1832.33,
+    "volume": 2436.7408,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 68,
+        "evidence": "Strong bullish impulse candle around 14:00 from approximately 1800 to 1850 followed by tight sideways consolidation between 1820 and 1840."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 62,
+        "evidence": "Prior bearish structure reversed after swing low near 1725; price formed higher low near 1775 and is rallying to retest previous swing high near 1850."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price shifted from downtrend to uptrend after low near 1725, formed higher low near 1775, rallied to 1850, and is currently consolidating near highs around 1832.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact wick levels difficult to determine from image",
+      "Volume profile not fully visible for FVG confirmation"
+    ]
+  }
+}

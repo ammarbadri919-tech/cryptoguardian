@@ -1,0 +1,163 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:50:28.683185+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:49:20+05:30",
+    "last_price": 1806.26,
+    "candle_timestamp": 1794759300000,
+    "open": 1807.43,
+    "high": 1809.73,
+    "low": 1805.29,
+    "close": 1806.26,
+    "volume": 950.4017,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "CONFIRMING",
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1840.0,
+          "level_low": 1810.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1840.0
+        },
+        "confidence": 80,
+        "evidence": "Sharp rally to ~1840 followed by tight consolidation between 1820-1840, with price now breaking below the flag support around 1815.",
+        "pattern_id": "9c230f95-f5cd-4d72-82b0-f96a68dff2c7",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:09.798581+00:00",
+        "last_seen": "2026-11-15T16:18:09.798581+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 1845.0,
+          "level_low": 1800.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1845.0
+        },
+        "confidence": 70,
+        "evidence": "Two distinct peaks near ~1840-1845 resistance with a swing low between them around 1815-1820; price has broken below the neckline area.",
+        "pattern_id": "cd97a55c-23db-4ee4-94e0-ca5d380807b9",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:09.798581+00:00",
+        "last_seen": "2026-11-15T16:18:09.798581+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1840.0,
+          "level_low": 1800.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1840.0
+        },
+        "confidence": 65,
+        "evidence": "Market structure shifted from bullish to bearish after price broke below the recent higher low and swing low around 1815-1820.",
+        "pattern_id": "2f127793-a597-49a3-9007-49ff568ec588",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:18:09.798581+00:00",
+        "last_seen": "2026-11-15T16:18:09.798581+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1840.0,
+          "level_low": 1780.0,
+          "trigger_level": 1780.0,
+          "invalidation_level": 1845.0
+        },
+        "confidence": 65,
+        "evidence": "Two distinct swing highs visible near 1835-1840 separated by an intermediate low around 1780-1790. Price currently at 1806.25 is retesting the area between the neckline and resistance after failing to hold above 1820.",
+        "pattern_id": "c7091c0e-7477-40ff-834d-f7fd1b3f3cd7",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:19:17.606947+00:00",
+        "last_seen": "2026-11-15T16:19:17.606947+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Bottom",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1815.0,
+          "level_low": 1800.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1795.0
+        },
+        "confidence": 65,
+        "evidence": "Price has tested the ~1800 support area twice with a small peak around ~1810 between the tests. Current price is hovering near the second low after dropping from ~1840.",
+        "pattern_id": "d92f12f7-9d5c-46c4-8442-3f16571d06b6",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:20:28.680378+00:00",
+        "last_seen": "2026-11-15T16:20:28.680378+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Symmetrical Triangle",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 1815.0,
+          "level_low": 1800.0,
+          "trigger_level": 1815.0,
+          "invalidation_level": 1795.0
+        },
+        "confidence": 55,
+        "evidence": "Recent price action shows compression with lower highs and higher lows forming between ~1800 and ~1815 after the drop from ~1840.",
+        "pattern_id": "a16fe7aa-18e7-4737-9ab9-c95536b6a9cc",
+        "symbol": "ETH/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:20:28.680378+00:00",
+        "last_seen": "2026-11-15T16:20:28.680378+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price dropped from ~1840 to ~1800 and is consolidating. Two tests of ~1800 support suggest a potential double bottom. Compression suggests a symmetrical triangle. No breakout has occurred yet.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation pending breakout",
+      "Low volume on recent candles reduces signal reliability",
+      "Key levels are approximate based on visual inspection"
+    ]
+  }
+}

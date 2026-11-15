@@ -1,0 +1,183 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T21:50:33.625915+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T21:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T21:49:20+05:30",
+    "last_price": 3.91e-06,
+    "candle_timestamp": 1794759300000,
+    "open": 3.91e-06,
+    "high": 3.92e-06,
+    "low": 3.9e-06,
+    "close": 3.91e-06,
+    "volume": 7501126763.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 4.1e-06,
+          "level_low": 3.9e-06,
+          "trigger_level": 3.95e-06,
+          "invalidation_level": 4.1e-06
+        },
+        "confidence": 75,
+        "evidence": "Two distinct peaks near 0.0000041 with price breaking below the intermediate swing low around 0.00000395",
+        "pattern_id": "670e4543-1fcc-4f47-9b6f-421c03001d79",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:14:47.122345+00:00",
+        "last_seen": "2026-11-15T16:14:47.122345+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "formation_state": "CONFIRMING",
+        "key_levels": {
+          "level_high": 4.1e-06,
+          "level_low": 3.9e-06,
+          "trigger_level": 3.95e-06,
+          "invalidation_level": 4.1e-06
+        },
+        "confidence": 70,
+        "evidence": "Prior bullish market structure invalidated by lower highs and breakdown below recent swing low",
+        "pattern_id": "b0bc7bd4-b806-44c0-a224-e470e67e40fb",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:14:47.122345+00:00",
+        "last_seen": "2026-11-15T16:14:47.122345+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 4.05e-06,
+          "level_low": 3.9e-06,
+          "trigger_level": 3.88e-06,
+          "invalidation_level": 4.05e-06
+        },
+        "confidence": 65,
+        "evidence": "Two distinct swing highs visible near the 0.0000040-0.0000041 area with an intermediate decline between them. Price is currently retesting the neckline support around 0.0000039.",
+        "pattern_id": "195f4445-f957-466d-94bd-4e328337abce",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:19:16.457655+00:00",
+        "last_seen": "2026-11-15T16:19:16.457655+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 4.05e-06,
+          "level_low": 3.9e-06,
+          "trigger_level": 3.88e-06,
+          "invalidation_level": 4.05e-06
+        },
+        "confidence": 60,
+        "evidence": "Prior bullish market structure (higher highs and higher lows) has shifted to bearish with lower highs forming and price breaking toward recent swing lows.",
+        "pattern_id": "4fef39bb-3bcc-4d47-8d39-cfa065422c80",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:19:16.457655+00:00",
+        "last_seen": "2026-11-15T16:19:16.457655+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 4.1e-06,
+          "level_low": 3.85e-06,
+          "trigger_level": 3.85e-06,
+          "invalidation_level": 4.1e-06
+        },
+        "confidence": 70,
+        "evidence": "Two distinct swing highs near 0.0000041 visible at chart open and during recent spike around 14:00-15:00. Price is currently declining from the second top.",
+        "pattern_id": "5dc4b8a6-b15f-45c1-880f-317536b1efea",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:20:33.623134+00:00",
+        "last_seen": "2026-11-15T16:20:33.623134+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 4.1e-06,
+          "level_low": 3.9e-06,
+          "trigger_level": 3.9e-06,
+          "invalidation_level": 4.1e-06
+        },
+        "confidence": 65,
+        "evidence": "Prior bullish structure with higher highs into 0.0000041. Price is now failing at resistance and showing bearish momentum from the recent high.",
+        "pattern_id": "8937d315-57c8-4983-bdad-15560f4dd401",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:20:33.623134+00:00",
+        "last_seen": "2026-11-15T16:20:33.623134+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      },
+      {
+        "name": "Liquidity Sweep",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "formation_state": "DEVELOPING",
+        "key_levels": {
+          "level_high": 4.1e-06,
+          "level_low": 4e-06,
+          "trigger_level": 4e-06,
+          "invalidation_level": 4.15e-06
+        },
+        "confidence": 60,
+        "evidence": "Price spiked above 0.0000040 to approximately 0.0000041, likely sweeping liquidity above prior highs, before reversing downward.",
+        "pattern_id": "76f90295-f975-43ac-858d-4e28dbfe9b65",
+        "symbol": "PEPE/USDT",
+        "timeframe": "15m",
+        "first_seen": "2026-11-15T16:20:33.623134+00:00",
+        "last_seen": "2026-11-15T16:20:33.623134+00:00",
+        "detections": 1,
+        "tracker_status": "new"
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "BREAKDOWN",
+    "confidence": 65,
+    "visual_evidence": "Price rejected from 0.0000041 twice forming a potential double top. Current decline from the recent high suggests bearish reversal with market structure shifting from bullish to bearish.",
+    "limitations": [
+      "15m timeframe subject to intraday noise",
+      "Current candle may still be forming",
+      "Neckline support not yet decisively broken"
+    ]
+  }
+}

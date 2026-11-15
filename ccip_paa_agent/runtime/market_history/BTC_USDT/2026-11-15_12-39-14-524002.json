@@ -1,0 +1,55 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T12:39:14.522485+00:00",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T12:37:54+00:00",
+    "last_price": 65441.2,
+    "candle_timestamp": 1794745800000,
+    "open": 65469.06,
+    "high": 65548.01,
+    "low": 65422.0,
+    "close": 65441.2,
+    "volume": 61.34167,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Change of Character",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 70,
+        "evidence": "Prior bearish structure broken; higher low at ~64200 and higher high at ~66000 visible. Price currently at 65441 testing structure."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Left shoulder ~63500, head ~62200, right shoulder ~64200 visible. Neckline around 65500 being tested at current price 65441."
+      },
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Strong impulse from ~64200 to ~66000 followed by tight consolidation/pullback to 65441."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 68,
+    "visual_evidence": "BTC recovered from ~62200 lows, established higher low at ~64200, rallied to ~66000, and is consolidating near 65441. Multiple bullish structures developing.",
+    "limitations": [
+      "15m timeframe noise",
+      "Current candle still forming",
+      "Patterns incomplete, awaiting breakout confirmation"
+    ]
+  }
+}

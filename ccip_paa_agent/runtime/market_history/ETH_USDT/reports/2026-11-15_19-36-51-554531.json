@@ -1,0 +1,57 @@
+{
+  "symbol": "ETH/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:36:51.554451+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:35:58+05:30",
+    "last_price": 1819.84,
+    "candle_timestamp": 1794751200000,
+    "open": 1830.75,
+    "high": 1830.75,
+    "low": 1817.33,
+    "close": 1819.84,
+    "volume": 2100.9526,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 70,
+        "evidence": "Two distinct swing highs visible near 1845-1850 with an intervening trough around 1785. Price is currently pulling back from the second high toward the neckline area at approximately 1819.84."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Sharp impulsive rally from approximately 1725 to 1845 followed by a downward-drifting consolidation channel. Current price is within the flag formation near the upper-middle of the range."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Prior bullish structure from the ~1725 low is showing weakness with a sequence of lower highs (1845 -> 1840 -> current rejection). A break below recent higher lows would signal a bearish CHoCH."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price is consolidating between roughly 1785 and 1850 after a strong rally. Two peaks near 1845-1850 suggest a potential double top, while the post-rally drift resembles a bearish flag. No confirmed breakout or breakdown has occurred yet.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Exact wick highs and lows difficult to determine precisely from image",
+      "Volume confirmation not clearly visible for pattern validation"
+    ]
+  }
+}

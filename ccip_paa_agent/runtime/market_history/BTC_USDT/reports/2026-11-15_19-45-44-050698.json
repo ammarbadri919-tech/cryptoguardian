@@ -1,0 +1,50 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:45:44.050615+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:30:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:44:52+05:30",
+    "last_price": 65330.54,
+    "candle_timestamp": 1794751200000,
+    "open": 65442.01,
+    "high": 65442.01,
+    "low": 65106.62,
+    "close": 65330.54,
+    "volume": 235.30409,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Strong impulsive rally from approximately 64000 to 66000 followed by tight, low-volatility consolidation drifting slightly downward near resistance."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 50,
+        "evidence": "Rejection from local high near 66000 with price currently testing the recent swing low around 65300 after a bullish impulse."
+      }
+    ],
+    "market_structure": "UNCLEAR",
+    "overall_visual_bias": "NEUTRAL",
+    "breakout_status": "NONE",
+    "confidence": 55,
+    "visual_evidence": "Price is consolidating after a strong rally to 66000, forming a tight range between roughly 65300 and 66000 with no clear breakout yet.",
+    "limitations": [
+      "Latest candle may still be forming",
+      "Pattern confirmation requires breakout beyond key levels",
+      "Chart resolution limits precise candlestick identification"
+    ]
+  }
+}

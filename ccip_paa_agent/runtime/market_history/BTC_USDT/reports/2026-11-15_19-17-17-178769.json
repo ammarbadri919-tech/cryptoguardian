@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T19:17:17.178514+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T19:15:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T19:15:21+05:30",
+    "last_price": 65468.0,
+    "candle_timestamp": 1794750300000,
+    "open": 65504.0,
+    "high": 65504.0,
+    "low": 65468.0,
+    "close": 65468.0,
+    "volume": 3.26215,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bullish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 75,
+        "evidence": "Strong impulsive rally from approximately 64000 to 66000 followed by tight sideways consolidation between 65400 and 65800 on the 15m chart."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 72,
+        "evidence": "Market structure shifted from bearish lower highs/lows to bullish after price established a higher low around 64000 and broke above prior swing high near 65000-65500."
+      },
+      {
+        "name": "Inverse Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "CONFIRMING",
+        "confidence": 65,
+        "evidence": "Visible left shoulder near 65000-66000, head at approximately 62000-62500, right shoulder around 64000, with price breaking above the neckline zone near 65000-65500."
+      }
+    ],
+    "market_structure": "BULLISH",
+    "overall_visual_bias": "LONG",
+    "breakout_status": "NONE",
+    "confidence": 70,
+    "visual_evidence": "Price recently rallied sharply from ~64000 to ~66000 and is consolidating in a tight range near 65500-65800. Prior structure shows a shift from downtrend to uptrend with higher lows and breakout above key resistance.",
+    "limitations": [
+      "Current candle may still be forming, so pattern completion is not guaranteed.",
+      "Consolidation could deepen into a larger correction rather than breakout.",
+      "Volume profile on lower timeframe not visible to confirm breakout strength."
+    ]
+  }
+}

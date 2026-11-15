@@ -1,0 +1,57 @@
+{
+  "symbol": "PEPE/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:48:07.712418+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:45:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "PEPE/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:47:15+05:30",
+    "last_price": 3.92e-06,
+    "candle_timestamp": 1794755700000,
+    "open": 3.93e-06,
+    "high": 3.93e-06,
+    "low": 3.9e-06,
+    "close": 3.92e-06,
+    "volume": 19500909579.0,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 72,
+        "evidence": "Sharp upward impulse to approximately 0.0000041 followed by a downward-sloping consolidation channel. Price is forming lower highs within the flag boundaries after the impulse move."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "CONFIRMING",
+        "confidence": 68,
+        "evidence": "Market structure shifted from bullish to bearish as price failed to sustain above recent highs near 0.0000041 and is now creating lower highs while approaching prior swing lows."
+      },
+      {
+        "name": "Head and Shoulders",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Left shoulder formed near 0.0000040, head peaked near 0.0000041, and right shoulder is currently forming near 0.0000040 with lower highs than the head."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 65,
+    "visual_evidence": "Price rejected from resistance near 0.0000041 and is drifting lower in a flag-like formation. Recent structure shows lower highs and weakening bullish momentum.",
+    "limitations": [
+      "15m timeframe noise may produce false signals",
+      "Current candle may still be forming",
+      "Pattern confirmation requires a breakout below key support levels"
+    ]
+  }
+}

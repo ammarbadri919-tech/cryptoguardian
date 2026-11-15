@@ -1,0 +1,57 @@
+{
+  "symbol": "BTC/USDT",
+  "exchange": "binance",
+  "timeframe": "15m",
+  "fetched_at": "2026-11-15T20:11:16.754066+05:30",
+  "cycle_completed": false,
+  "cycle_start_ist": "2026-11-15T20:00:00+05:30",
+  "market_snapshot": {
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "timeframe": "15m",
+    "fetched_at": "2026-11-15T20:10:21+05:30",
+    "last_price": 64737.59,
+    "candle_timestamp": 1794753000000,
+    "open": 64901.16,
+    "high": 65029.58,
+    "low": 64723.13,
+    "close": 64737.59,
+    "volume": 200.48053,
+    "candle_is_probably_closed": false
+  },
+  "vlm_analysis": {
+    "patterns_found": [
+      {
+        "name": "Double Top",
+        "type": "REVERSAL",
+        "status": "DEVELOPING",
+        "confidence": 65,
+        "evidence": "Two distinct price highs near the 66000 level with an intervening low near 64000. Price is currently retesting the neckline area after the second top."
+      },
+      {
+        "name": "Change of Character (CHoCH)",
+        "type": "SMC",
+        "status": "DEVELOPING",
+        "confidence": 60,
+        "evidence": "Prior bullish market structure from the ~62000 low is showing signs of breakdown as price fails at ~66000 and approaches the recent swing low."
+      },
+      {
+        "name": "Bearish Flag",
+        "type": "CONTINUATION",
+        "status": "DEVELOPING",
+        "confidence": 55,
+        "evidence": "Sharp rally from ~62000 to ~66000 followed by a drifting, lower-high consolidation channel typical of a bearish flag."
+      }
+    ],
+    "market_structure": "BEARISH",
+    "overall_visual_bias": "SHORT",
+    "breakout_status": "NONE",
+    "confidence": 60,
+    "visual_evidence": "Price rejected from the ~66000 area twice, forming a potential double top. Current price is near 64737, testing support at the ~64000-64100 zone. Prior bullish structure is at risk.",
+    "limitations": [
+      "Current 15m candle may still be forming",
+      "Pattern not yet confirmed by breakout",
+      "Intraday noise may invalidate short-term formations"
+    ]
+  }
+}
