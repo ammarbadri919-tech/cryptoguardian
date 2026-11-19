@@ -30,7 +30,8 @@ APPROVED_DOMAINS = [
     "bitcoinfoundation.org",        # <--- ADD THIS
 
     # Market data and derivatives
-    "coingecko.com", "coinmarketcap.com", "coinglass.com",
+    "coingecko.com", "coinmarketcap.com","coinpaper.com",
+      "coinglass.com",
     # ... rest of your list ...
 ]
 FOREIGN_PATHS = [

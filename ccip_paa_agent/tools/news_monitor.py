@@ -1,4 +1,6 @@
 
+import time
+import threading
 import os
 import csv
 import re
@@ -81,21 +83,22 @@ def setup_database():
     print("Database is ready.")
 
 
-# --------------------------------------------------
-# LOAD SELECTED COINS FROM CSV
-# --------------------------------------------------
+# 
+def load_coins(csv_path=None):
+    """Load coins from an uploaded CSV or the default CSV."""
 
-def load_coins():
-    if not COINS_FILE.exists():
+    file_path = Path(csv_path) if csv_path else COINS_FILE
+
+    if not file_path.exists():
         raise FileNotFoundError(
-            f"Coin file not found: {COINS_FILE}"
+            f"Coin CSV file not found: {file_path}"
         )
 
     coins = []
     seen = set()
 
     with open(
-        COINS_FILE,
+        file_path,
         "r",
         newline="",
         encoding="utf-8-sig",
@@ -128,7 +131,10 @@ def load_coins():
                     "symbol": symbol,
                 })
 
-    print(f"Loaded {len(coins)} selected coins.")
+    if not coins:
+        raise ValueError("No valid coins found in CSV.")
+
+    print(f"Loaded {len(coins)} selected coins from {file_path.name}.")
     return coins
 
 
@@ -143,7 +149,7 @@ def article_mentions_coin(
     description_text = (description or "").casefold()
     text = f"{headline_text} {description_text}"
 
-    # Match the full coin name in headline or description.
+    # Match the full coin name.
     name_pattern = (
         r"(?<!\w)" + re.escape(name.casefold()) + r"(?!\w)"
     )
@@ -151,12 +157,24 @@ def article_mentions_coin(
     if re.search(name_pattern, text):
         return True
 
-    # Match the ticker symbol in the headline only.
+    # Match ticker only when crypto context is present.
     symbol_pattern = (
         r"(?<!\w)" + re.escape(symbol.casefold()) + r"(?!\w)"
     )
 
-    return bool(re.search(symbol_pattern, headline_text))
+    crypto_context = [
+        "crypto", "cryptocurrency", "token", "blockchain",
+        "coin", "defi", "exchange", "trading",
+        "digital asset", "wallet",
+    ]
+
+    has_symbol = bool(re.search(symbol_pattern, headline_text))
+    has_crypto_context = any(
+        term in text for term in crypto_context
+    )
+
+    return has_symbol and has_crypto_context
+
 
 
 def filter_relevant_articles(articles, name, symbol):
@@ -356,24 +374,25 @@ def cleanup_old_news():
 # RSS JOB
 # --------------------------------------------------
 
-def run_rss_job():
-    """Collect RSS news only. Never call TinyFish here."""
+def run_rss_job(csv_path=None):
+    """Collect RSS news and return coins for which RSS found relevant news."""
 
     print("\nStarting RSS job...")
+    coins_with_rss_news = set()
 
     try:
-        coins = load_coins()
+        coins = load_coins(csv_path)
         rss_articles = fetch_rss_news() or []
-
         print(f"RSS articles received: {len(rss_articles)}")
 
     except Exception as error:
         print(f"RSS job failed: {error}")
-        return
+        return coins_with_rss_news
 
     for coin in coins:
         name = coin["coin_name"]
         symbol = coin["symbol"]
+        coin_key = (name.casefold(), symbol.upper())
 
         try:
             relevant = filter_relevant_articles(
@@ -382,11 +401,13 @@ def run_rss_job():
                 symbol,
             )
 
-            saved = save_articles(
-                relevant,
-                name,
-                symbol,
-            )
+            # If RSS found relevant news for this coin during the window,
+            # TinyFish can skip it even when the article was already saved.
+            # Duplicate protection is handled by the database URL hash.
+            if relevant:
+                coins_with_rss_news.add(coin_key)
+
+            saved = save_articles(relevant, name, symbol)
 
             print(
                 f"{name} ({symbol}): "
@@ -406,18 +427,22 @@ def run_rss_job():
         print(f"RSS cleanup failed: {error}")
 
     print("RSS job complete.")
+    return coins_with_rss_news
 
 
 # --------------------------------------------------
 # TINYFISH FALLBACK JOB
 # --------------------------------------------------
 
-def run_tinyfish_job():
-    print("\nStarting TinyFish job...")
+
+def run_tinyfish_job(coins_with_rss_news, csv_path=None):
+    """Search with TinyFish only for coins RSS did not cover."""
+
+    print("\nStarting TinyFish fallback job...")
 
     try:
-        coins = load_coins()
-
+        
+        coins = load_coins(csv_path)
     except Exception as error:
         print(f"Could not load coins: {error}")
         return
@@ -425,66 +450,55 @@ def run_tinyfish_job():
     for coin in coins:
         name = coin["coin_name"]
         symbol = coin["symbol"]
+        coin_key = (name.casefold(), symbol.upper())
+
+        if coin_key in coins_with_rss_news:
+            print(
+                f"{name} ({symbol}): RSS already found news; "
+                "skipping TinyFish."
+            )
+            continue
 
         try:
-            if has_fresh_news(name, symbol, minutes=60):
-                print(
-                    f"{name} ({symbol}): fresh news exists; "
-                    "skipping TinyFish."
-                )
-                continue
-
             print(
-                f"{name} ({symbol}): no fresh news; "
+                f"{name} ({symbol}): RSS found no relevant news; "
                 "searching with TinyFish."
             )
 
+           
+
             query = (
-                f'"{name}" ({symbol}) '
-                f'"{name} price" OR "{name} news" OR '
-                f'"{name} market" OR "{symbol} token"'
-            )
+              f'"{name}" "{symbol}" cryptocurrency news '
+              f'price OR market OR token OR exchange '
+              f'-stocks -gaming -calculator')
 
-            results = tiny_fish_serched(
-                query,
-                max_results=10,
-            )
+            results = tiny_fish_serched(query, max_results=10)
 
-            # None means the search raised an exception.
-            # Do not mark this failed search as completed.
+            # None means the search failed; an empty list means
+            # the search worked but found no results.
+
+
             if results is None:
                 print(
-                    f"{name} ({symbol}): TinyFish search failed; "
-                    "search status not updated."
+                    f"{name} ({symbol}): TinyFish search failed."
                 )
                 continue
 
-            # An empty list is a successful search with no results.
-            relevant = filter_relevant_articles(
-                results,
-                name,
-                symbol,
-            )
-            print(
-                    f"DEBUG {name} ({symbol}): "
-                    f"{len(results)} candidates -> "
-                     f"{len(relevant)} relevant"
-)
+            relevant = filter_relevant_articles(results, name, symbol)
+            saved = save_articles(relevant, name, symbol)
 
-            saved = save_articles(
-                relevant,
-                name,
-                symbol,
-            )
-
-            # Update status after a successful search and processing.
             record_tinyfish_search(name, symbol)
+            if relevant:
 
-            print(
+              print(
                 f"{name} ({symbol}): "
-                f"{len(relevant)} relevant articles; "
+                f"{len(relevant)} relevant TinyFish articles; "
                 f"{saved} new articles saved."
-            )
+             )
+            else:
+                 print(f"{name} ({symbol}): No relevant news found.")
+
+             
 
         except Exception as error:
             print(
@@ -504,13 +518,115 @@ def run_tinyfish_job():
 # MANUAL ONE-SHOT RUN
 # --------------------------------------------------
 
-def run_miner():
-    """Run setup, RSS collection, and TinyFish fallback once."""
+def run_news_collection(csv_path):
+    """Collect news for coins supplied through an uploaded CSV."""
+
+    print("\n========== UPLOADED CSV NEWS COLLECTION ==========")
+
+    # Step 1: Ensure database tables exist
+    setup_database()
+
+    # Step 2: Collect news using RSS
+    coins_with_rss_news = run_rss_job(csv_path)
+
+    # Step 3: Use TinyFish for coins RSS did not cover
+    run_tinyfish_job(coins_with_rss_news, csv_path)
+
+    print("\nUploaded CSV news collection completed.")
+
+
+
+# --------------------------------------------------
+# CONTINUOUS NEWS MONITOR
+# --------------------------------------------------
+
+RSS_INTERVAL = 30                 # Check RSS every 30 seconds
+TINYFISH_INTERVAL = 15 * 60       # Run TinyFish every 15 minutes
+
+# RSS and TinyFish run independently. This lets RSS keep checking
+# while a TinyFish search is still in progress.
+rss_news_lock = threading.Lock()
+rss_coins_with_news = set()
+
+
+
+def rss_worker(csv_path=None):
+    """Keep checking RSS for coins in the uploaded CSV."""
+
+    while True:
+        started = time.monotonic()
+
+        print("\n========== RSS CHECK ==========")
+
+        found_coins = run_rss_job(csv_path)
+
+        with rss_news_lock:
+            rss_coins_with_news.update(found_coins)
+
+        elapsed = time.monotonic() - started
+        time.sleep(max(0, RSS_INTERVAL - elapsed))
+
+
+
+
+def tinyfish_worker(csv_path=None):
+    """Run TinyFish fallback every 15 minutes for uploaded coins."""
+
+    while True:
+        time.sleep(TINYFISH_INTERVAL)
+
+        with rss_news_lock:
+            found_coins = set(rss_coins_with_news)
+            rss_coins_with_news.clear()
+
+        print("\n========== TINYFISH CHECK ==========")
+
+        run_tinyfish_job(found_coins, csv_path)
+
+
+
+
+def run_miner(csv_path=None):
+    """Run RSS and TinyFish continuously for the supplied CSV."""
 
     setup_database()
-    run_rss_job()
-    run_tinyfish_job()
+
+    # Clear previous RSS results when starting a new monitoring session.
+    with rss_news_lock:
+        rss_coins_with_news.clear()
+
+    print("\nCryptoGuardian News Monitor is running...")
+    print(f"Monitoring CSV: {csv_path or COINS_FILE}")
+    print("RSS checks every 30 seconds.")
+    print("TinyFish fallback checks every 15 minutes.")
+    print("Articles are retained for 3 hours after fetching.")
+    print("Press CTRL+C to stop.")
+
+    rss_thread = threading.Thread(
+        target=rss_worker,
+        args=(csv_path,),
+        name="RSS-Worker",
+        daemon=True,
+    )
+
+    tinyfish_thread = threading.Thread(
+        target=tinyfish_worker,
+        args=(csv_path,),
+        name="TinyFish-Worker",
+        daemon=True,
+    )
+
+    rss_thread.start()
+    tinyfish_thread.start()
+
+    while True:
+        time.sleep(1)
+
+        time.sleep(1)
 
 
 if __name__ == "__main__":
-    run_miner()
+    try:
+        run_miner()
+    except KeyboardInterrupt:
+        print("\nNews monitor stopped by user.")
