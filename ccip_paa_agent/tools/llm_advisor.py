@@ -9,7 +9,6 @@ load_dotenv()
 
 MODEL_NAME = "gemini-decision-1"
 
-
 def ask_llm_advisor(
     vlm_report: dict,
     market_context: dict,
@@ -32,21 +31,19 @@ def ask_llm_advisor(
         http_options={"api_version": "v1beta"},
     )
 
-    patterns = vlm_report.get("patterns_found", [])
+    current_patterns = vlm_report.get("current_detections", [])
+    tracked_patterns = vlm_report.get("tracked_patterns", [])
 
     actions = {
         "ENTER": (
-            "The combined pattern evidence and market context support "
-            "a potential trade entry. There is a clear setup, a meaningful "
-            "trigger, and sufficient supporting evidence."
+            "A sufficiently confirmed trading opportunity exists. "
+            "The detected pattern, price action, confirmation conditions "
+            "and potential risk/reward support a possible entry."
         ),
         "WAIT": (
-            "A possible setup exists, but confirmation is incomplete, "
-            "signals conflict, or more market information is needed."
-        ),
-        "AVOID": (
-            "The available evidence indicates a weak, invalid, or "
-            "contradictory setup that should not be entered."
+            "The trading opportunity is not ready. The pattern may be "
+            "developing, confirmation may be missing, or market evidence "
+            "may be conflicting or uncertain."
         ),
     }
 
@@ -59,7 +56,8 @@ def ask_llm_advisor(
     input_data = {
         "symbol": vlm_report.get("symbol"),
         "timeframe": vlm_report.get("timeframe"),
-        "unique_patterns": patterns,
+        "current_detections": current_patterns,
+        "tracked_patterns": tracked_patterns,
         "vlm_market_analysis": {
             "market_structure": vlm_report.get("market_structure"),
             "overall_visual_bias": vlm_report.get("overall_visual_bias"),
@@ -72,47 +70,60 @@ def ask_llm_advisor(
         "has_open_position": has_open_position,
     }
 
+    instructions = (
+    "You are CryptoGuardian's Pattern Decision Agent.\n\n"
+
+    "Your ONLY responsibility is to decide whether the supplied "
+    "cryptocurrency market setup is ready for entry, should be "
+    "waited on, or requires exiting an existing position.\n\n"
+
+    "Nemotron VLM detects chart patterns. Do not independently "
+    "detect new patterns. Evaluate the supplied detections and "
+    "tracked pattern history together with market data.\n\n"
+
+    "ENTER:\n"
+    "Choose ENTER only when there is sufficient evidence of "
+    "confirmation. Check pattern direction, trigger level, "
+    "completed candle close, volume, market structure and "
+    "potential risk/reward when available. Do not enter merely "
+    "because a pattern has been detected.\n\n"
+
+    "WAIT:\n"
+    "Choose WAIT when a pattern is developing, breakout or "
+    "breakdown is unconfirmed, volume confirmation is missing, "
+    "evidence conflicts, or necessary information is unavailable.\n\n"
+
+    "EXIT:\n"
+    "Choose EXIT only when has_open_position is true and "
+    "the supplied evidence supports closing the existing position. "
+    "Consider invalidation levels and deterioration of the setup.\n\n"
+
+    "If there is no open position, never choose EXIT.\n\n"
+
+    "Do not invent prices, candle closes, volume or confirmations. "
+    "Visual pattern confidence is not probability of profit. "
+    "Never execute trades.\n\n"
+
+    "Make ONE overall decision for the supplied symbol and timeframe. "
+    
+    "When uncertain, prefer WAIT."
+    "Also provide a short reason explaining why you selected "
+"ENTER, WAIT, or EXIT. Base it only on the supplied evidence.\n"
+"ENTER, WAIT, or EXIT. Base it only on the supplied evidence.\n"
+)
+    
+    
+    
+
+
+    
     result = client.decisions.create(
         model=MODEL_NAME,
         input=json.dumps(input_data, default=str),
         questions={
             "market_decision": {
                 "type": "choice",
-                "instructions": (
-                    "You are the decision-making component of a "
-                    "cryptocurrency market analysis system.\n\n"
-
-                    "Evaluate ALL unique detected patterns together "
-                    "with the current market context.\n\n"
-
-                    "Compare bullish and bearish evidence. Consider "
-                    "pattern direction, formation quality, repeated "
-                    "detections, market structure, breakout status, "
-                    "volume, and available price levels.\n\n"
-
-                    "Do not simply count bullish and bearish patterns. "
-                    "Evaluate their relevance, strength, and whether "
-                    "the evidence supports the same market direction.\n\n"
-
-                    "Do not treat visual confidence alone as proof "
-                    "of a profitable trade. Do not invent missing "
-                    "price levels or market information.\n\n"
-
-                    "Choose ENTER only when the combined evidence "
-                    "supports a sufficiently clear potential entry.\n"
-
-                    "Choose WAIT when confirmation is incomplete "
-                    "or the evidence is uncertain.\n"
-
-                    "Choose AVOID when the setup is weak, invalid, "
-                    "or contradictory.\n"
-
-                    "Choose EXIT only if an existing position is "
-                    "provided and the evidence supports closing it.\n\n"
-
-                    "Make one overall decision for the supplied "
-                    "symbol and timeframe."
-                ),
+                "instructions": instructions,
                 "criteria": actions,
             }
         },
@@ -125,20 +136,15 @@ def ask_llm_advisor(
         raise ValueError(
             f"Unexpected decision returned: {decision}"
         )
-
-    explanations = {
-        "ENTER": "The combined evidence supports a potential entry.",
-        "WAIT": "Wait for stronger confirmation or clearer market conditions.",
-        "AVOID": "The current setup does not provide sufficient support for entry.",
-        "EXIT": "The available evidence supports closing the existing position.",
-    }
-
     return {
+ 
         "symbol": vlm_report.get("symbol"),
         "timeframe": vlm_report.get("timeframe"),
         "decision": decision,
+        "reason": "Decision returned by Gemini. Explanation not yet available.",
+
         "decision_confidence": getattr(answer, "confidence", None),
         "model": MODEL_NAME,
-        "explanation": explanations[decision],
-        "patterns_considered": patterns,
+        "current_patterns_considered": current_patterns,
+        "tracked_patterns_considered": tracked_patterns,
     }

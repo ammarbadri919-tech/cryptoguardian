@@ -23,7 +23,6 @@ from tools.chart_generator import generate_chart_base64, clear_old_charts
 from tools.VLM_chart_analysis import analyze_pre_generated_chart
 
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 WATCHLIST_FILE = BASE_DIR / "selected_coins.csv"
 
@@ -31,7 +30,7 @@ TIMEFRAME = "15m"
 OHLCV_LIMIT = 300
 
 CHART_UPDATE_INTERVAL_SECONDS = 3
-SCAN_INTERVAL_SECONDS = 60
+SCAN_INTERVAL_SECONDS = 120
 
 QUOTE_CURRENCIES = ("USDT",)
 MAX_VLM_WORKERS = 3
@@ -86,6 +85,21 @@ class MarketSnapshot:
 # Exchange and watchlist
 # ---------------------------------------------------------------------------
 
+def display_gemini_decision(symbol, decision):
+    action = decision.get("decision", "UNAVAILABLE").upper()
+    confidence = decision.get("decision_confidence", 0) * 100
+    reason = decision.get("reason", "No reason provided.")
+
+    print("\n" + "=" * 42)
+    print("          CRYPTOGUARDIAN AI")
+    print("=" * 42)
+    print(f"Symbol: {symbol}")
+    print("Agent: Gemini Decision Agent")
+    print("-" * 42)
+    print(f"Decision: {action}")
+    print(f"Confidence: {confidence:.2f}%")
+    print(f"\nReason: {reason}")
+    print("=" * 42 + "\n")
 def create_exchange() -> dict[str, Any]:
     return {
         "binance": ccxt.binance({
@@ -293,6 +307,13 @@ def process_vlm_result_in_background(
     """Process Nemotron results, track unique patterns, and get Gemini's decision."""
     try:
         vlm_result = future.result()
+        logger.info(
+    "NEMOTRON ANALYSIS COMPLETED | %s | Patterns: %d",
+    snapshot.symbol,
+    len(vlm_result.get("patterns_found", []))
+    if isinstance(vlm_result, dict) else 0,
+)
+        
 
         if not isinstance(vlm_result, dict):
             logger.warning("Invalid VLM result for %s", snapshot.symbol)
@@ -308,19 +329,31 @@ def process_vlm_result_in_background(
             patterns.append({
                 "name": pattern.get("name"),
                 "type": pattern.get("type"),
+                "direction": pattern.get("direction"),
+
                 "status": pattern.get("formation_state"),
+                    "formation_start_time": pattern.get("formation_start_time"),
+
                 "formation_state": pattern.get("formation_state"),
                 "key_levels": pattern.get("key_levels"),
                 "confidence": pattern.get("confidence"),
                 "evidence": pattern.get("evidence"),
+                 "missing_conditions": pattern.get("missing_conditions", []),
+
+            
             })
 
+
         # Track unique patterns and update repeated detections.
-        unique_patterns = PATTERN_TRACKER.update(
-            symbol=snapshot.symbol,
-            timeframe=snapshot.timeframe,
-            detected_patterns=patterns,
-        )
+        # Patterns detected in the latest VLM scan
+        current_detections = patterns
+
+# All active patterns, including historical detections
+        tracked_patterns = PATTERN_TRACKER.update(
+         symbol=snapshot.symbol,
+         timeframe=snapshot.timeframe,
+        detected_patterns=current_detections,
+)
 
         # Build the VLM report.
         report = {
@@ -332,7 +365,9 @@ def process_vlm_result_in_background(
             "cycle_start_ist": cycle_start_ist,
             "market_snapshot": asdict(snapshot),
             "vlm_analysis": {
-                "patterns_found": unique_patterns,
+                "current_detections": current_detections,
+                "tracked_patterns": tracked_patterns,
+
                 "market_structure": vlm_result.get("market_structure"),
                 "overall_visual_bias": vlm_result.get("overall_visual_bias"),
                 "breakout_status": vlm_result.get("breakout_status"),
@@ -343,25 +378,44 @@ def process_vlm_result_in_background(
         }
 
         # Prepare input for Gemini Decision 1.
+        # Prepare input for Gemini Decision 1.
         vlm_report = {
-            "symbol": snapshot.symbol,
+             "symbol": snapshot.symbol,
             "timeframe": snapshot.timeframe,
-            "patterns_found": unique_patterns,
+
+             "current_detections": current_detections,
+              "tracked_patterns": tracked_patterns,
+
             "market_structure": vlm_result.get("market_structure"),
             "overall_visual_bias": vlm_result.get("overall_visual_bias"),
             "breakout_status": vlm_result.get("breakout_status"),
             "confidence": vlm_result.get("confidence"),
             "visual_evidence": vlm_result.get("visual_evidence"),
             "limitations": vlm_result.get("limitations", []),
-        }
+}
+        logger.info(
+            "GEMINI DECISION STARTED | %s | Patterns: %d",
+            snapshot.symbol,
+            len(current_detections),
+        )
 
+    
         # Ask Gemini to evaluate all unique patterns together.
         try:
+            print(f">>> GEMINI REQUEST STARTED: {snapshot.symbol} <<<", flush=True)
+
+
             decision = ask_llm_advisor(
-                vlm_report=vlm_report,
-                market_context=asdict(snapshot),
-                has_open_position=False,
-            )
+    vlm_report=vlm_report,
+    market_context=asdict(snapshot),
+    has_open_position=False,
+)
+            print(f">>> GEMINI RESPONSE RECEIVED: {snapshot.symbol} <<<", flush=True)
+
+            
+            
+
+            display_gemini_decision(snapshot.symbol, decision)
 
             report["gemini_decision"] = decision
 
@@ -372,7 +426,7 @@ def process_vlm_result_in_background(
                 decision.get("decision_confidence"),
             )
 
-        except Exception:
+        except Exception as e:
             logger.exception(
                 "Gemini decision failed for %s",
                 snapshot.symbol,

@@ -1,13 +1,14 @@
-
 import base64
 import logging
 from pathlib import Path
 
-import mplfinance as mpf
-import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-
+import mplfinance as mpf
+import pandas as pd
 logger = logging.getLogger("cryptoguardian.chart_generator")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
